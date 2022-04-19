@@ -37,6 +37,7 @@ body {
     height: 100vh;
 }
 
+
 .clearfix::after {
     content:"";
     clear:both;
@@ -53,7 +54,7 @@ body {
     display: block;
     width: 15rem;
     height: 0rem;
-    background-color: #BDA6A2;
+    background-color: #fff;
     position: absolute;
     top:0;
 }
@@ -204,6 +205,8 @@ body {
     float:left;
     width:189px;
     height:50px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 /*Navigation Section Css */ 
@@ -316,11 +319,11 @@ p {
 
 /*Main page Css */
 .home {
-    background-color: #F3EFE9;
+    background-color: #fff;
 }
 
 .home-content {
-    height:90vh;
+    height:100vh;
     width: 100%;
     padding-top: 15rem;
     text-align: center;
@@ -335,7 +338,7 @@ p {
 }
 .mainh1 {
     font-family:'Montserrat', sans-serif;
-    font-size: 3rem; 
+    font-size: 4rem; 
     font-weight: 700; 
     line-height: 2; 
     text-align: center;
@@ -345,7 +348,7 @@ p {
     font-family: 'Montserrat',sans-serif; 
     font-size: 1.5rem; 
     align-content:center ; 
-    font-weight:200; 
+    font-weight:600; 
     line-height: 1.4; 
     color:#9C8194;
 }
@@ -357,6 +360,12 @@ p {
     bottom: 0% ; 
     color:black; 
     opacity:60%;
+}
+
+.para {
+    font-family:'Montserrat',sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
 }
 
 .home-content span:first-child ::before,
