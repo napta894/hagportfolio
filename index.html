@@ -20,9 +20,8 @@
   <div class="hero">
     <div class="nav">
     <nav >
-    <img src="static/images/LOGO 1.svg" alt="logo" class="logo-style" style="width:auto; height: auto;";>
+    <a href="index.html"><img src="static/images/LOGO 1.svg" alt="logo" class="logo-style" style="width:117px; height: auto;";></a>
       <ul id="nav-pc">  
-        <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="works.html">Works</a>
         <a href="contact.html">Contact</a>
@@ -68,16 +67,21 @@
         </div>
        <div class="container icons">
         <td>
-        <a href="https://www.instagram.com/artisyblack/">
-        <span class="iconify" data-icon="ant-design:instagram-filled" style="color: #9C8194; height:1rem; width: 1rem;"></span>
+        <a onclick="window.open('https://www.instagram.com/artisyblack/', '_blank')">
+        <span class="iconify" data-icon="ant-design:instagram-filled" style="color: #9C8194; height:2rem; width: 2rem;"></span>
         </a>
-        <a href="https://www.behance.net/naptahagportfolios">
-        <span class="iconify" data-icon="akar-icons:behance-fill" style="color: #9c8194; height:1rem; width: 1em;"></span>
+        <a onclick="window.open('https://www.behance.net/naptahagportfolios', '_blank')">
+        <span class="iconify" data-icon="akar-icons:behance-fill" style="color: #9c8194; height:2rem; width: 2em;"></span>
         </a>
-        <a href="https://www.linkedin.com/in/naptahag/">
-        <span class="iconify" data-icon="akar-icons:linkedin-fill" style="color: #9c8194; height:1rem; width: 1rem;"></span>
+        <a onclick="window.open('https://www.linkedin.com/in/naptahag', '_blank')">
+        <span class="iconify" data-icon="akar-icons:linkedin-fill" style="color: #9c8194; height:2rem; width: 2rem;"></span>
         </a>
         </td>
+       </div>
+       <div>
+        <a href="#about">
+          <div class="scroll-down"></div>
+        </a>
        </div>
       </div>
     </section>
@@ -86,31 +90,41 @@
     <!--about me section-->
     <section class="about" id="about">
       <div class="section-heading">
-        <div>
+        <div class="container">
+          “Creativity is intelligence having fun”
+          Cit. Albert Eistein
           <span></span>
           <span></span>
-          <h1 class="about-h1">About me</h1>
         </div>
       </div>
       <div class="clearfix">
-        <div class="about-box about">
-          <p class="aboutp"> I am a UX/UI designer. Based in London, UK.
-            I have a MSC in International Marketing and a specialistic in Web Design.
-            Moreover, I have experience in freelancing, digital marketing and coding on a variety of projects.
-            I create websites and applications with creativity, usability and attention to details while having in mind
-            all users.
-          </p>
-        </div>
+        <div>
+          <div class="flex-container">
+            <div class="flex-child">
+              <h1 class="about_h1">About me</h1>
+              <p class="aboutp"> I am a UX/UI designer. Based in London, UK.
+              I have a MSC in International Marketing and a specialistic in Web Design.<br>
+              Moreover, I have experience in freelancing, digital marketing and coding on a variety of projects.<br>
+              I create websites and applications with creativity, usability and attention to details while having in mind
+              all users.
+             </p>
+            <h2 class="about_h2">Download resume</h2>
+            <span class="fa-stack fa-1x"></span>
+             <button class="btn9" onclick="window.open('./static/files/napta-hag-resume.pdf', '_blank')"
+              download="NaptaHagResume">
+              <span class="iconify" data-inline="false" data-icon="entypo:download"   style="font-size: 36px; text-align:center ; color: white; padding: 5px;"></span></button>
+             
+           </div>
+            <div class="flex-child">
+              <img src="./static/images/portrait1.jpg" alt="portrait1" class="img" style="width: 261px; height:313px; margin-right: auto; margin-left: 105px;">
+            </div>
+         </div>
+        
       </div>
-          
       </div>
-      <div class="about_btn">
-        <p class="info-1">Download Resume</p>
-        <span class="fa-stack fa-1x"></span>
-        <button class="btn1" onclick="window.open('./static/files/napta-hag-resume.pdf', '_blank')" download="NaptaHagResume">
-          <span class="iconify" data-inline="false" data-icon="entypo:download"
-            style="font-size: 36px; text-align:center ; color: white; padding: 5px;"></span></button>
-      </div>
+    
+      
+      
     </section>
 
     <!--Portfolio section-->
