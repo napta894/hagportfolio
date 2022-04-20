@@ -207,6 +207,7 @@ body {
     height:50px;
     margin-left: 20px;
     margin-top: 20px;
+    cursor:pointer;
 }
 
 /*Navigation Section Css */ 
@@ -346,9 +347,9 @@ p {
 }
 .mainh2 {
     font-family: 'Montserrat',sans-serif; 
-    font-size: 1.5rem; 
+    font-size: 1rem; 
     align-content:center ; 
-    font-weight:600; 
+    font-weight:700; 
     line-height: 1.4; 
     color:#9C8194;
 }
@@ -364,8 +365,11 @@ p {
 
 .para {
     font-family:'Montserrat',sans-serif;
-    font-size: 1rem;
-    font-weight: 200;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: center;
+    text-align:center;
 }
 
 .home-content span:first-child ::before,
@@ -381,6 +385,41 @@ p {
     font-size: 0.5rem;
     letter-spacing: 0.5rem;
     margin-top: 15rem;
+}
+
+.btn7 {
+    
+    width: 120px;
+    height: 40px;
+    color: #F3EFE9;
+    align-items: center;
+    text-align: center;
+    background-color:#9C8194;
+    font-size: 1rem;
+    font-family:'monteserrat', sans-serif;
+    font-weight: 700;
+    border: none;
+    }
+
+        
+    .btn7 a {
+    text-decoration: none;
+    }
+        
+    .btn7:hover {
+    background-color:#F3EFE9;
+    color: #232323;
+    cursor: pointer;
+    }
+
+.container {
+    align-items: center;
+    display:inline-block;
+}
+
+.icons a {
+    margin-right: 10px;
+    display:inline-block;
 }
 
 
