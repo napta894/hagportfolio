@@ -15,110 +15,111 @@
 </head>
 <!--header-->
   <header>
-    <div>
-      <nav class="nav">
-        <img src="/static/images/LOGO.png" alt="logo" class="logo-style" style="width:117px; height: auto;" ;>
-        <ul id="nav-pc">
-          <a href="index.html">home</a>
-          <a href="about.html">about</a>
-          <a href="works.html">works</a>
-          <a href="contact.html">contact</a>
-        </ul>
-      </nav>
-      <!--humberger toggle nav-->
-      <div id="nav-toggle">
-        <div class="hamburger">
-          <input type="checkbox">
-          <div class="hamburgerlines">
-            <span class="lines line1"> </span>
-            <span class="lines line2"> </span>
-            <span class="lines line3"> </span>
-          </div>
-          <ul class="navbar">
-            <a href="index.html">home</a>
-            <a href="about.html">about</a>
-            <a href="works.html">works</a>
-            <a href="contact.html">contact</a>
+    <div class="hero">
+      <div class="nav">
+        <nav>
+          <a href="index.html"><img src="./static/images/LOGO 1.svg" alt="logo" class="logo-style"
+              style="width:117px; height: auto;" ;></a>
+          <ul id="nav-pc">
+            <a href="./about.html">About</a>
+            <a href="./works.html">Works</a>
+            <a href="./contact.html">Contact</a>
           </ul>
+        </nav>
+        <!--humberger toggle nav-->
+        <div id="nav-toggle">
+          <div class="hamburger">
+            <input type="checkbox">
+            <div class="hamburgerlines">
+              <span class="lines line1"> </span>
+              <span class="lines line2"> </span>
+              <span class="lines line3"> </span>
+            </div>
+            <ul class="navbar">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="works.html">Works</a>
+              <a href="contact.html">Contact</a>
+            </ul>
+          </div>
         </div>
       </div>
   </header>
 
 <!--aboutme-->
 <main>
-<section>
- <div class="section">
-   <div class="container">
-        <h1 class="aboutme_h1">About me</h1>
-        <h1 class="aboutme_nameh1">Napta Hag</h1>
-        <h2 class="aboutme_nameh2">Front End Developer & UX/UI Designer</h2>
-        <div class="content-section">
-          <div class="content">
-            <p class="aboutme_p"> 
-             I am a Front-end developer and UX/UI designer. Based in London, UK.
-             I have a MSC in International Marketing and a Diploma in Web Design.
-             Moreover, I  have experience in freelancing, digital marketing and coding in differents projects. <br>
-             I create websites and applications with creativity, usability and attention to details while having in mind all users. 
+<section class="about-section">
+      <div class="container">
+          <div class="content-section">
+            <div>
+            <h1 class="aboutme_h1">Napta Hag</h1>
+            </div>
+            <p class="about-info"> 
+            My journey into UX/UI Design started while I was doing a course
+            in Web Design. After I did some projects within front-end development,
+            visual design and experience within digital Marketing.
+            I decided to apply for the Brain Station UX bootcamp where my passion for
+            solving problems for users through creating websites and applications grew
+            stronger.
+            <br>
+            With background in both Marketing and Design , I can not wait to contribuite
+            in more projects and improve people's life.
             </p>
+              <h3 class="aboutresume">Download resume</h3>
+              <div class="button-cv">
+                  <span class="fa-stack fa-1x"></span>
+                  <button class="btn10" onclick="window.open('./static/files/napta-hag-resume.pdf', '_blank')" download="NaptaHagResume">
+                    <span class="iconify" data-inline="false" data-icon="entypo:download"
+                      style="font-size: 36px; text-align:center ; color: white; padding: 5px;"></span></button>
+              </div>
+         </div>
+          <div class="image-section">
+            <img src="./static/images/portrait2.JPG" class="about-img" alt="potrait">
           </div>
-          <div class="download-resume">
-            <p class="info">Download Resume</p>
-              <span class="fa-stack fa-1x"></span>
-              <button class="btn4" onclick="window.open('./static/files/napta-hag-resume.pdf', '_blank')" download="NaptaHagResume">
-              <span class="iconify" data-inline="false" data-icon="entypo:download"
-              style="font-size: 36px; text-align:center ; color: white; padding: 5px;"></span></button>
-          </div>
-        </div>  
-        <div class="image-section">
-          <img src="./static/images/portrait.jpg" alt="potrait">
-        </div>
-   </div>
- </div>
+      </div>
+  
 </section>
 </main>
 
 <!--footer-->
-<footer class="footer" id="footer">
-  <table class="table">
-    <tr>
-      <td>
-        <button class="behance button"
-          onclick="window.open('https://https://www.behance.net/naptahagportfolios', '_blank')">
-          <span class="iconify" data-inline="false" data-icon="ant-design:behance-outlined"
-            style="position: relative; text-align:center; font-size: 30px;"></span>
-        </button>
-      </td>
-      <td>
-        <button class="gmail button" onclick=" location.href= 'mailto:naptahag@gmail.com';">
-          <span class="iconify" data-inline="false" data-icon="cib:gmail"
-            style="position: relative; text-align:center ; font-size: 30px;"></span>
-        </button>
-      </td>
-      <td>
-        <button class="linkedin button" onclick="window.open('https://www.linkedin.com/in/naptahag', '_blank')">
-          <span class="iconify" data-inline="false" data-icon="bx:bxl-linkedin"
-            style="position: relative; text-align:center ; font-size: 30px;"></span>
-        </button>
-      </td>
-      <td>
-        <button class="instagram button" onclick="window.open('https://www.instagram.com/artisyblack/', '_blank')">
-          <span class="iconify" data-inline="false" data-icon="simple-icons:instagram"
-            style="position: relative; text-align:center ; font-size: 30px;;"></span>
-        </button>
-      </td>
-      <td>
-        <button class="github button" onclick="window.open('https://github.com/napta894', '_blank')">
-          <span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"
-            style="position: relative; text-align:center ; font-size: 30px;"></span>
-        </button>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <p>&copy; 2021. All right Reserved</p>
-</footer>
+  <footer class="footer" id="footer">
+    <div>
+      <button class="behance button" onclick="window.open('https://www.behance.net/naptahagportfolios', '_blank')">
+        <span class="iconify" data-inline="false" data-icon="ant-design:behance-outlined"
+          style="position: relative; text-align:center; font-size: 30px; color: #F3EFE9"></span>
+      </button>
+  
+  
+      <button class="gmail button" onclick=" location.href= 'mailto:naptahag@gmail.com';">
+        <span class="iconify" data-inline="false" data-icon="cib:gmail"
+          style="position: relative; text-align:center ; font-size: 30px; color: #F3EFE9"></span>
+      </button>
+  
+  
+      <button class="linkedin button" onclick="window.open('https://www.linkedin.com/in/naptahag', '_blank')">
+        <span class="iconify" data-inline="false" data-icon="bx:bxl-linkedin"
+          style="position: relative; text-align:center ; font-size: 30px;  color: #F3EFE9"></span>
+      </button>
+  
+      <button class="instagram button" onclick="window.open('https://www.instagram.com/artisyblack/', '_blank')">
+        <span class="iconify" data-inline="false" data-icon="simple-icons:instagram"
+          style="position: relative; text-align:center ; font-size: 30px;  color: #F3EFE9"></span>
+      </button>
+  
+      <button class="github button" onclick="window.open('https://github.com/napta894', '_blank')">
+        <span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"
+          style="position: relative; text-align:center ; font-size: 30px; color: #F3EFE9"></span>
+      </button>
+  
+  
+      <hr>
+      <p>&copy; 2021. All right Reserved</p>
+    </div>
+  </footer>
+
 
 <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 
 </body>
 </html>
