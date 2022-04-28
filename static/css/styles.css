@@ -249,6 +249,7 @@ body {
 #nav-toggle {
     display:none;
     margin-top:25px;
+    font-size: 1rem;
 }
 
 /*Footer Css */
@@ -485,11 +486,9 @@ body {
     font-family:'montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 600;
-    padding:10px;
-    text-align: center;
     color:black;
-    align-items: center;
-    margin-left: 40px;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 .about {
@@ -512,7 +511,7 @@ body {
     line-height: 1.1; 
     text-align: justify;
     margin-top: 2rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-right: 2rem;
     color:black;
     margin-bottom: 2rem;
@@ -535,9 +534,6 @@ body {
     margin-bottom: 4rem;
 }
 
-.download-btn {
-    text-align: center;
-}
 
 .btn9 {
 position: relative;
@@ -547,7 +543,6 @@ height: 60px;
 text-align: center;
 font-family: 'montserrat',sans-serif;
 color: #F3EFE9;
-align-items: center;
 border: none;
 }
 
@@ -775,19 +770,19 @@ text-align: center;
 .content-section{
     float: left;
     width: 55%;
-    padding: 2rem ;
 }
 
-image-section {
-    width:55%;
+.image-section {
+    width:40%;
     float: right;
+    text-align: center;
+
 }
 
-.about-img {
-    position: absolute;
+.image-section img{
+    text-align: center;
     width: 392px;
     height: 400px;
-    padding: auto;
     margin-top: 20px;
 }
 
@@ -809,8 +804,8 @@ text-align: justify;
 justify-content: center;
 }
 
-.content-section .content .button-cv {
-    margin-top: 30px;
+.content-section .content {
+    margin-top: 2rem;
 }
 
 .aboutresume {
@@ -847,7 +842,7 @@ justify-content: center;
     width: 200px;
     height: 57.83px;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 40px;
     
 }
 
@@ -1142,12 +1137,9 @@ input:invalid {
 
     #nav-toggle {
     display:block;
-    text-align: right;
-    padding: 1rem 1rem;
     font-size: 1rem;
     }
     
-
     .logo-style {
     display:block;
     float: initial;
@@ -1222,7 +1214,7 @@ input:invalid {
     }
 
 
-    .about_btn .btn1 {
+    .about_btn .btn9 {
     margin:0 0 0 0;
     }
 
@@ -1281,9 +1273,6 @@ input:invalid {
     .project-btn-grp {
         
         width: 50%;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
         position:absolute;
         top:50px;
         left:80px;
@@ -1313,12 +1302,11 @@ input:invalid {
 
     #nav-pc {
     display: none;
+    font-size: 1rem;
     }
 
     #nav-toggle {
     display:flex;
-    position: absolute;
-    padding: 1rem 1rem;
     font-size: 1rem;
     }
 
@@ -1442,20 +1430,39 @@ input:invalid {
 
     #nav-pc {
     display: none;
+    font-size: 1rem;
     }
 
     #nav-toggle {
     display:block;
     text-align: right;
-    padding: 1rem 1rem;
     font-size: 1rem;
     }
-    
+
+    .about-section {
+        padding: 0 0 0 0;
+        height: auto;
+    }
     .logo-style {
-       position: relative;
-       width:189vh;
-       height:50vh;
-       padding: auto;
+        float: right;
+        display: flex;
+        justify-items: center;
+        width: 189px;
+        height: 50px;
+        margin-top: 0;
+    }
+
+    .content-section {
+        margin-top: 1rem;
+    }
+
+    .button-cv {
+        text-align: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .image-section {
+        width: 100%;
     }
 
     html {
@@ -1463,21 +1470,15 @@ input:invalid {
     }
 
     .section {
-        height: fit-content;
+        width: 100%;
     }
     .container {
-        width: 80%;
-        display: block;
-        margin: auto;
-        padding-top:50px;
-        padding-bottom: 50px;
+        width: 100%;
     }
     
-
     .content-section {
-    float: none;
     padding-top: auto;
-    margin:auto;
+    margin-top: 7rem;
     width: 100%;
     }
 
@@ -1516,17 +1517,11 @@ input:invalid {
     }
     
     .container {
-    width: 80%;
-    display: block;
-    margin:auto;
-    padding-top:50px;
+    width: 100%;
     }
 
     .content-section {
-    margin:auto;
-    float: none;
     width: 100%;
-    display: block;
     }
     
     .image-section {
