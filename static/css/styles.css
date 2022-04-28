@@ -309,6 +309,7 @@ body {
     width: 100%;
     padding-top: 15rem;
     text-align: center;
+    align-items: center;
 }
 
 .home-content-text h1 {
@@ -349,7 +350,7 @@ body {
     font-style: normal;
     font-weight: 400;
     justify-content: center;
-    text-align:center;
+    padding-bottom: 2rem;
 }
 
 .home-content span:first-child ::before,
@@ -415,6 +416,13 @@ body {
         opacity: 0;
     }
 }
+
+.about-btn {
+    padding-bottom: 2rem;
+}
+
+
+
 .btn7 {
     width: 120px;
     height: 40px;
@@ -455,7 +463,6 @@ body {
 
 }
 
-icons
 
 .icons a:hover {
     color: #232323;
@@ -519,9 +526,6 @@ icons
     border: none;
 }
 
-.flex-child:first-child {
-    margin-right: 55px;
-}
 
 .portrait {
     margin-left: 4rem;
@@ -565,6 +569,7 @@ text-align: center;
     position: relative;
     background-color: #fff;
     padding: 50px 10vw;
+    height:100%;
 }
 
 .work-container::after {
@@ -1119,11 +1124,10 @@ input:invalid {
     }
 
     body {
-    margin:0;
-    padding:0;
     margin: 0;
     padding: 0;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
     }
 
@@ -1148,13 +1152,11 @@ input:invalid {
 
     .home-content {
     width: 100%;
-    height: 90vh;
-    display: block;
+    padding-top:25rem;
     text-align: center ;
     }
 
     
-
     .home-content-text h1 {
     font-size: 2rem;
     line-height: 1;
@@ -1171,11 +1173,11 @@ input:invalid {
     }
 
     .section{
-    padding:auto;
+        padding: 5rem 4rem 5rem 10rem;
     }
     
     .about {
-    height: 100vh;
+    height: auto;
     width: 100%;
     }
     
@@ -1189,18 +1191,24 @@ input:invalid {
     
     .flex-child{
         width: 100%;
-        display: block;
     }
-    .portrait {
-        display: block;
+    .portrait img {
         width: 100%;
-    
         
+    }
+
+
+    .aboutp {
+            display: flex;
+            padding: 0;
+            margin: 0;
+            font-size: 0.25rem;
     }
     
     .about .profile {
-        float: left;
+        display: none;
         width: 100%;
+        text-align: justify;
     }
 
     .about-box
@@ -1224,6 +1232,12 @@ input:invalid {
     
     .work {
     margin-top: 3rem;
+    height: 100%;
+    }
+
+    .work-container {
+        height: 100%;
+        width: 100%;
     }
 
     .work-container::after {
@@ -1240,6 +1254,24 @@ input:invalid {
     color:#9C8194;
     }
 
+    .content {
+        height: 100%;
+        width: 100%;
+    }
+
+    .project-card .content {
+        position: relative;
+    }
+    .scrolling-wrapper-flexbox {
+        height: 100%;
+        display: block;
+    }
+
+    .project-card {
+        width: fit-content;
+        height: 100%;
+    }
+
     .footer {
     font-size:1.7;
     }
@@ -1248,15 +1280,6 @@ input:invalid {
 
 @media screen and (max-width:768px) {
 
-.section {
-    width: 100%;
-}
-    
-        /* For mobile phones: */
-        [class*="col-"] {
-            width: 100%;
-        }
-    
 
     html {
     font-size: 100%;
@@ -1265,6 +1288,7 @@ input:invalid {
     body {
     margin:0;
     padding:0;
+    display: flex;
     width: 100%;
     min-height: 100vh;
     }
@@ -1303,15 +1327,17 @@ input:invalid {
     margin:1rem;
     }
 
+    .about .profile {
+        display:none;
+        width: 100%;
+    }
     img {
-    width: 100%;
-    height: auto;
+    width: 50%;
     }
     .scroll-down {
     display: none;
     }
 
-    
 
     .about .about-box {
     width: 100%;
@@ -1340,8 +1366,9 @@ input:invalid {
     font-size: 1.5rem;
     }
 
-    .aboutmep p {
+    .para p {
         margin: auto;
+        font-size: 1.5rem;
 
     }
 
@@ -1355,7 +1382,13 @@ input:invalid {
     }
 
     .work {
-    margin-top: 3rem;
+    background-color: #F3EFE9;
+    padding: 0 0;
+    }
+
+    .work-container::after {
+        padding: 1rem;
+        margin-bottom: 1rem;
     }
 
     .work-h1 {
