@@ -482,17 +482,18 @@ body {
 }
 
 .about_h2 {
-    font-family:'montserrat',
-    sans-serif;
+    font-family:'montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     padding:10px;
-    margin-left: 2rem;
+    text-align: center;
     color:black;
+    align-items: center;
+    margin-left: 40px;
 }
 
 .about {
-   margin-bottom: 3rem;
+   margin-bottom: 1rem;
    height: auto;
    padding: 20px 5vw;
 }
@@ -534,9 +535,12 @@ body {
     margin-bottom: 4rem;
 }
 
+.download-btn {
+    text-align: center;
+}
 
 .btn9 {
-position: absolute;
+position: relative;
 background-color:#9C8194;
 width: 197px;
 height: 60px;
@@ -622,6 +626,7 @@ text-align: center;
     flex-grow: 1 1 auto;
     flex: 1 1 auto;
 }
+
 .project-card {
     position: relative;
     display: flex;
@@ -1255,22 +1260,35 @@ input:invalid {
     }
 
     .content {
-        height: 100%;
         width: 100%;
     }
 
     .project-card .content {
-        position: relative;
-    }
+            width: 100%;
+            display: block;
+            margin: auto;
+        }
+
     .scrolling-wrapper-flexbox {
         height: 100%;
         display: block;
     }
 
     .project-card {
-        width: fit-content;
-        height: 100%;
+        object-fit: cover;
     }
+
+    .project-btn-grp {
+        
+        width: 50%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        position:absolute;
+        top:50px;
+        left:80px;
+    }
+    
 
     .footer {
     font-size:1.7;
