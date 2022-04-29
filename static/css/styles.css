@@ -482,13 +482,15 @@ body {
     color:#9C8194;
 }
 
-.about_h2 {
+.abouth2 {
     font-family:'montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     color:black;
     margin-bottom: 1rem;
     text-align: center;
+    align-items: center;
+    text-align: center;    
 }
 
 .about {
@@ -534,6 +536,11 @@ body {
     margin-bottom: 4rem;
 }
 
+.download-btn {
+    align-items: center;
+    text-align: center;
+    align-content: justify;
+}
 
 .btn9 {
 position: relative;
@@ -544,6 +551,7 @@ text-align: center;
 font-family: 'montserrat',sans-serif;
 color: #F3EFE9;
 border: none;
+align-items: center;
 }
 
  
@@ -808,7 +816,7 @@ justify-content: center;
     margin-top: 2rem;
 }
 
-.aboutresume {
+.about-resume {
     font-family: 'Montserrat',sans-serif;
     font-size: 16px;
     margin-top: 10px;
@@ -830,6 +838,7 @@ justify-content: center;
     background-color: #9C8194;
     border-radius: 5px;
     transition: .5s;
+    margin-left: 20px;
 }
 
 .btn10:hover {
@@ -1196,10 +1205,9 @@ input:invalid {
 
 
     .aboutp {
-            display: flex;
             padding: 0;
             margin: 0;
-            font-size: 0.25rem;
+            font-size: 12px;
     }
     
     .about .profile {
@@ -1482,10 +1490,14 @@ input:invalid {
     width: 100%;
     }
 
+    .about-resume {
+        margin-top: 20px;
+    }
 
     .button-cv {
     margin-top: 2rem;
     font-size: 1.5rem;
+    margin-left: 20px;
     }
 
 
@@ -1495,6 +1507,11 @@ input:invalid {
     margin:auto;
     }
 
+    .btn10 {
+        text-align: center;
+        place-items: center;
+        left: 20px;
+    }
         
 }
 
