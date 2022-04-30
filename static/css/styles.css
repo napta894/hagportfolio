@@ -482,15 +482,14 @@ body {
     color:#9C8194;
 }
 
-.abouth2 {
+.about-h2 {
     font-family:'montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 600;
     color:black;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem;  
     text-align: center;
     align-items: center;
-    text-align: center;    
 }
 
 .about {
@@ -537,9 +536,8 @@ body {
 }
 
 .download-btn {
-    align-items: center;
     text-align: center;
-    align-content: justify;
+    align-items: center;
 }
 
 .btn9 {
@@ -552,6 +550,7 @@ font-family: 'montserrat',sans-serif;
 color: #F3EFE9;
 border: none;
 align-items: center;
+text-align: center;
 }
 
  
@@ -758,7 +757,6 @@ text-align: center;
 
 /*Aboutme page Css */
 
-
 .about-section {
     width: 100%;
     min-height: 100vh;
@@ -863,99 +861,7 @@ justify-content: center;
 
 /*Portfolio Page Css */
 
-.container {
-    padding:2rem;
-}
 
-.portfolio {
-    background:none;
-    color:black;
-    position: relative;
-    bottom: 10px;
-}
-
-.portfolio_container {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.portfolio_container h1 {
-    font-family:Helvetica, sans-serif; 
-    font-size: 3rem;  
-    line-height: 30px; 
-    text-align: center;
-    justify-content: center;
-    bottom: 100px;
-    color:#9C8194;
-    padding: 70px 10px;
-}
-
-.portfolio_container h2 {
-    font-family:Helvetica, sans-serif; 
-    font-weight: normal;
-    font-size: 24px;  
-    margin-left:20px; 
-    color: #9C8194;
-}
-
-.portfolio_main {
-    padding: 4px;
-    margin-bottom: 30px;
-}
-
-.portfolio_img {
-    height: 100%;
-    width: 100%;
-}
-
-.portfolio_right {
-    padding: 3rem 3rem 3rem 1rem;
-}
-
-.portfolio_right h2 {
-    font-size: 24px;
-    margin-bottom:40px;
-}
-
-.portfolio_right p {
-    font-family:'Helvetica Neue', sans-serif;
-    font-size: 24px;
-    font-weight: 200;
-    color: black;
-    text-align: justify;
-    margin-bottom:50px;
-    line-height: 1.5;
-}
-
-.btn3 {
-    border-color: #9C8194;
-    border-style: solid;
-    background-color: none;
-    font-size: 18px;
-    margin-left: 20px;
-    width:150px;
-    height:59px;
-    background-color: white;
-  }
-
-  .btn3:hover {
-    background-color: #9C8194;
-    cursor: pointer;
-  }
-
-.portfolio_projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    padding: 24px 32px;
-}
-
-.portfolio_projects img {
-    padding: 10px 8px;
-    width: 100%;
-    height: 100%;
-    margin-top: 50px;
-}
 
 
 /*Contact page Css */
@@ -1464,11 +1370,7 @@ input:invalid {
         margin-top: 1rem;
     }
 
-    .button-cv {
-        text-align: center;
-        justify-content: center;
-        margin-left: 0;
-    }
+    
     .image-section {
         width: 100%;
     }
