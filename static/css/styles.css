@@ -421,8 +421,6 @@ body {
     padding-bottom: 2rem;
 }
 
-
-
 .btn7 {
     width: 120px;
     height: 40px;
@@ -759,7 +757,7 @@ text-align: center;
 .about-section {
     width: 100%;
     min-height: 100vh;
-    padding: 150px 100px ;
+    padding: 150px 100px  0 ;
     transition: 1s;
 }
 
@@ -824,6 +822,7 @@ justify-content: center;
     background-color: #9C8194;
     border-radius: 5px;
     transition: .5s;
+    margin-bottom: 2rem;
 }
 
 .btn10:hover {
@@ -838,6 +837,34 @@ justify-content: center;
     margin-top: 20px;
     margin-left: 40px;
     
+}
+
+.skills {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 2rem 2rem;  
+}
+
+.grid-container-element {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    border: 2px solid #9C8194;
+    width: 100%;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.grid-child-element {
+    display: inline-block;
+    margin: 10px;
+    font-size: medium;
+    font-family: 'monteserrat' sans-serif;
+    line-height: 2rem;
+}
+
+.li {
+    display: none;
 }
 
 
@@ -913,8 +940,8 @@ justify-content: center;
 /*Contact page Css */
 
 .contact {
-    padding-top: 4rem;
     align-items: center;
+    width: 100%;
 }
 
 .contact .content {
@@ -922,7 +949,7 @@ justify-content: center;
 }
 
 .content-contact {
-    font-family:Helvetica, sans-serif; 
+    font-family:'Montserrat' sans-serif; 
     font-size: 1.5rem ; 
     align-content:center; 
     line-height: 30px;
@@ -940,9 +967,26 @@ justify-content: center;
 }
 
 .contactInfo {
-    font-family:Helvetica, sans-serif; 
-    font-size: 1rem ; 
+    font-family: 'Montserrat' sans-serif;
+    font-size: 0.25rem ; 
     margin:20px;
+}
+
+.text {
+        font-family: 'Montserrat' sans-serif;
+}
+
+.text p {
+    font-family: 'Montserrat' sans-serif;
+}
+
+.text h3 {
+    font-family: 'Montserrat' sans-serif;
+    margin-bottom: 5px;
+}
+.box {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .container1 .contactInfo {
@@ -967,18 +1011,12 @@ justify-content: center;
     font-weight:200;
   }
 
-.contacth1 {
-
-    font-size: 2rem;
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-}
 
 .contacth3 {
 
     font-size: 1.5rem;
-    font-family: Helvetica, sans-serif;
-    color:black;
+    font-family: 'Montserrat' sans-serif;
+    color:#9C8194;
     text-align: center;
 }
 
@@ -988,7 +1026,8 @@ justify-content: center;
 }
 
  .contactForm h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-family: 'Montserrat' sans-serif;
     color: #9C8194;
     font-weight: 300;
 }
@@ -1460,6 +1499,18 @@ input:invalid {
     height: auto;
     }
 
+    .grid-container-element {
+        display: block;
+        width: 100%;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    
+    .grid-child-element {
+        display: inline-block;
+        margin: 10px;
+        font-size: 1rem;
+    }
         
 }
 
@@ -1519,6 +1570,27 @@ input:invalid {
     .content-section .aboume_p {
     font-size: 2rem;
     }
+
+    .grid-container-element {
+        display: block;
+        width: 100%;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    
+    .grid-child-element {
+        display: inline-block;
+        margin: 10px;
+        font-size: 1rem;
+    }
+
+    .skills-title {
+        font-family: 'monteserrat', sans-serif;
+    }
+
+   .li {
+        font-family: 'monteserrat',sans-serif;
+   }
 
 }
 
