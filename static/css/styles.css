@@ -130,6 +130,7 @@ body {
 .hamburger input[type="checkbox"]:checked ~ .navbar{
     display: block;
     transform: translate(0%);
+    -webkit-transform: translate(0%);
     
 }
 
@@ -144,11 +145,13 @@ body {
 
 .hamburgerlines .line3{ 
    transform-origin: 0% 100%;
-   transition: transform 0.3s ease-in-out;  
+   transition: transform 0.3s ease-in-out; 
+   -webkit-transition: transform 0.3s ease-in-out; 
 }
 
 .hamburger input[type="checkbox"]:checked ~ .hamburgerlines .line1{
     transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 .hamburger input[type="checkbox"]:checked ~ .hamburgerlines .line2{
@@ -158,6 +161,7 @@ body {
 
 .hamburger input[type="checkbox"]:checked ~ .hamburgerlines .line3{
     transform: rotate(-45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 
@@ -169,6 +173,7 @@ body {
      font-family: 'Montserrat',sans-serif;
      background-size:100%;
      transition: all 0.4s;
+     -webkit-transition: all 0.4s;
  }
 
  .navbar span {
@@ -317,6 +322,9 @@ body {
     animation-name: MoveinLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
+    -webkit-animation-name: MoveinLeft;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease-out;
 
 }
 .mainh1 {
@@ -385,15 +393,18 @@ body {
     height: 10px;
     width: 10px;
     transform: translate(-50%, -100%) rotate(45deg);
+    -webkit-transform: translate(-50%, -100%) rotate(45deg);
     border: 2px solid #9C8194;
     border-top: transparent;
     border-left: transparent;
     animation: scroll-down 1s ease-in-out infinite;
+    -webkit-animation: scroll-down 1s ease-in-out infinite;
 }
 
 .scroll-down::before {
     top: 30%;
     animation-delay: 0.3s;
+    -webkit-animation-delay: 0.3s;
     /* animation: scroll-down 1s ease-in-out infinite; */
 }
 
@@ -458,6 +469,7 @@ body {
     cursor: pointer;
     color: #232323;
     transform: scale(1.5);
+    -webkit-transform: scale(1.5);
 
 }
 
@@ -654,6 +666,7 @@ text-align: center;
     background-color: #776571;
     align-items: center;
     transition: .5s;
+    -webkit-transition: .5s;
     text-transform: capitalize;
     opacity: 0;
 }
@@ -759,6 +772,7 @@ text-align: center;
     min-height: 100vh;
     padding: 150px 100px  0 ;
     transition: 1s;
+    -webkit-transition: 1s;
 }
 
 .content-section{
@@ -822,6 +836,7 @@ justify-content: center;
     background-color: #9C8194;
     border-radius: 5px;
     transition: .5s;
+    -webkit-transition: .5s;
     margin-bottom: 2rem;
 }
 
@@ -875,6 +890,7 @@ justify-content: center;
     min-height: 100vh;
     padding: 50px 100px;
     transition: 1s;
+    -webkit-transition: 1s;
 }
 
 
@@ -1267,6 +1283,7 @@ input:invalid {
 
     .project-card {
         object-fit: cover;
+
     }
 
     .project-btn-grp {
