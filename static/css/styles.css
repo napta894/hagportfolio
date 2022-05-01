@@ -119,6 +119,7 @@ body {
 
 .hamburger{
     position:relative;
+    right: 50%;
     left: 0;
 }
 
@@ -140,11 +141,14 @@ body {
 
 .hamburgerlines .line1{
    transform-origin: 0% 0%;
-   transition: transform 0.3s ease-in-out;    
+   -webkit-tranform-origin: 0% 0%;
+   transition: transform 0.3s ease-in-out; 
+   -webkit-transition: transform 0.3s ease-in-out;   
 }
 
 .hamburgerlines .line3{ 
    transform-origin: 0% 100%;
+   -webkit-transform-origin: 0% 100%;
    transition: transform 0.3s ease-in-out; 
    -webkit-transition: transform 0.3s ease-in-out; 
 }
@@ -155,7 +159,8 @@ body {
 }
 
 .hamburger input[type="checkbox"]:checked ~ .hamburgerlines .line2{
-    display: none;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 
@@ -195,7 +200,9 @@ body {
     z-index: 1;
     text-align: center;
     transform: translate(-110%);
+    -webkit-transform:translate(-110%);
     transition: transform 0.5s ease-in-out;
+    -webkit-transition: transform 0.5s ease-in-out;
     margin-top: -10px;
     padding-bottom: 1rem;
     max-width: 300px;
@@ -487,18 +494,18 @@ body {
     font-size: 2rem;
     font-weight: 700;
     line-height: 2;
-    margin-left: 3rem;
     color:#9C8194;
+    justify-content: left;
+    padding-left: 30px;
 }
 
-.about-h2 {
+.abouth2 {
     font-family:'montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 600;
     color:black;
-    margin-bottom: 1rem;  
-    text-align: center;
-    align-items: center;
+    margin-bottom: 1rem; 
+    text-align: center; 
 }
 
 .about {
@@ -1258,9 +1265,10 @@ input:invalid {
     }
 
     .work-h1 {
-    font-family:Helvetica, sans-serif; 
-    font-size: 3rem; 
-    font-weight:200; 
+    
+    font-family: 'montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700 bold;
     line-height: 1.1;      
     text-align: center;  
     color:#9C8194;
@@ -1366,6 +1374,15 @@ input:invalid {
     
     .about {
     height:auto;
+    }
+
+    .about_h1 {
+    padding-left: 5px;
+    }
+
+    .abouth2 {
+    text-align: justify;
+    align-items: center;
     }
 
     .about .about-box:nth-child(2) {
