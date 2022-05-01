@@ -82,7 +82,9 @@ body {
 /*Header  Section Css */ 
 
 /*humberger Css */ 
-
+.hero {
+    background-color: #fff;
+}
 .li {
     list-style: none;
 }
@@ -159,14 +161,13 @@ body {
 }
 
 .hamburger input[type="checkbox"]:checked ~ .hamburgerlines .line2{
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+    display: none;
 }
 
 
 .hamburger input[type="checkbox"]:checked ~ .hamburgerlines .line3{
     transform: rotate(-45deg);
-    -webkit-transform: rotate(45deg);
+    -webkit-transform: rotate(-45deg);
 }
 
 
@@ -213,10 +214,11 @@ body {
 
 .logo-style {
     display:inline-block;
+    position: relative;
     width:189px;
     height:50px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 5px;
     cursor:pointer;
 }
 
@@ -777,7 +779,7 @@ text-align: center;
 .about-section {
     width: 100%;
     min-height: 100vh;
-    padding: 150px 100px  0 ;
+    padding: 20px 100px  0 ;
     transition: 1s;
     -webkit-transition: 1s;
 }
@@ -862,15 +864,15 @@ justify-content: center;
 }
 
 .skills {
-    margin-top: 3rem;
-    margin-bottom: 2rem;
-    padding: 2rem 2rem;  
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem; 
 }
 
 .grid-container-element {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 20px;
+    grid-gap: 10px;
     border: 2px solid #9C8194;
     width: 100%;
     align-items: center;
@@ -883,6 +885,7 @@ justify-content: center;
     font-size: medium;
     font-family: 'monteserrat' sans-serif;
     line-height: 2rem;
+    margin-top: 2rem;
 }
 
 .li {
@@ -997,6 +1000,7 @@ justify-content: center;
 
 .text {
         font-family: 'Montserrat' sans-serif;
+        font-size: 1rem;
 }
 
 .text p {
@@ -1036,7 +1040,6 @@ justify-content: center;
 
 
 .contacth3 {
-
     font-size: 1.5rem;
     font-family: 'Montserrat' sans-serif;
     color:#9C8194;
@@ -1057,11 +1060,13 @@ justify-content: center;
 
 .contactForm .inputBox {
     margin-top:10px;
+    border-color: #9C8194;
 }
 
 .contactForm .inputBox input {
    width:100%;
    font-size: 1rem;
+   border-color: #9C8194;
 }
 
 .inputBox {
@@ -1085,7 +1090,6 @@ input[type=text]
 }
 
 .textarea {
-
     padding:5px; 
     margin: 10px 0;
     border: none;
@@ -1108,7 +1112,7 @@ input:invalid {
 }
 
 .contactForm .inputBox input [type="submit"] {
-    
+    border-color: #9C8194;
     cursor:pointer;
     padding:10px;
     font-size: 2rem;
