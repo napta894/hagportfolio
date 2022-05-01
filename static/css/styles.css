@@ -968,6 +968,7 @@ justify-content: center;
 .contact {
     align-items: center;
     width: 100%;
+    flex-direction: column;
 }
 
 .contact .content {
@@ -1088,9 +1089,10 @@ input[type=text]
 
 .textarea {
     padding:5px; 
-    margin: 10px 0;
+    margin: 5px 0;
     border: none;
     width: 100%;
+    font-family: 'Montserrat' sans-serif;
 }
 
 input {
@@ -1126,13 +1128,47 @@ border-style: solid;
   width:250px;
   height:50px;
   text-align: center;
-  margin-top: 15px;
 }
 .btn5:hover {
     background-color: #776571;
     cursor:pointer;
 }
 
+#status {
+    font-family: 'Montserrat' sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 90%;
+    text-align: center;
+}
+
+#status.success {
+    color: #9C8194;
+    animation: status 4s ease forwards;
+}
+
+#status.error {
+    color: #776571;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+
+}
 
 /*========== MEDIA QUERIES ==========*/
 

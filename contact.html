@@ -77,7 +77,7 @@ rel="stylesheet">
         </div>
      </div>
      <div class="contactForm">
-      <form onsubmit="sendEmail(); reset (); return false;" class="form">
+      <form action="https://formspree.io/f/xqknggny" method="POST" id="my-form">
           <h2>Send your message</h2>
 
           <div class="inputBox required">
@@ -103,6 +103,7 @@ rel="stylesheet">
                <input type="submit" name="submit"  value="send" class="btn5">
            </div>
       </form>
+       <div id="status"></div>
      </div>
   </div>
 </div>
@@ -149,23 +150,8 @@ rel="stylesheet">
 
 <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<script src="./static/scripts/main.js"></script>
 
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
-    function sendEmail() {
-        Email.send({
-            SecureToken: "C973D7AD-F097-4B95-91F4-40ABC5567812",
-            Host: "smtp.gmail.com",
-            Username: "naptahag@gmail.com",
-            Password: "Ilovebaba8!",
-            To: 'naptahag@gmail.com',
-            From: document.getElementById("email").value,
-            Subject: "New Contact Form Enquiry",
-            Body: "And this is the body"
-        }).then(
-            message => alert(message)
-        );
-    }
-</script>
+
 </body>
 </html>
