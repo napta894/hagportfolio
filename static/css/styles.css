@@ -987,9 +987,6 @@ justify-content: center;
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top:2rem;
-    margin-bottom:2rem;
-
 }
 
 .contactInfo {
@@ -1112,7 +1109,6 @@ input:invalid {
 }
 
 .contactForm .inputBox input [type="submit"] {
-    border-color: #9C8194;
     cursor:pointer;
     padding:10px;
     font-size: 2rem;
@@ -1120,21 +1116,20 @@ input:invalid {
 }
 
 .btn5 {
-  border-color: #9C8194;
-  border-style: solid;
-  background-color: none;
+border-style: solid;
+ background-color: #9C8194;
+  color: #F3EFE9;
+  font-weight: 700 bold;
+  border: none;
   font-size: 3rem;
-  font-weight: lighter;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Montserrat' sans-serif;
   width:250px;
   height:50px;
-  background-color: white;
   text-align: center;
-  color: black;
   margin-top: 15px;
 }
 .btn5:hover {
-    background-color: #9C8194;
+    background-color: #776571;
     cursor:pointer;
 }
 
@@ -1869,7 +1864,7 @@ input:invalid {
     }
 
     .contactForm .contactInfo {
-        width: 100%;
+    width: 100%;
     }
 
     .contactInfo .box .text {
@@ -1913,6 +1908,7 @@ input:invalid {
     padding:0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     }
 
     
@@ -1927,7 +1923,6 @@ input:invalid {
 
     .contact {
     font-size: 1rem;
-    margin-bottom:2rem;
     }
 
     .box {
@@ -1959,7 +1954,6 @@ input:invalid {
     }
 
     .container1 .contactForm{ 
-    padding-top: 2rem;
     font-size: 1rem;
     }
 
@@ -1989,6 +1983,7 @@ input:invalid {
 
     .body {
         font-size: 50%;
+        min-height: 100vh;
     }
 
 }
@@ -1997,13 +1992,16 @@ input:invalid {
     0% {
         opacity:0;
         transform: translateX(-10rem);
+        -webkit-transform: translateX(-10rem);
     }
 
     80% {
         transform: translateX(1rem);
+        -webkit-transform: translateX(1rem);
     }
     
     100% {
         transform: translateX(0);
+        -webkit-transform: translateX(0);
     }
 }
