@@ -968,7 +968,6 @@ justify-content: center;
 .contact {
     align-items: center;
     width: 100%;
-    flex-direction: column;
 }
 
 .contact .content {
