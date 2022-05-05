@@ -663,6 +663,10 @@ text-align: center;
     object-fit:cover;
 }
 
+#soulful {
+    height: 195px;
+}
+
 
 .project-card .content {
     position:absolute;
@@ -915,16 +919,20 @@ justify-content: center;
 .portfolio .box-container{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto ;
     gap:1.25rem;
     align-items: flex-start;
 }
 
 .portfolio .box-container .box img {
-    position: relative;
+    position:relative;
     height: 20rem;
     width: 100%;
     object-fit: cover;
+}
+
+.project-card {
+    width: 100%;
 }
 
 .heading {
