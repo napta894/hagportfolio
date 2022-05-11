@@ -590,7 +590,6 @@ text-align: center;
 /*Work section Css */
 
 .work {
-    position: relative;
     background-color: #fff;
     padding: 50px 10vw;
     height:100%;
@@ -976,7 +975,7 @@ justify-content: center;
 .contact {
     align-items: center;
     width: 100%;
-    min-height: 79vh;
+    min-height: 80vh;
 }
 
 .contact .content {
@@ -1162,12 +1161,13 @@ border-style: solid;
 
 
 
-/*========== WED VENUE PAGE CASE STUDY ==========*/
+/*========== WED VENUE PAGE CASE STUDY  css ==========*/
 .mainproject {
     background-color: #fff;
     min-height: 100vh;
     padding: 20px 10vw;
 }
+
 
 .cover {
     width: 100%;
@@ -1179,6 +1179,204 @@ border-style: solid;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
+
+.projectoverview {
+   color:#183636;
+}
+
+.role {
+    float: left;
+    width: 25%;
+    height: 280px;
+}
+
+.duration{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 280px;
+    text-align: center;
+}
+
+.responsabilities {
+    float: right;
+    width: 25%;
+    height: 280px;
+    
+}
+
+.project-h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:#183636;
+}
+
+.li .responsabilities {
+    list-style: none;
+}
+
+#background{
+    padding: 2rem 2rem;
+}
+.projectbackground {
+    color: #183636;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: inline-block
+}
+
+.image-background {
+    width: 50%;
+    float: left;
+}
+
+.text-background {
+    width: 40%;
+    overflow: hidden;
+    margin-top: 5rem;
+    line-height: 2rem;
+}
+
+.research {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:#183636;
+    text-decoration-style: solid;
+}
+
+.project-research {
+    color: #637C7B;
+    margin-bottom: 1rem;
+}
+
+.text-research {
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.interviews-image {
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+.image-research {
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.points {
+    display:flex;
+    margin-top: 2rem;
+    flex-direction: row;
+}
+
+.pain {
+flex: 1 1 0px;
+font-family: 'helvetica', sans-serif;
+font-size: 1rem;
+font-weight: 400;
+margin-top:1rem;
+text-align: center;
+align-items: center;
+justify-items: center;
+}
+
+.persona-container {
+    display: inline-block;
+}
+
+.persona1 {
+    flex: 1 0 0;
+    float: left;
+    width: 50%;
+}
+.persona2 {
+    float: right;
+    width: 50%;
+}
+.personas {
+margin-top: 2rem;
+}
+
+.persona-h3 {
+    color: #637C7B;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.project-persona {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.jessica-img {
+    width: 50%;
+    padding: 2rem;
+}
+
+.adam-img {
+    width: 50%;
+    padding: 2rem;    
+}
+
+.persona-quote {
+    margin-top: 2rem; }
+
+.problem {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.problem-h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.competitive {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.competition1 {
+    display: inline;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.competition2 {
+   float: right;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.competitive-h2 {
+    font-size: 2rem;
+    color:#637C7B;
+    margin-bottom: 2rem;
+}
+
+.competitive-container {
+    display: inline-block;
+}
+
+
+.zola {
+    padding:2rem 2rem;
+    width: 20%;
+}
+
+.weddingwire {
+    padding:2rem 2rem ;
+    width: 20%;
+}
+
+
 
 
 /*========== MEDIA QUERIES ==========*/
