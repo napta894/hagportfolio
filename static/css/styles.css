@@ -976,6 +976,7 @@ justify-content: center;
 .contact {
     align-items: center;
     width: 100%;
+    min-height: 79vh;
 }
 
 .contact .content {
@@ -1159,28 +1160,12 @@ border-style: solid;
     animation: status 4s ease forwards;
 }
 
-@keyframes status {
-    0% {
-        opacity: 1;
-        pointer-events: all;
-    }
 
-    90% {
-        opacity: 1;
-        pointer-events: all;
-    }
-
-    100% {
-        opacity: 0;
-        pointer-events: none;
-    }
-
-}
 
 /*========== WED VENUE PAGE CASE STUDY ==========*/
 .mainproject {
     background-color: #fff;
-    max-height: 100vh;
+    min-height: 100vh;
     padding: 20px 10vw;
 }
 
@@ -2049,6 +2034,8 @@ border-style: solid;
 
 }
 
+/*========== KeyFrames  ==========*/
+
 @keyframes MoveinLeft {
     0% {
         opacity:0;
@@ -2065,4 +2052,22 @@ border-style: solid;
         transform: translateX(0);
         -webkit-transform: translateX(0);
     }
+}
+
+@keyframes status {
+    0% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    90% {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+
 }
