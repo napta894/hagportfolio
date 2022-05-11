@@ -1177,6 +1177,25 @@ border-style: solid;
 
 }
 
+/*========== WED VENUE PAGE CASE STUDY ==========*/
+.main {
+    background-color: #fff;
+    max-height: 100vh;
+    padding: 20px 10vw;
+}
+
+.cover {
+    width: 100%;
+    object-fit: cover;
+    height: 50%;
+}
+
+.project {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
 /*========== MEDIA QUERIES ==========*/
 
 /*========== Index media queries  ==========*/
