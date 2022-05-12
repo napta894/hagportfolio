@@ -1327,11 +1327,14 @@ margin-top: 2rem;
     margin-top: 2rem; }
 
 .problem {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     text-align: center;
     justify-content: center;
+    height: 100vh;
 }
+
+
 
 .problem-h2 {
     margin-bottom: 1rem;
