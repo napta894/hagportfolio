@@ -1183,6 +1183,7 @@ border-style: solid;
 
 .projectoverview {
    color:#183636;
+   font-size: 3rem;
 }
 
 .role {
@@ -1238,18 +1239,23 @@ border-style: solid;
     overflow: hidden;
     margin-top: 5rem;
     line-height: 2rem;
+    text-align: justify;
 }
 
 .research {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.research-h1 {
+    font-size: 3rem;
     color:#183636;
-    text-decoration-style: solid;
 }
 
 .project-research {
     color: #637C7B;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .text-research {
@@ -1327,14 +1333,11 @@ margin-top: 2rem;
     margin-top: 2rem; }
 
 .problem {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     text-align: center;
     justify-content: center;
-    height: 100vh;
 }
-
-
 
 .problem-h2 {
     margin-bottom: 1rem;
@@ -1346,16 +1349,24 @@ margin-top: 2rem;
     margin-bottom: 3rem;
 }
 
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
 .competition1 {
-    display: inline;
     width: 50%;
-    margin-top: 2rem;
 }
 
 .competition2 {
-   float: right;
     width: 50%;
-    margin-top: 2rem;
 }
 
 .competitive-h2 {
@@ -1364,23 +1375,91 @@ margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.competitive-container {
-    display: inline-block;
+.competition2-image {
+    width: 60%;
+    padding: 2rem;
 }
 
-
-.zola {
-    padding:2rem 2rem;
-    width: 20%;
+.competition1-image {
+    width: 80%;
+    padding: 2rem;
 }
 
-.weddingwire {
-    padding:2rem 2rem ;
-    width: 20%;
+.competition-info {
+    line-height: 1.25rem;
+    justify-content: center;
+    text-align: justify;
 }
 
+.research-findings {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
+.findings {
+    margin-top: 2rem;
+}
+.findings-h3 {
+    color: #637C7B;
+    line-height: 1.25rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
 
+.finding-text {
+    text-align: justify;
+    text-align: justify;
+}
+
+.ideation {
+    margin-top: 2rem;
+    margin-bottom:2rem;
+}
+
+.ideation-h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:#183636;
+    font-size: 3rem;
+}
+
+.user-h3 {
+    color: #637C7B;
+    margin-bottom: 1rem;
+}
+
+.userflow-img {
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15rem;
+}
+
+.paper-img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.digital-img {
+    width: 100%;
+    padding:2rem;
+    margin-top: 2rem;
+}
+
+.paper-h3 {
+    margin-left:1rem;
+    text-align: center;
+}
+
+.digital-h3 {
+    margin-left:1rem;
+    text-align: center;
+}
+
+.affinity-digital {
+    width: 50%;
+    padding: 2rem;
+}
 
 /*========== MEDIA QUERIES ==========*/
 
