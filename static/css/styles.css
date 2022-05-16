@@ -1659,6 +1659,17 @@ margin-top: 2rem;
 
 
 
+.fa-bars{
+    cursor: pointer;
+  }
+  .topnav-item{
+      flex-direction: column;
+      display: flex;
+      position: fixed;
+      float: left;
+  }
+
+
 
 /*========== MEDIA QUERIES ==========*/
 
