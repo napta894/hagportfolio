@@ -1593,16 +1593,69 @@ margin-top: 2rem;
     margin-left: 10rem;
 }
 
+.prototype-div {
+    display: inline-block;
+    justify-content: center;
+}
+
 .prototype-img {
-    width: 80%;
-    display: flex;
+    width: 60%;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    margin-left: 15rem;
+}
+
+.prototype-video {
+    width: 60%;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15rem;
+}
+
+.link-proto {
+    color: #637C7B;
+    text-decoration: solid;
+}
+
+.takeaways {
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+}
+
+.impact {
     float: left;
+    width: 50%;
+}
+
+.impact-text {
+   text-align: justify;
+   line-height: 1.25rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+.impact-h3 {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
+.learned-text {
+    text-align: justify;
+    line-height: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
 
+ .learned-h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
+.thanks {
+    text-align: center;
+}
 
 
 
