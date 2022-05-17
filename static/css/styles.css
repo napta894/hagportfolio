@@ -1658,16 +1658,42 @@ margin-top: 2rem;
 }
 
 
-
-.fa-bars{
-    cursor: pointer;
-  }
   .topnav-item{
       flex-direction: column;
       display: flex;
       position: fixed;
       float: left;
   }
+
+  .reference {
+      margin-left:0.5rem;
+      padding:0.5rem;
+
+  }
+
+ 
+  .reference li {
+    list-style: none;
+    text-decoration: none;
+   }
+  
+   .topnav-item li {
+       font-size: 1rem;
+       color:#000;
+       text-decoration: none;
+   }
+
+   .topnav-item a:hover {
+       color: #637C7B;
+       cursor: pointer;
+   }
+
+   .topnav-item a {
+       color: #000;
+       text-decoration: none;
+       font-weight: 600;
+       cursor: pointer;
+   }
 
 
 
@@ -2521,6 +2547,180 @@ margin-top: 2rem;
     .body {
         font-size: 50%;
     }
+
+}
+
+/*========== wedvenue page queries  ==========*/
+
+@media screen and (max-width: 480px) {
+
+.topnav-item{
+    display: none;
+}
+
+  html {
+  font-size: 100%;
+  }
+
+  body {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+    
+  #nav-pc {
+  display: none;
+  }
+
+  #nav-toggle {
+  display:block;
+  font-size: 1rem;
+  }
+  
+  .logo-style {
+  display:block;
+  float: initial;
+  width:189vh;
+  height:50vh;
+  }
+
+  .mainproject .project1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  }
+
+  .cover {
+      width: 100%;
+  }
+
+  .main .section .footer {
+    flex-direction: column;
+    } 
+
+   .project-divs {
+       display: inline-block;
+       width: 100%;
+   }
+
+    #project-overview {
+        display:block;
+        width: 100%;
+    }
+
+    .role {
+        display:block;
+        width: 50%;
+    }
+
+    .duration {
+        display:block;
+        width: 50%;
+    }
+    
+    .responsabilities {
+        display:block;
+        width:80%;
+        padding:0;
+    }
+
+  .project1 {
+    height: auto;
+    width: 100%;
+  }
+
+  .main {
+  width: 100%;
+  padding:0;
+  top: 0;
+  transition: 1s;
+  }
+
+  .main-wed {
+      width: 100%;
+  }
+  
+  .mainproject .background {
+  width: 100%;
+  display: block;
+  }
+
+  .about .profile {
+  width: 100%;
+  }
+  
+  .flex-child{
+      width: 100%;
+  }
+  .portrait img {
+      width: 100%;
+      
+  }
+
+}
+
+@media screen and (max-width:768px) {
+
+    html {
+    font-size: 100%;
+    }
+
+    body {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+
+    .nav-pc{
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    }
+    
+    .main {
+    width: 100%;
+    padding: 2rem 2rem;
+    top: 0;
+    transition: 1s;
+    } 
+
+    #project-overview {
+        display:block;
+        width: 100%;
+    }
+
+    .section {
+        display:block;
+        width: 100%;
+    }
+
+    .topnav-item {
+        display:none
+    }
+
+    .wrapper {
+        display: block;
+        width: 100%;
+    }
+
+    .image-background {
+        width: 80%;
+        display: block;
+        justify-content: center;
+    }
+
+    .text-background {
+        width: 80%;
+        display: block;
+        text-align: justify;
+    }
+
+
+
+
 
 }
 
