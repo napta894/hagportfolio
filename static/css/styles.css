@@ -2565,10 +2565,12 @@ margin-top: 2rem;
 
   body {
     margin:0;
+    width: 100%;
     padding:0;
-    display: flex;
+    display: block;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #fff;
     }
     
   #nav-pc {
@@ -2587,14 +2589,15 @@ margin-top: 2rem;
   height:50vh;
   }
 
-  .mainproject .project1 {
+  .mainproject {
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  align-items: flex-start;
   }
 
   .cover {
       width: 100%;
+      display: block;
   }
 
   .main .section .footer {
@@ -2609,56 +2612,260 @@ margin-top: 2rem;
     #project-overview {
         display:block;
         width: 100%;
+        margin-top: 2rem;
     }
 
     .role {
         display:block;
-        width: 50%;
+        height: 0%;
     }
 
     .duration {
         display:block;
-        width: 50%;
+        height: 0%;
     }
     
     .responsabilities {
         display:block;
-        width:80%;
-        padding:0;
+        width: 100%;
+        height: 0%;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 2rem;
     }
 
-  .project1 {
+    
+    .project1 {
     height: auto;
+    display: block;
     width: 100%;
-  }
+    }
 
-  .main {
-  width: 100%;
-  padding:0;
-  top: 0;
-  transition: 1s;
-  }
+    .section {
+    width: 100%;
+    padding:0;
+    top: 0;
+    transition: 1s;
+    }
 
   .main-wed {
       width: 100%;
+      display: block;
   }
   
-  .mainproject .background {
-  width: 100%;
-  display: block;
-  }
+    .image-background {
+    width: 100%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1rem;
+    }
 
-  .about .profile {
-  width: 100%;
-  }
+    .text-background {
+     width: 100%;
+     display: block;
+     justify-content: center;
+     margin-left:1.50rem;
+     margin-top: 0;
+     margin-right:0;
+     margin-bottom:0;
+    }
+
+    .interviews-image {
+        width: 100%;
+        padding:0;
+    }
+
+    .image-research {
+     width: 100%;
+     display: flex;
+    }
   
-  .flex-child{
+    .flex-child{
       width: 100%;
-  }
-  .portrait img {
-      width: 100%;
-      
-  }
+    }
+
+    .painpoints .points {
+        display:block;
+        width: 100%;
+        padding:1rem;
+    }
+
+    .pain {
+        display: inline;
+        width: 100%;
+    }
+
+    .booking-h3 {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .description-h3 {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .options-h3 {
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .persona1 {
+        width:100%;
+        display: block;
+    }
+
+    .persona2 {
+        width:100%;
+        display: block;
+    }
+
+    .jessica-img {
+        width: 100%;
+    }
+
+    .adam-img {
+        width: 100%;
+    }
+
+    .competitive-text {
+        text-align: justify;
+    }
+
+    .flex-container {
+        display: block;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .competition1 {
+        width:100%;
+        display: block;
+    }
+
+    .competition2 {
+        width:100%;
+        display: block;
+    }
+
+    .competition1-image {
+        width: 100%;
+    }
+
+
+    .competition2-image {
+        width: 100%;
+    }
+
+    .container {
+        padding:1rem;
+    }
+
+    .userflow-img {
+        width: 100%;
+        display: block;
+        margin:0;
+    }
+  
+    .paper .digital {
+        display: block;
+        width: 100%;
+    }
+    
+    .paper-img {
+        width: 100%;
+        padding:0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .digital-img {
+        width: 100%;
+        padding:0;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .usability-text {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .flex-container {
+        display: block;
+        width: 100%;
+    }
+
+    .affinity {
+        width: 100%;
+        display: block;
+    }
+
+    .affinity-text {
+        display: block;
+        text-align: justify;
+
+    }
+
+    .affinity-digital {
+        width: 100%;
+        align-content: center;
+        display: block;
+    }
+
+    .design {
+        display:block;
+    }
+
+    .design-text {
+        text-align: justify;
+    }
+
+    .style {
+        display:block;
+        width: 100%;
+    }
+
+    .flex-container {
+        display: block;
+        width: 100%;
+    }
+
+    .logo-colors {
+        width: 100%;
+    }
+
+    .colors-div {
+        display: block;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .colors-img {
+        width: 100%;
+    }
+
+    #icons-typography {
+        display: block;
+        width: 100%;
+    }
+
+    .icons-img .typo-img {
+        width: 100%;
+    }
+
+    .typography {
+        margin-left:0;
+    }
+
+    .color {
+        margin-left:0;
+    }
+
 
 }
 
@@ -2719,6 +2926,13 @@ margin-top: 2rem;
         text-align: justify;
     }
 
+    .jessica-img {
+        width: 100%;
+    }
+
+    .container {
+        padding-top:1rem;
+    }
 
 
 
