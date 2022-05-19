@@ -1696,6 +1696,25 @@ margin-top: 2rem;
        cursor: pointer;
    }
 
+   .findings-text {
+    text-align: justify;
+   }
+
+   .usability-text {
+    text-align: justify;
+    width: 100%;
+    }
+
+    .affinity-text {
+    display: block;
+    text-align: justify;
+    }
+
+    .design-text {
+    text-align: justify;
+    }
+
+
 
 
 /*========== MEDIA QUERIES ==========*/
@@ -2803,10 +2822,6 @@ margin-top: 2rem;
         width: 100%;
     }
 
-    .flex-container {
-        display: block;
-        width: 100%;
-    }
 
     .affinity {
         width: 100%;
@@ -2938,10 +2953,6 @@ margin-top: 2rem;
     min-height: 100vh;
     }
 
-    .nav-pc{
-    padding: 1rem 1rem;
-    font-size: 1rem;
-    }
     
     .main {
     width: 100%;
@@ -2964,30 +2975,136 @@ margin-top: 2rem;
         display:none
     }
 
-    .wrapper {
-        display: block;
-        width: 100%;
-    }
-
     .image-background {
-        width: 80%;
+        width: 70%;
+        margin-left: 4rem;
         display: block;
         justify-content: center;
-    }
-
+        }
+        
+        
     .text-background {
         width: 80%;
         display: block;
         text-align: justify;
+        margin-left:3rem;
     }
 
-    .jessica-img {
+    .image-research {
         width: 100%;
     }
 
     .container {
         padding-top:1rem;
     }
+
+
+    .jessica-img {
+        width: 80%;
+    }
+
+    .adam-img {
+        width: 80%;
+    }
+
+
+
+    .competition1 {
+        width:100%;
+        display: block;
+    }
+
+    .competition2 {
+        width:100%;
+        display: block;
+    }
+
+    .competition1-image {
+        width: 40%;
+        justify-content: center;
+        margin-left: 10rem;
+
+    }
+
+    .competition2-image {
+        width: 40%;
+        justify-content: center;
+        margin-left: 10rem;
+    }
+
+    .userflow-img {
+        width: 100%;
+        display: block;
+        margin:0;
+    }
+
+
+    .logo-wed {
+        width: 50%;
+        margin-left: 10rem;
+    }
+
+    .color {
+        width: 100%;
+        margin-left: 4rem;
+    }
+
+    .logo-small {
+        width: 50%;
+    }
+
+    .logo-big {
+        width: 80%;
+    }
+
+    #logo-colors {
+        display: inline-block;
+        width: 100%;
+    }
+   
+    #icons-typography {
+        display: block;
+        width: 100%;
+    }
+
+    .icons-img {
+        width: 80%;
+    }
+
+    .typo-img {
+        margin-left: 0;
+        width: 80%;
+    }
+
+    
+    .typography {
+        margin-left:0;
+        margin-right: 6rem;
+    }
+
+   
+    .present1-img {
+        margin-left: 2rem;
+    }
+
+    .present2-img {
+        margin-left: 2rem;
+    }
+
+    .prototype-div {
+        display:block;
+    }
+
+    .prototype-img {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .prototype-video {
+        margin-left: 0;
+        width: 100%;
+    }
+
 
 
 
