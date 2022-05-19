@@ -82,9 +82,7 @@ body {
 /*Header  Section Css */ 
 
 /*humberger Css */ 
-.hero {
-    background-color: #fff;
-}
+
 .li {
     list-style: none;
 }
@@ -318,10 +316,15 @@ body {
     background-color: #fff;
 }
 
+.hero {
+    background-color: #fff;
+}
+
+
 .home-content {
     height:100vh;
     width: 100%;
-    padding-top: 15rem;
+    padding-top: 10rem;
     text-align: center;
     align-items: center;
 }
@@ -382,8 +385,7 @@ body {
     font-size: 1rem;
     font-size: 0.5rem;
     letter-spacing: 0.5rem;
-    margin-top: 
-    8rem;
+    margin-top: 8rem;
     height: 50px;
     width: 30px;
     border: 2px solid #9C8194 ;
@@ -1235,6 +1237,10 @@ border-style: solid;
     float: left;
 }
 
+.img-background {
+    width: 40%;
+}
+
 .text-background {
     width: 40%;
     overflow: hidden;
@@ -1377,12 +1383,12 @@ margin-top: 2rem;
 }
 
 .competition2-image {
-    width: 60%;
+    width: 50%;
     padding: 2rem;
 }
 
 .competition1-image {
-    width: 80%;
+    width: 70%;
     padding: 2rem;
 }
 
@@ -1584,14 +1590,14 @@ margin-top: 2rem;
 .present1-img {
     width: 80%;
     justify-content: center;
-    margin-left: 10rem;
+    margin-left: 8rem;
     margin-top: 2rem;
 }
 
 .present2-img {
     width: 80%;
     justify-content: center;
-    margin-left: 10rem;
+    margin-left: 8rem;
 }
 
 .prototype-div {
@@ -1843,11 +1849,10 @@ margin-top: 2rem;
 
     .work-container::after {
     padding:1rem;
-    margin-bottom:1rem;
+    
     }
 
     .work-h1 {
-    
     font-family: 'montserrat', sans-serif;
     font-size: 1.25rem;
     font-weight: 700 bold;
@@ -1863,28 +1868,28 @@ margin-top: 2rem;
     .project-card .content {
             width: 100%;
             display: block;
-            margin: auto;
         }
 
-    .scrolling-wrapper-flexbox {
-        height: 100%;
-        display: block;
-    }
 
     .project-card {
         object-fit: cover;
-
     }
 
-    .project-btn-grp {
-        
-        width: 50%;
+    .work-container {
+        padding-top: 1rem;
+    }
+
+    .project-btn-grp { 
+        width:50%;
         position:absolute;
         top:50px;
         left:80px;
     }
     
-    
+    .btn2-container {
+        margin-top:0;
+        margin-bottom: 1rem;
+    }
 
     .footer {
     font-size:1.7;
@@ -1926,7 +1931,8 @@ margin-top: 2rem;
     }
 
     .home-content {
-    padding-top: 10rem;
+    padding-top: 5rem;
+    height:auto;
     }
 
     .home-content-text h1 {
@@ -2001,14 +2007,13 @@ margin-top: 2rem;
     font-size: 1.5rem;
     }
 
-    .work {
-    background-color: #F3EFE9;
+    .work  {
     padding: 0 0;
+    background-color: #F3EFE9;
     }
 
     .work-container::after {
         padding: 1rem;
-        margin-bottom: 1rem;
     }
 
     .work-h1 {
@@ -2019,6 +2024,13 @@ margin-top: 2rem;
 
     img {
     width: 100%;
+    height: 100%;
+    display: block;
+    }
+
+
+    .scrolling-wrapper-flexbox {
+        display: block;
     }
 
     *, *::before, *::after {
@@ -2573,6 +2585,7 @@ margin-top: 2rem;
 /*========== wedvenue page queries  ==========*/
 
 @media screen and (max-width: 480px) {
+    
 
 .topnav-item{
     display: none;
@@ -2592,14 +2605,18 @@ margin-top: 2rem;
     background-color: #fff;
     }
     
+  
   #nav-pc {
-  display: none;
-  }
+    display: none;
+    }
 
-  #nav-toggle {
-  display:block;
-  font-size: 1rem;
-  }
+    #nav-toggle {
+    display:block;
+    font-size: 1rem;
+    padding-top: 1rem;
+    }
+    
+    
   
   .logo-style {
   display:block;
@@ -2611,6 +2628,7 @@ margin-top: 2rem;
   .mainproject {
   width: 100%;
   display: block;
+  margin-top: 3rem;
   align-items: flex-start;
   }
 
@@ -2672,23 +2690,36 @@ margin-top: 2rem;
       display: block;
   }
   
-    .image-background {
+    .img-background{
     width: 100%;
-    display: block;
-    justify-content: center;
-    text-align: center;
-    margin-left: 1rem;
+    margin-left: 0%;
+     }
+
+     .img-background {
+        width: 50%;
+        margin-left: 0rem;
+    }
+        
+        
+    .text-background {
+        width: 100%;
+        display: block;
+        text-align: justify;
     }
 
     .text-background {
      width: 100%;
      display: block;
      justify-content: center;
-     margin-left:1.50rem;
-     margin-top: 0;
-     margin-right:0;
-     margin-bottom:0;
+
     }
+        
+    .text-background {
+        width: 100%;
+        display: block;
+        text-align: justify;
+    }
+    
 
     .interviews-image {
         width: 100%;
@@ -2773,6 +2804,7 @@ margin-top: 2rem;
 
     .competition1-image {
         width: 100%;
+        display: block;
     }
 
 
@@ -2941,26 +2973,6 @@ margin-top: 2rem;
 
 @media screen and (max-width:768px) {
 
-    html {
-    font-size: 100%;
-    }
-
-    body {
-    margin:0;
-    padding:0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    }
-
-    
-    .main {
-    width: 100%;
-    padding: 2rem 2rem;
-    top: 0;
-    transition: 1s;
-    } 
-
     #project-overview {
         display:block;
         width: 100%;
@@ -2975,19 +2987,26 @@ margin-top: 2rem;
         display:none
     }
 
+    .wrapper {
+        display: flex;
+    }
+
     .image-background {
-        width: 70%;
-        margin-left: 4rem;
-        display: block;
-        justify-content: center;
+        width: 50%;
+        display: flex;
+        }
+
+        .img-background {
+            width: 50%;
+            margin:2rem;
         }
         
         
     .text-background {
-        width: 80%;
+        width: 100%;
         display: block;
         text-align: justify;
-        margin-left:3rem;
+        margin-top: 1rem;
     }
 
     .image-research {
@@ -3008,7 +3027,6 @@ margin-top: 2rem;
     }
 
 
-
     .competition1 {
         width:100%;
         display: block;
@@ -3020,16 +3038,16 @@ margin-top: 2rem;
     }
 
     .competition1-image {
-        width: 40%;
+        width: 70%;
         justify-content: center;
-        margin-left: 10rem;
-
+        margin-left: 3rem;
     }
 
     .competition2-image {
-        width: 40%;
+        width: 60%;
         justify-content: center;
-        margin-left: 10rem;
+        margin-left: 4rem;
+       
     }
 
     .userflow-img {
@@ -3040,8 +3058,8 @@ margin-top: 2rem;
 
 
     .logo-wed {
-        width: 50%;
-        margin-left: 10rem;
+        width: 60%;
+        margin-left: 3rem;
     }
 
     .color {
@@ -3068,27 +3086,29 @@ margin-top: 2rem;
     }
 
     .icons-img {
-        width: 80%;
+        width: 100%;
     }
 
     .typo-img {
-        margin-left: 0;
-        width: 80%;
+        width: 100%;
     }
 
+    .flex-container {
+        display: block;
+    }
     
     .typography {
         margin-left:0;
-        margin-right: 6rem;
+        margin-right: 2rem;
     }
 
    
     .present1-img {
-        margin-left: 2rem;
+        margin-left: 1.25rem;
     }
 
     .present2-img {
-        margin-left: 2rem;
+        margin-left: 1.25rem;
     }
 
     .prototype-div {
@@ -3104,10 +3124,6 @@ margin-top: 2rem;
         margin-left: 0;
         width: 100%;
     }
-
-
-
-
 
 }
 
