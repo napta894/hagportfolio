@@ -1721,6 +1721,21 @@ margin-top: 2rem;
     }
 
 
+/*========== SOULFUL PAGE CASE STUDY  css ==========*/
+
+.main .soulful {
+
+    min-height: 100vh;
+    padding: 20px 10vw;
+    background-color: #fff;
+}
+
+.soulful-cover {
+   width: 90%;
+   height: 100vh;
+   padding: 3rem;
+   margin-left: 4rem;
+}
 
 
 /*========== MEDIA QUERIES ==========*/
