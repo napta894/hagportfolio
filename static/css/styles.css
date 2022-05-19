@@ -2761,6 +2761,14 @@ margin-top: 2rem;
         width: 100%;
     }
 
+    .findings-container {
+        display: block;
+        width: 100%;
+    }
+
+    .findings-text {
+        text-align: justify;
+    }
     .container {
         padding:1rem;
     }
@@ -2836,7 +2844,7 @@ margin-top: 2rem;
     }
 
     .logo-colors {
-        width: 100%;
+        width: 50%;
     }
 
     .colors-div {
@@ -2864,6 +2872,53 @@ margin-top: 2rem;
 
     .color {
         margin-left:0;
+    }
+
+    .mockups {
+        display:block;
+        width: 100%;
+    }
+
+    .mockups-text {
+        display:block;
+        text-align:justify;
+    }
+
+    .transform {
+        display: block;
+    }
+
+    .present1-img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .present2-img {
+        width: 100%;
+        margin-left: 0;
+
+    }
+
+    .prototypes {
+        display:block;
+    }
+
+    .prototypes-text {
+        text-align: justify;
+    }
+
+    .prototype-div {
+        display: block;
+    }
+
+    .prototype-img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .prototype-video {
+        width: 100%;
+        margin-left: 0;
     }
 
 
