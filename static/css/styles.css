@@ -799,7 +799,7 @@ justify-content: center;
 .portfolio .box-container{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto auto;
     gap:1.25rem;
     align-items: flex-start;
 }
@@ -1933,6 +1933,563 @@ margin-top: 2rem;
 
 
 }
+
+/*========== CAPSTONE CASE STUDY  css ==========*/
+.mainproject {
+    background-color: #ffff;
+    min-height: 100vh;
+    padding: 20px 10vw;
+}
+
+
+.cover {
+    width: 100%;
+    object-fit: cover;
+    height: 50%;
+}
+
+.project1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.projectoverview {
+   color:#183636;
+   font-size: 3rem;
+}
+
+.role {
+    float: left;
+    width: 25%;
+    height: 280px;
+}
+
+.duration{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 280px;
+    text-align: center;
+}
+
+.responsabilities {
+    float: right;
+    width: 25%;
+    height: 280px;
+    
+}
+
+.project-h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:#183636;
+}
+
+.li .responsabilities {
+    list-style: none;
+}
+
+#background{
+    padding: 2rem 2rem;
+}
+.projectbackground {
+    color: #183636;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: inline-block
+}
+
+.image-background {
+    width: 50%;
+    float: left;
+}
+
+.img-background {
+    width: 40%;
+}
+
+.text-background {
+    width: 40%;
+    overflow: hidden;
+    margin-top: 5rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.research {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.research-h1 {
+    font-size: 3rem;
+    color:#183636;
+}
+
+.project-research {
+    color: #637C7B;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.text-research {
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.interviews-image {
+    text-align: center;
+    padding: 2rem 2rem;
+}
+
+.image-research {
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.points {
+    display:flex;
+    margin-top: 2rem;
+    flex-direction: row;
+}
+
+.pain {
+flex: 1 1 0px;
+font-family: 'helvetica', sans-serif;
+font-size: 1rem;
+font-weight: 400;
+margin-top:1rem;
+text-align: center;
+align-items: center;
+justify-items: center;
+}
+
+.persona-container {
+    display: inline-block;
+}
+
+.persona1 {
+    flex: 1 0 0;
+    float: left;
+    width: 50%;
+}
+.persona2 {
+    float: right;
+    width: 50%;
+}
+.personas {
+margin-top: 2rem;
+}
+
+.persona-h3 {
+    color: #637C7B;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.project-persona {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.jessica-img {
+    width: 50%;
+    padding: 2rem;
+}
+
+.adam-img {
+    width: 50%;
+    padding: 2rem;    
+}
+
+.persona-quote {
+    margin-top: 2rem; }
+
+.problem {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.problem-h2 {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.competitive {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
+
+.competition1 {
+    width: 50%;
+}
+
+.competition2 {
+    width: 50%;
+}
+
+.competitive-h2 {
+    font-size: 2rem;
+    color:#637C7B;
+    margin-bottom: 2rem;
+}
+
+.competition2-image {
+    width: 50%;
+    padding: 2rem;
+}
+
+.competition1-image {
+    width: 70%;
+    padding: 2rem;
+}
+
+.competition-info {
+    line-height: 1.25rem;
+    justify-content: center;
+    text-align: justify;
+}
+
+.research-findings {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.findings {
+    margin-top: 2rem;
+}
+.findings-h3 {
+    color: #637C7B;
+    line-height: 1.25rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.finding-text {
+    text-align: justify;
+    text-align: justify;
+}
+
+.ideation {
+    margin-top: 2rem;
+    margin-bottom:2rem;
+}
+
+.ideation-h1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color:#183636;
+    font-size: 3rem;
+}
+
+.user-h3 {
+    color: #637C7B;
+    margin-bottom: 1rem;
+}
+
+.userflow-img {
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15rem;
+}
+
+.wireframing {
+    margin-top: 2rem;
+}
+
+.paper-img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.digital-img {
+    width: 100%;
+    padding:2rem;
+    margin-top: 2rem;
+}
+
+.paper-h3 {
+    margin-left:1rem;
+    text-align: center;
+}
+
+.digital-h3 {
+    margin-left:1rem;
+    text-align: center;
+}
+
+.affinity-digital {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.affinity-text {
+    margin-top:2rem;
+}
+
+.affinity-h3 {
+    margin-top:2rem;
+}
+
+.usability-text {
+    line-height: 1.25rem;
+}
+
+.insights-h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.round1 {
+    margin-top: 2rem;
+    margin-bottom:2rem;
+}
+
+.round-h3 {
+    margin-top: 1rem;
+    margin-bottom:1rem
+}
+
+.find {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.find-text {
+    text-align: justify;
+    line-height: 1.25rem;
+}
+
+.style {
+    justify-content: center;
+}
+
+.logo-h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.logo-big {
+    width: 100%;
+}
+
+.logo-small {
+    width: 100%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.logo-div{
+    padding:2rem;
+    justify-content: center;
+}
+
+
+.color {
+    float: right;
+    justify-content: center;
+    margin-left: 20rem;
+    padding: 2rem;
+}
+
+.color-h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.colors-img {
+    width: 100%;
+}
+
+.icons {
+    justify-content: center;
+    padding: 2rem;
+}
+
+.icons-h3 {
+    margin-bottom: 2rem;
+}
+
+.icons-img {
+    padding: 2rem;
+    width: 100%;
+}
+
+.typography {
+    justify-content: center;
+    padding: 2rem;
+    float:right;
+    margin-left: 5rem;
+}
+.typography-h3 {
+    margin-bottom: 2rem;
+}
+
+.typo-img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.tranform {
+    margin-top: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+.present1-img {
+    width: 80%;
+    justify-content: center;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
+
+.present2-img {
+    width: 80%;
+    justify-content: center;
+    margin-left: 8rem;
+}
+
+.prototype-div {
+    display: inline-block;
+    justify-content: center;
+}
+
+.prototype-img {
+    width: 60%;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    margin-left: 15rem;
+}
+
+.prototype-video {
+    width: 60%;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15rem;
+}
+
+.link-proto {
+    color: #637C7B;
+    text-decoration: solid;
+}
+
+.takeaways {
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+}
+
+.impact {
+    float: left;
+    width: 50%;
+}
+
+.impact-text {
+   text-align: justify;
+   line-height: 1.25rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+}
+.impact-h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.learned-text {
+    text-align: justify;
+    line-height: 1.25rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+
+ .learned-h3 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.thanks {
+    text-align: center;
+}
+
+
+  .topnav-item{
+      flex-direction: column;
+      display: flex;
+      position: fixed;
+      float: left;
+  }
+
+  .reference {
+      margin-left:0.5rem;
+      padding:0.5rem;
+
+  }
+
+ 
+  .reference li {
+    list-style: none;
+    text-decoration: none;
+   }
+  
+   .topnav-item li {
+       font-size: 1rem;
+       color:#000;
+       text-decoration: none;
+   }
+
+   .topnav-item a:hover {
+       color: #637C7B;
+       cursor: pointer;
+   }
+
+   .topnav-item a {
+       color: #000;
+       text-decoration: none;
+       font-weight: 600;
+       cursor: pointer;
+   }
+
+   .findings-text {
+    text-align: justify;
+   }
+
+   .usability-text {
+    text-align: justify;
+    width: 100%;
+    }
+
+    .affinity-text {
+    display: block;
+    text-align: justify;
+    }
+
+    .design-text {
+    text-align: justify;
+    }
+
 
 @media screen and (max-width:1024px) {
  
