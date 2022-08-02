@@ -1936,11 +1936,10 @@ margin-top: 2rem;
 
 /*========== CAPSTONE CASE STUDY  css ==========*/
 .mainproject {
-    background-color: #ffff;
+    background-color: #fff;
     min-height: 100vh;
     padding: 20px 10vw;
 }
-
 
 .cover {
     width: 100%;
@@ -1962,13 +1961,13 @@ margin-top: 2rem;
 .role {
     float: left;
     width: 25%;
-    height: 280px;
+    height: 80px;
 }
 
 .duration{
     float: left;
     display: block;
-    width: 50%;
+    width: 20%;
     height: 280px;
     text-align: center;
 }
@@ -1976,8 +1975,7 @@ margin-top: 2rem;
 .responsabilities {
     float: right;
     width: 25%;
-    height: 280px;
-    
+    height: 280px;  
 }
 
 .project-h3 {
