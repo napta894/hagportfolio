@@ -1146,13 +1146,18 @@ border-style: solid;
     overflow: hidden;
     margin-top: 5rem;
     line-height: 2rem;
-    text-align: justify;
 }
+
+.text-challenge {
+        margin-top: 5rem;
+        line-height: 2rem;
+    }
 
 .research {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 
 .research-h1 {
     font-size: 3rem;
@@ -1621,23 +1626,6 @@ margin-top: 2rem;
     }
 
 
-/*========== SOULFUL PAGE CASE STUDY  css ==========*/
-
-.main .soulful {
-
-    min-height: 100vh;
-    padding: 20px 10vw;
-    background-color: #fff;
-}
-
-.soulful-cover {
-   width: 90%;
-   height: 100vh;
-   padding: 3rem;
-   margin-left: 4rem;
-}
-
-
 /*========== MEDIA QUERIES ==========*/
 
 /*========== Index media queries  ==========*/
@@ -1980,6 +1968,17 @@ margin-top: 2rem;
    font-size: 3rem;
 }
 
+.design-process-div {
+    display: block;
+    width: 100%;
+    padding: 2rem;
+}
+
+.project-div {
+    background-color: #848879;
+    padding-top: 2rem;
+    height: 150px;
+}
 .role {
     float: left;
     width: 25%;
@@ -2012,8 +2011,25 @@ margin-top: 2rem;
 .project-h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color:#183636;
+    color:#ffff;
 }
+
+.text-project {
+    color:#fff;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding:2rem 2rem;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 .problem {
     margin-top: 3rem;
@@ -2036,7 +2052,7 @@ margin-top: 2rem;
     font-size: 3rem;
 }
 
-.solution-list {
+.solution-list li {
     text-decoration: none;
 }
 
