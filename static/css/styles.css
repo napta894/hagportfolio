@@ -266,7 +266,7 @@ body {
 .btn13 {
     width: 120px;
     height: 40px;
-    color: #F3EFE9;
+    color: #ffff;
     align-items: center;
     text-align: center;
     background-color:#9C8194;
@@ -277,11 +277,11 @@ body {
     }
 
         
-    .btn7 a {
+    .btn13 a {
     text-decoration: none;
     }
         
-    .btn7:hover {
+    .btn13:hover {
     background-color: #776571;
     color: #F3EFE9 ;
     cursor: pointer;
@@ -477,7 +477,7 @@ body {
     background-color:#9C8194;
     font-size: 1rem;
     font-family:'monteserrat', sans-serif;
-    font-weight: 700;
+    font-weight: lighter;
     border: none;
     }
 
@@ -513,7 +513,6 @@ body {
 .icons a:hover {
     color: #232323;
 }
-
 
 
 /*Work section Css */
@@ -591,11 +590,6 @@ body {
     object-fit:cover;
 }
 
-#soulful {
-    height: 195px;
-}
-
-
 .project-card .content {
     position:absolute;
     top:0;
@@ -604,7 +598,6 @@ body {
     height:100%;
     display: flex;
     justify-content: center;
-    background-color: #776571;
     align-items: center;
     transition: .5s;
     -webkit-transition: .5s;
@@ -654,12 +647,11 @@ body {
 .project-btn-grp {
 display: grid;
 grid-template-columns: repeat(1, 2fr);
-margin-top: 2rem;
-justify-content: center;
-position: absolute;
+margin-top: 15rem;
+float:bottom;
 width: 210px;
 height: 63px;
-text-align: center;
+text-align: left;
 }
 
 .project-btn {
@@ -734,7 +726,7 @@ text-align: center;
 }
 
 .image-section img{
-    width: 80%;
+    width: 50%;
     justify-content: center;
     display: block;
 }
@@ -2030,9 +2022,23 @@ margin-top: 2rem;
     justify-content: center;
 }
 
+.challenge {
+    margin-bottom:2rem;
+    font-size: 2rem;
+}
+
 .problem-h3 {
     margin-bottom: 1rem;
     font-size: 3rem;
+}
+
+.solution-list {
+    text-decoration: none;
+}
+
+.design-process {
+    margin-bottom:2rem;
+    font-size: 2rem;
 }
 
 .li .responsabilities {
@@ -2073,8 +2079,10 @@ margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.research-h1 {
-    font-size: 3rem;
+.empathize-h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     color:#183636;
 }
 
