@@ -2019,12 +2019,16 @@ margin-top: 2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     text-align: left;
-    justify-content: center;
 }
 
 .challenge {
     margin-bottom:2rem;
     font-size: 2rem;
+}
+
+.challenge-text {
+    line-height: 1.25;
+    text-align: left;
 }
 
 .problem-h3 {
