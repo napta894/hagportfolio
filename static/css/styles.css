@@ -2465,6 +2465,12 @@ justify-items: center;
    left: 868px;
 }
 
+.stories-img {
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+
 
 .hmw-div {
         background-color: #848879;
