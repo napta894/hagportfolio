@@ -2111,7 +2111,6 @@ margin-top: 2rem;
     align-content: center;
 }
 
-
 .research {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -2128,13 +2127,13 @@ margin-top: 2rem;
         background-color: #848879;
         padding-top: 2rem;
         height: 150px;
-        padding-bottom: 2rem;
+        padding-bottom: 5rem;
     }
 
 .discovery-h1 {
     line-height: 38px;
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
     margin-left: 2rem;
     color: #ffff;
 }
@@ -2323,6 +2322,9 @@ padding-top: 1rem;
         padding-bottom: 3rem;
     }
 
+
+
+
 .points {
     display:flex;
     margin-top: 2rem;
@@ -2340,7 +2342,6 @@ align-items: center;
 justify-items: center;
 }
 
-
 .find1{
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -2348,7 +2349,7 @@ justify-items: center;
 }
 
 .find2{
-   
+    padding-top: 2rem;
     padding-bottom: 1rem;
     font-size: 1.5rem;
 }
@@ -2358,6 +2359,7 @@ justify-items: center;
     padding-bottom: 1rem;
     font-size: 1.5rem;
 }
+
 
 .persona-container {
     display: inline-block;
