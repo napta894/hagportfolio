@@ -274,6 +274,7 @@ body {
     font-family:'monteserrat', sans-serif;
     border: none;
     padding: 1rem 1.5rem;
+    font-weight: lighter;
     }
 
         
@@ -1149,7 +1150,7 @@ border-style: solid;
 }
 
 .text-challenge {
-        margin-top: 5rem;
+        margin-top: 1rem;
         line-height: 2rem;
     }
 
@@ -2033,12 +2034,12 @@ margin-top: 2rem;
 
 .problem {
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     text-align: left;
 }
 
 .challenge {
-    margin-bottom:2rem;
+    margin-bottom:1rem;
     font-size: 2rem;
 }
 
@@ -2059,6 +2060,11 @@ margin-top: 2rem;
 .design-process {
     margin-bottom:2rem;
     font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.process-text {
+    margin-bottom: 2rem;
 }
 
 .li .responsabilities {
@@ -2078,8 +2084,8 @@ margin-top: 2rem;
 }
 
 .image-background {
-    width: 50%;
-    float: left;
+    width: 40%;
+    float: right;
 }
 
 .img-background {
@@ -2087,29 +2093,58 @@ margin-top: 2rem;
 }
 
 .text-background {
-    width: 40%;
-    overflow: hidden;
-    margin-top: 5rem;
-    line-height: 2rem;
-    text-align: justify;
+    width: 48%;
+    line-height: 1.5rem;
+    text-align: left;
+    float: left;
+    padding-left: 2rem;
 }
+
+.diamond-class {
+    width: 100%;
+    align-content: center;
+    margin-right: 2rem;
+}
+
+.diamond-div {
+    display:flex;
+    align-content: center;
+}
+
 
 .research {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-.empathize-h1 {
-    font-size: 2rem;
+.define-h1 {
+    font-size: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     color:#183636;
 }
 
+.discovery-div {
+        background-color: #848879;
+        padding-top: 2rem;
+        height: 150px;
+        padding-bottom: 2rem;
+    }
+
+.discovery-h1 {
+    line-height: 38px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    color: #ffff;
+}
+
+
 .project-research {
-    color: #637C7B;
+    color: #000;
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: 4rem;
+    font-size: 1.5rem;
 }
 
 .text-research {
@@ -2117,9 +2152,68 @@ margin-top: 2rem;
     line-height: 1.5rem;
 }
 
-.interviews-image {
-    text-align: center;
-    padding: 2rem 2rem;
+.fact-1 {
+    display: flex;
+    float: left;
+}
+
+.fact-2 {
+    display: flex;
+    float: left;
+}
+
+.fact-3 {
+    display: flex;
+    float: left;
+}
+
+.fact-4{
+    padding-top: 2rem;
+    display: flex;
+    float: left;
+}
+
+.fact1-text {
+    padding: 2rem;
+    text-align: left;
+    line-height: 29.3px;
+}
+
+.fact2-text {
+    padding: 2rem;
+    text-align: left;
+    line-height: 29.3px;
+}
+
+.fact3-text {
+    padding: 2rem;
+    text-align: left;
+    line-height: 29.3px;
+}
+
+.fact4-text {
+    padding: 2rem;
+    text-align: left;
+    line-height: 29.3px;
+}
+
+
+.primary-h2 {
+    padding-left: 2rem;
+}
+
+.primary-text {
+    line-height: 29.3px; 
+    align-content: left;
+    padding-top:3rem;
+}
+
+.interviews-img {
+    text-align: left;
+    width: 100%;
+    padding-right: 3rem;
+    padding-left: 5rem;
+    padding-bottom: 2rem;
 }
 
 .image-research {
@@ -2127,6 +2221,107 @@ margin-top: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.column {
+    padding: 2rem;
+    column-count: auto;
+}
+
+.hypothesis {
+    background-color: #848879;
+    height: 250px;
+    padding:3rem;
+}
+
+.hypothesis-div {
+    display: flex;
+    align-content: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.hypothesis-h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.hyphotesis-text {
+    color: #fff;
+    text-align: center;
+    line-height: 29.3px;
+}
+
+.interview-text {
+    text-align: left;
+    line-height: 29.3px;
+    padding-bottom: 2rem;
+}
+
+.interviews {
+    padding: 2rem;
+    display: block;
+}
+
+.interview1 {
+    padding:2rem;
+    display: inline-flex;
+    text-align: left;
+}
+
+.interview2 {
+    padding:2rem;
+    display: flex;
+    align-content: right;
+    position: relative;
+    float: right;
+}
+
+.interview3 {
+    padding:2rem;
+    display: inline-flex;
+}
+
+.interview1-text {
+    padding-left: 2rem;
+    line-height: 29px;
+    padding-top: 2rem;
+}
+
+.interview2-text {
+    padding-left: 2rem;
+    line-height: 29px;
+    padding-top: 4rem;
+}
+
+.interview3-text {
+    padding-left: 2rem;
+    line-height: 29px;
+    padding-top: 2rem;
+}
+
+.find1-text {
+padding-left: 1rem;
+padding-top: 1rem;
+}
+
+.find2-text {
+    padding-left: 1rem;
+    padding-top: 3rem;
+}
+
+.find3-text {
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+
+.define-div {
+        background-color: #848879;
+        padding-top: 3rem;
+        height: 150px;
+        padding-bottom: 3rem;
+    }
 
 .points {
     display:flex;
@@ -2136,13 +2331,32 @@ margin-top: 2rem;
 
 .pain {
 flex: 1 1 0px;
-font-family: 'helvetica', sans-serif;
 font-size: 1rem;
+padding: 2rem;
 font-weight: 400;
 margin-top:1rem;
 text-align: center;
 align-items: center;
 justify-items: center;
+}
+
+
+.find1{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.find2{
+   
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.find3{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
 .persona-container {
