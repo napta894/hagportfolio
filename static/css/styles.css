@@ -2646,12 +2646,20 @@ justify-items: center;
 }
 
 .wireframing {
-    margin-top: 1rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .sketch1-img {
-    width: 100%;
-    padding: 2rem;
+    display: flex;
+    width: 80%;
+    padding-left:25rem;
+}
+
+.midfedility-img {
+    display: flex;
+    width:80%;
+    padding-left: 25rem;
 }
 
 .digital-img {
