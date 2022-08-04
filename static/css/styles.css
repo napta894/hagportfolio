@@ -2041,11 +2041,13 @@ margin-top: 2rem;
 .challenge {
     margin-bottom:1rem;
     font-size: 2rem;
+    padding-left: 3rem;
 }
 
-.challenge-text {
-    line-height: 1.25;
+.text-challenge {
+    line-height: 29px;
     text-align: left;
+    padding-left: 3rem;
 }
 
 .problem-h3 {
@@ -2057,14 +2059,20 @@ margin-top: 2rem;
     text-decoration: none;
 }
 
+.design-process-div {
+    padding-left: 2rem;
+}
+
 .design-process {
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
     font-size: 2rem;
     margin-top: 1rem;
+    padding-left: 3rem;
 }
 
 .process-text {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
 }
 
 .li .responsabilities {
@@ -2080,7 +2088,8 @@ margin-top: 2rem;
 
 .wrapper {
     overflow: hidden;
-    display: inline-block
+    display: inline-block;
+    padding:3rem;
 }
 
 .image-background {
@@ -2126,8 +2135,12 @@ margin-top: 2rem;
     line-height: 38px;
     padding-top: 3.5rem;
     padding-bottom: 3rem;
-    padding:3rem;
+    padding-left:3rem;
     color: #ffff;
+}
+
+.column {
+    padding-left: 3rem;
 }
 
 
