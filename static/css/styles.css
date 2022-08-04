@@ -1070,6 +1070,7 @@ border-style: solid;
     background-color: #fff;
     min-height: 100vh;
     padding: 20px 10vw;
+    width: 100%;
 }
 
 
@@ -1946,10 +1947,10 @@ margin-top: 2rem;
 }
 
 /*========== CAPSTONE CASE STUDY  css ==========*/
-.mainproject {
+.capstoneproject {
     background-color: #fff;
     min-height: 100vh;
-    padding: 20px 10vw;
+    padding: 0px;
 }
 
 .cover {
@@ -1965,7 +1966,6 @@ margin-top: 2rem;
 
 
 .projectoverview {
-   color:#183636;
    font-size: 3rem;
 }
 
@@ -2115,19 +2115,18 @@ margin-top: 2rem;
 }
 
 
-.define-h1 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color:#183636;
+.hypothesis-text {
+    color: #fff;
+    margin-bottom: 2rem;
 }
-
-
-
 .discovery-h1 {
+    background-color: #848879;
+    height: 150px;
+    width: 100%;
     line-height: 38px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin-left: 2rem;
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+    padding:3rem;
     color: #ffff;
 }
 
@@ -2137,6 +2136,7 @@ margin-top: 2rem;
     margin-bottom: 1rem;
     margin-top: 4rem;
     font-size: 1.5rem;
+    padding-left: 3rem;
 }
 
 .text-research {
@@ -2222,12 +2222,12 @@ margin-top: 2rem;
 .hypothesis {
     background-color: #848879;
     height: 250px;
-    padding:3rem;
+    padding-bottom: 3rem;
 }
 
 .hypothesis-div {
     display: flex;
-    align-content: center;
+    text-align: center;
     padding-top: 1.5rem;
     padding-bottom: 1rem;
     padding-left: 5rem;
@@ -2241,8 +2241,6 @@ margin-top: 2rem;
 
 .hyphotesis-text {
     color: #fff;
-    text-align: center;
-    line-height: 29.3px;
 }
 
 .interview-text {
@@ -2354,7 +2352,33 @@ justify-items: center;
 }
 
 .hmw-div {
-    background-color: #637C7B;
+        background-color: #848879;
+        padding-top: 2rem;
+        height: 150px;
+        padding-bottom: 3rem;
+    }
+
+.hmw-text {
+    text-align: center;
+    color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+
+.img-persona {
+    display: block;
+    width: 100%;
+}
+
+.img-experience 
+{
+    display: block;
+    width: 100%;
+}
+
+.userstories-text {
+    text-align: center;
 }
 
 .persona-container {
