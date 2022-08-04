@@ -1411,7 +1411,7 @@ margin-top: 2rem;
 }
 
 .find-text {
-    text-align: justify;
+    text-align: left;
     line-height: 1.25rem;
 }
 
@@ -2100,40 +2100,33 @@ margin-top: 2rem;
     padding-left: 2rem;
 }
 
-.diamond-class {
-    width: 100%;
-    align-content: center;
+.diamond-img {
+    width: 80%;
     margin-right: 2rem;
+    padding-top: 4rem;
+    align-content: center;
+    padding-left: 10rem;
 }
 
 .diamond-div {
-    display:flex;
+    display: block;
+    width: 100%;
     align-content: center;
 }
 
-.research {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
 
 .define-h1 {
     font-size: 1.5rem;
-    margin-top: 1rem;
     margin-bottom: 1rem;
     color:#183636;
 }
 
-.discovery-div {
-        background-color: #848879;
-        padding-top: 2rem;
-        height: 150px;
-        padding-bottom: 5rem;
-    }
+
 
 .discovery-h1 {
     line-height: 38px;
     padding-top: 2rem;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
     margin-left: 2rem;
     color: #ffff;
 }
@@ -2259,18 +2252,18 @@ margin-top: 2rem;
 }
 
 .interviews {
-    padding: 2rem;
+    padding: 1rem;
     display: block;
 }
 
 .interview1 {
-    padding:2rem;
+    padding:1rem;
     display: inline-flex;
     text-align: left;
 }
 
 .interview2 {
-    padding:2rem;
+    padding:1rem;
     display: flex;
     align-content: right;
     position: relative;
@@ -2278,7 +2271,7 @@ margin-top: 2rem;
 }
 
 .interview3 {
-    padding:2rem;
+    padding:1rem;
     display: inline-flex;
 }
 
@@ -2317,26 +2310,22 @@ padding-top: 1rem;
 
 .define-div {
         background-color: #848879;
-        padding-top: 3rem;
+        padding-top: 2rem;
         height: 150px;
         padding-bottom: 3rem;
     }
 
-
-
-
 .points {
     display:flex;
-    margin-top: 2rem;
+    margin-top: 1rem;
     flex-direction: row;
 }
 
 .pain {
 flex: 1 1 0px;
 font-size: 1rem;
-padding: 2rem;
+padding: 1rem;
 font-weight: 400;
-margin-top:1rem;
 text-align: center;
 align-items: center;
 justify-items: center;
@@ -2360,6 +2349,13 @@ justify-items: center;
     font-size: 1.5rem;
 }
 
+.find1-text {
+    padding: 2rem;
+}
+
+.hmw-div {
+    background-color: #637C7B;
+}
 
 .persona-container {
     display: inline-block;
@@ -2558,7 +2554,7 @@ margin-top: 2rem;
 }
 
 .find-text {
-    text-align: justify;
+    text-align: left;
     line-height: 1.25rem;
 }
 
@@ -3471,7 +3467,6 @@ margin-top: 2rem;
     .painpoints .points {
         display:block;
         width: 100%;
-        padding:1rem;
     }
 
     .pain {
