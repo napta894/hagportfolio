@@ -2471,6 +2471,21 @@ justify-items: center;
     width: 100%;
 }
 
+.userstories-h2 {
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.userstories-text
+
+{
+    line-height: 29.3px; 
+    align-content: left;
+    padding-left:3rem;
+    padding-top: 2rem;
+}
+
 
 .hmw-div {
         background-color: #848879;
@@ -2513,14 +2528,10 @@ justify-items: center;
 
 .userstories-h2 {
     padding-left: 4rem;
-    padding-top: 3rem;
+    padding-top: 4rem;
 }
 
-.userstories-text {
-    text-align: left;
-    padding-left: 2rem;
-    line-height: 29px;
-}
+
 
 .persona-container {
     display: inline-block;
