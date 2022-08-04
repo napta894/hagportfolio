@@ -1951,6 +1951,7 @@ margin-top: 2rem;
     background-color: #fff;
     min-height: 100vh;
     padding: 0px;
+    width: 100%;
 }
 
 .cover {
@@ -2022,7 +2023,7 @@ margin-top: 2rem;
 .column {
     float: left;
     width: 50%;
-    padding:2rem 2rem;
+    padding:3rem 3rem;
   }
   
   /* Clear floats after the columns */
@@ -2048,6 +2049,7 @@ margin-top: 2rem;
     line-height: 29px;
     text-align: left;
     padding-left: 3rem;
+    padding-right: 4rem;
 }
 
 .problem-h3 {
@@ -2082,14 +2084,13 @@ margin-top: 2rem;
 #background{
     padding: 2rem 2rem;
 }
-.projectbackground {
-    color: #183636;
-}
 
 .wrapper {
     overflow: hidden;
     display: inline-block;
     padding:3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .image-background {
@@ -2127,6 +2128,10 @@ margin-top: 2rem;
 .hypothesis-text {
     color: #fff;
     margin-bottom: 2rem;
+    padding: center;
+    padding-left: 2rem;
+    text-align: center;
+    line-height: 29px;
 }
 .discovery-h1 {
     background-color: #848879;
@@ -2135,7 +2140,7 @@ margin-top: 2rem;
     line-height: 38px;
     padding-top: 3.5rem;
     padding-bottom: 3rem;
-    padding-left:3rem;
+    padding-left:4rem;
     color: #ffff;
 }
 
@@ -2149,7 +2154,7 @@ margin-top: 2rem;
     margin-bottom: 1rem;
     margin-top: 4rem;
     font-size: 1.5rem;
-    padding-left: 3rem;
+    padding-left: 4rem;
 }
 
 .text-research {
@@ -2160,6 +2165,24 @@ margin-top: 2rem;
 .fact-1 {
     display: flex;
     float: left;
+}
+
+.fact1-img {
+    display: inline-block;
+    width: 50%;
+    align-content: center;
+}
+
+.fact2-img {
+    display: inline-block;
+    width: 50%;
+    align-content: center;
+}
+
+.fact3-img {
+    display: inline-block;
+    width: 50%;
+    align-content: center;
 }
 
 .fact-2 {
@@ -2180,37 +2203,59 @@ margin-top: 2rem;
 
 .fact1-text {
     padding: 2rem;
-    text-align: left;
-    line-height: 29.3px;
+    text-align: center;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fact2-text {
     padding: 2rem;
-    text-align: left;
-    line-height: 29.3px;
+    text-align: center;
+    line-height: 29px;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 .fact3-text {
     padding: 2rem;
-    text-align: left;
-    line-height: 29.3px;
+    text-align: center;
+    line-height: 29px;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fact4-text {
     padding: 2rem;
     text-align: left;
-    line-height: 29.3px;
+    line-height: 29px;
 }
 
 
+.primary-research {
+    padding-top: 0;
+}
+
 .primary-h2 {
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 .primary-text {
     line-height: 29.3px; 
     align-content: left;
-    padding-top:3rem;
+    padding-left:2rem;
+    padding-top: 6rem;
+}
+
+.interviews {
+    padding: 3rem;
+    display: inline-block;
 }
 
 .interviews-img {
@@ -2227,6 +2272,22 @@ margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
+.interview-div .points {
+    display:block;
+    width: 100%;
+    padding-left:4rem;
+    padding-right: 4rem;
+}
+
+.points {
+    padding:2rem;
+}
+
+.pain {
+    display: inline;
+    width: 100%;
+}
+
 .column {
     padding: 2rem;
     column-count: auto;
@@ -2235,7 +2296,7 @@ margin-top: 2rem;
 .hypothesis {
     background-color: #848879;
     height: 250px;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 .hypothesis-div {
@@ -2249,7 +2310,8 @@ margin-top: 2rem;
 
 .hypothesis-h2 {
     text-align: center;
-    color: #fff;
+    color: #ffff;
+    padding-top: 4rem;
 }
 
 .hyphotesis-text {
@@ -2263,8 +2325,8 @@ margin-top: 2rem;
 }
 
 .interviews {
-    padding: 1rem;
-    display: block;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .interview1 {
@@ -2274,16 +2336,16 @@ margin-top: 2rem;
 }
 
 .interview2 {
-    padding:1rem;
-    display: flex;
-    align-content: right;
-    position: relative;
+    padding:2rem;
     float: right;
+    display: inline-flex;
 }
 
 .interview3 {
-    padding:1rem;
+    padding:2rem;
+    float: left;
     display: inline-flex;
+    padding-top: 10rem;
 }
 
 .interview1-text {
@@ -2305,19 +2367,28 @@ margin-top: 2rem;
 }
 
 .find1-text {
-padding-left: 1rem;
-padding-top: 1rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
 }
+
 
 .find2-text {
     padding-left: 1rem;
-    padding-top: 3rem;
+    padding-top: 2rem;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .find3-text {
     padding-left: 1rem;
-    padding-top: 1rem;
+    padding-right: 3rem;
+    line-height: 29px;
+    font-family: 'Montserrat', sans-serif;
 }
+
+
 
 .define-div {
         background-color: #848879;
@@ -2330,6 +2401,9 @@ padding-top: 1rem;
     display:flex;
     margin-top: 1rem;
     flex-direction: row;
+    padding:3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .pain {
@@ -2346,41 +2420,82 @@ justify-items: center;
     padding-top: 2rem;
     padding-bottom: 1rem;
     font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .find2{
     padding-top: 2rem;
     padding-bottom: 1rem;
     font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .find3{
     padding-top: 2rem;
     padding-bottom: 1rem;
     font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .find1-text {
     padding: 2rem;
 }
 
+.theme-text {
+    line-height: 29.3px; 
+    align-content: left;
+    padding-left:3rem;
+    padding-top: 2rem;
+}
+
+.theme-h2 {
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.theme-h3 {
+    padding-left: 3rem;
+}
+
+.img-labels {
+    display: flex;
+    height: 400px;
+    width: 644px;
+   left: 868px;
+}
+
+
 .hmw-div {
         background-color: #848879;
         padding-top: 2rem;
-        height: 150px;
+        height: 250px;
         padding-bottom: 3rem;
+        align-content: center;
     }
+
+.hmw-h2 {
+       text-align: center;
+       padding-top: 2rem;
+       padding-bottom:1rem;
+       color: #fff;
+}
 
 .hmw-text {
     text-align: center;
     color: #fff;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    line-height: 29px;
+
 }
 
 .img-persona {
-    display: block;
+    display: flex;
+    padding-left:10rem;
+    padding-right:10rem;
     width: 100%;
 }
 
@@ -2390,8 +2505,15 @@ justify-items: center;
     width: 100%;
 }
 
+.userstories-h2 {
+    padding-left: 4rem;
+    padding-top: 3rem;
+}
+
 .userstories-text {
-    text-align: center;
+    text-align: left;
+    padding-left: 2rem;
+    line-height: 29px;
 }
 
 .persona-container {
@@ -3504,6 +3626,12 @@ margin-top: 2rem;
     .painpoints .points {
         display:block;
         width: 100%;
+        padding-left:4rem;
+        padding-right: 4rem;
+    }
+
+    .points {
+        padding:2rem;
     }
 
     .pain {
