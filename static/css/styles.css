@@ -2571,36 +2571,6 @@ justify-items: center;
     margin-right: 20px;
 } 
 
-.competition1 {
-    width: 50%;
-}
-
-.competition2 {
-    width: 50%;
-}
-
-.competitive-h2 {
-    font-size: 2rem;
-    color:#637C7B;
-    margin-bottom: 2rem;
-}
-
-.competition2-image {
-    width: 50%;
-    padding: 2rem;
-}
-
-.competition1-image {
-    width: 70%;
-    padding: 2rem;
-}
-
-.competition-info {
-    line-height: 1.25rem;
-    justify-content: center;
-    text-align: justify;
-}
-
 .research-findings {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -2662,38 +2632,20 @@ justify-items: center;
     padding-left: 25rem;
 }
 
-.digital-img {
-    width: 100%;
-    padding:2rem;
-    margin-top: 2rem;
-}
-
-.paper-h3 {
-    margin-left:1rem;
-    text-align: center;
-}
-
-.digital-h3 {
-    margin-left:1rem;
-    text-align: center;
-}
-
-.affinity-digital {
-    width: 100%;
-    margin-top: 2rem;
-}
-
-.affinity-text {
-    margin-top:2rem;
-}
-
-.affinity-h3 {
-    margin-top:2rem;
-}
 
 .usability-text {
-    line-height: 1.25rem;
+    line-height: 29.3px; 
+    align-content: left;
+    padding-left:2rem;
 }
+
+.usability-h2 {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
+
 
 .insights-h3 {
     margin-top: 2rem;
