@@ -1963,6 +1963,18 @@ display: block;
     object-fit: cover;
     height: 50%;
 }
+.btn8 {
+height: 42.857139587402344px;
+width: 172.57142639160156px;
+left: 145px;
+top: 800px;
+border-radius: 22.857141494750977px;
+padding: 11px, 23px, 11px, 23px;
+background-color: #fff;
+font-family: 'Montserrat', sans-serif;
+border: 2.28571px solid #CC684F;
+color:#CC684F;
+}
 
 .project1 {
     margin-top: 2rem;
@@ -2173,19 +2185,19 @@ display: block;
 
 .fact1-img {
     display: inline-block;
-    width: 50%;
+    width: 40%;
     align-content: center;
 }
 
 .fact2-img {
     display: inline-block;
-    width: 50%;
+    width: 40%;
     align-content: center;
 }
 
 .fact3-img {
     display: inline-block;
-    width: 50%;
+    width: 40%;
     align-content: center;
 }
 
@@ -2481,7 +2493,7 @@ justify-items: center;
 
 
 .userstories-h2 {
-    padding-left: 3rem;
+    padding-left: 4rem;
     padding-bottom: 1rem;
     padding-top: 2rem;
 }
@@ -2548,7 +2560,7 @@ justify-items: center;
 }
 
 .damn-img {
-    width: 600px;
+    width:  600px;
     display: flex;
     padding-top: 3rem;
 }
