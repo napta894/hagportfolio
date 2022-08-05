@@ -1977,8 +1977,8 @@ color:#CC684F;
 }
 
 .project1 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -1989,7 +1989,7 @@ color:#CC684F;
 .design-process-div {
     display: block;
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .project-div {
@@ -2082,7 +2082,7 @@ color:#CC684F;
 }
 
 .design-process {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     font-size: 2rem;
     margin-top: 1rem;
     padding-left: 3rem;
@@ -2104,7 +2104,7 @@ color:#CC684F;
 .wrapper {
     overflow: hidden;
     display: inline-block;
-    padding:3rem;
+    padding:1rem;
     padding-left: 3rem;
     padding-right: 3rem;
 }
@@ -2129,15 +2129,14 @@ color:#CC684F;
 .diamond-img {
     width: 80%;
     margin-right: 2rem;
-    padding-top: 4rem;
+    padding-top: 1rem;
     align-content: center;
     padding-left: 10rem;
 }
 
 .diamond-div {
-    display: block;
+    display: inline-block;
     width: 100%;
-    align-content: center;
 }
 
 
@@ -2161,22 +2160,19 @@ color:#CC684F;
 }
 
 .column {
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 
 
 .project-research {
     color: #000;
     margin-bottom: 1rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
     font-size: 1.5rem;
     padding-left: 4rem;
 }
 
-.text-research {
-    text-align: justify;
-    line-height: 1.5rem;
-}
+
 
 .fact-1 {
     display: flex;
@@ -2306,7 +2302,7 @@ color:#CC684F;
 }
 
 .column {
-    padding: 2rem;
+    padding-bottom:2rem;
     column-count: auto;
 }
 
@@ -2425,7 +2421,6 @@ color:#CC684F;
     display:flex;
     margin-top: 1rem;
     flex-direction: row;
-    padding:3rem;
     padding-left: 3rem;
     padding-right: 3rem;
 }
@@ -2557,6 +2552,11 @@ justify-items: center;
 
 .userstories-text {
     padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+.legend-img {
+    padding-left: 5rem;
 }
 
 .damn-img {
@@ -2603,22 +2603,7 @@ justify-items: center;
     text-align: justify;
 }
 
-.ideation {
-    margin-top: 2rem;
-    margin-bottom:2rem;
-}
 
-.ideation-h1 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    color:#183636;
-    font-size: 3rem;
-}
-
-.user-h3 {
-    color: #637C7B;
-    margin-bottom: 1rem;
-}
 
 .userflow-img {
     width: 60%;
@@ -2628,7 +2613,6 @@ justify-items: center;
 }
 
 .wireframing {
-    margin-top: 2rem;
     padding-bottom: 2rem;
 }
 
