@@ -2330,9 +2330,9 @@ color:#CC684F;
 }
 
 .primary-div {
-  padding-top:4rem;
+  padding-top:2rem;
   padding-left: 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
 }
 
 
@@ -2629,16 +2629,15 @@ justify-items: center;
 }
 
 .damn-img {
-    width:  100%;
+    width:  90%;
     display: flex;
-    padding-top: 3rem;
-    padding-left: 10rem;
+    padding-top: 2rem;
+    padding-left: 5rem;
     align-content: center;
 }
 
 .taskflow {
     padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 .taskflow-frames
 {
@@ -2693,45 +2692,64 @@ justify-items: center;
 }
 
 .sketch1-img {
+    display: block;
+    width: 90%;
+}
+
+.sketch2-img {
     display: flex;
-    width: 80%;
-    padding-left:25rem;
-}
-
-.midfedility-img {
-    display: flex;
-    width:80%;
-    padding-left: 25rem;
+    width: 90%;
 }
 
 
-.usability-text {
-    line-height: 29.3px; 
-    align-content: left;
-    padding-left:2rem;
-}
 
-.usability-h2 {
-    padding-left: 2rem;
-    padding-bottom: 1rem;
+
+.usability {
+    padding-bottom: 2rem;
     padding-top: 2rem;
 }
 
+.usability-text {
+    line-height: 29.3px; 
+    text-align: left;
+        font-size: 1.25rem;
+      padding-left: 5rem;
+      padding-top: 2rem;
+    }
 
-
-.insights-h3 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    .primary1-text {
+        line-height: 29.3px; 
+        align-content: left;
+        padding-left:2rem;
+        padding-top:1rem;
+        font-size: 1.25rem;
+        padding-right: 3rem;
+    }
+    
+  
+.usability-h2 {
+    padding-left: 2rem;
+    padding-top: 5rem;
+    color: #CC684F;
+    font-size: 2rem;
+    padding-left: 5rem;
 }
 
-.round1 {
-    margin-top: 2rem;
-    margin-bottom:2rem;
+
+
+.primary2-h2 {
+    padding-left: 2rem;
+    color: #CC684F;
+    font-size: 2rem;
+    padding-right:4rem;
 }
 
-.round-h3 {
-    margin-top: 1rem;
-    margin-bottom:1rem
+.problem1-img {
+    display: flex;
+    width: 80%;
+    align-content: center;
+    text-align: center;
+    padding-left: 7rem;
 }
 
 .find {
