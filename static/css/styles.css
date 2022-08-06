@@ -26,7 +26,6 @@ body {
 }
 
 .wrapper>*{
-    padding:10px;
     margin:10px;
     flex: 1 100%;
 }
@@ -1129,7 +1128,7 @@ border-style: solid;
     color: #183636;
 }
 
-.wrapper {
+.wrapper1 {
     overflow: hidden;
     display: inline-block
 }
@@ -1156,7 +1155,6 @@ border-style: solid;
     }
 
 .research {
-    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
@@ -1973,7 +1971,16 @@ padding: 11px, 23px, 11px, 23px;
 background-color: #fff;
 font-family: 'Montserrat', sans-serif;
 border: 2.28571px solid #CC684F;
+font-weight: bold;
 color:#CC684F;
+}
+
+.btn8.a:hover{
+
+        background-color: #CC684F ;
+        color: #ffff ;
+        cursor: pointer;
+        }
 }
 
 .project1 {
@@ -1986,14 +1993,19 @@ color:#CC684F;
    font-size: 3rem;
 }
 
-.design-process-div {
-    display: block;
-    width: 100%;
-    padding: 1rem;
+.title-h2 {
+    color:#CC684F;
+    padding-bottom: 2rem;
 }
 
+.design-process-div {
+    display: inline-block;
+    width: 100%;
+}
+
+
 .project-div {
-    background-color: #848879;
+    background-color: #CCDACF;
     padding-top: 2rem;
     height: 150px;
 }
@@ -2029,17 +2041,17 @@ color:#CC684F;
 .project-h3 {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    color:#ffff;
+    color:#3A3652;
 }
 
 .text-project {
-    color:#fff;
+    color:#3A3652;
 }
 
 .column {
     float: left;
     width: 50%;
-    padding:3rem 3rem;
+    padding:2rem;
   }
   
   /* Clear floats after the columns */
@@ -2049,14 +2061,25 @@ color:#CC684F;
     clear: both;
   }
 
+
+  .theme-h2 {
+    color: #CC684F;
+    text-align: left;
+  }
+
+  .process-h2 {
+    color: #CC684F;
+    text-align: left;
+    padding-left: 2rem;
+  }
+
 .problem {
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: left;
 }
 
 .challenge {
-    margin-bottom:1rem;
     font-size: 2rem;
     padding-left: 3rem;
 }
@@ -2064,8 +2087,6 @@ color:#CC684F;
 .text-challenge {
     line-height: 29px;
     text-align: left;
-    padding-left: 3rem;
-    padding-right: 4rem;
 }
 
 .lotus-img {
@@ -2082,20 +2103,18 @@ color:#CC684F;
     text-decoration: none;
 }
 
-.design-process-div {
-    padding-left: 2rem;
-}
 
 .design-process {
     margin-bottom: 1rem;
     font-size: 2rem;
-    margin-top: 1rem;
     padding-left: 3rem;
 }
 
 .process-text {
     margin-bottom: 1rem;
-    padding-left: 3rem;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 1rem;
 }
 
 .li .responsabilities {
@@ -2109,26 +2128,29 @@ color:#CC684F;
 .wrapper {
     overflow: hidden;
     display: inline-block;
-    padding:1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .image-background {
     width: 40%;
     float: right;
+    display: flex;
 }
 
 .img-background {
-    width: 40%;
+    display: flex;
+    width: auto;
 }
 
 .text-background {
-    width: 48%;
-    line-height: 1.5rem;
+    width: 50%;
+    line-height: 29.3px;
     text-align: left;
     float: left;
-    padding-left: 2rem;
+    padding-left: 10rem;
 }
 
 .diamond-img {
@@ -2153,20 +2175,18 @@ color:#CC684F;
     text-align: center;
     line-height: 29px;
 }
+
 .discovery-h1 {
-    background-color: #848879;
+    background-color: #CCDACF;
     height: 150px;
     width: 100%;
     line-height: 38px;
     padding-top: 3.5rem;
     padding-bottom: 3rem;
     padding-left:4rem;
-    color: #ffff;
+    color: #3A3652;
 }
 
-.column {
-    padding-left: 2rem;
-}
 
 
 .project-research {
@@ -2472,11 +2492,6 @@ justify-items: center;
     padding-top: 2rem;
 }
 
-.theme-h2 {
-    padding-left: 3rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-}
 
 .theme-h3 {
     padding-left: 3rem;
