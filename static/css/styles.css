@@ -1309,7 +1309,7 @@ margin-top: 2rem;
 }
 
 .findings {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .findings-h3 {
     color: #637C7B;
@@ -1989,13 +1989,10 @@ color:#CC684F;
 }
 
 
-.projectoverview {
-   font-size: 3rem;
-}
-
 .title-h2 {
     color:#CC684F;
     padding-bottom: 2rem;
+    font-size: 2rem;
 }
 
 .design-process-div {
@@ -2051,7 +2048,7 @@ color:#CC684F;
 .column {
     float: left;
     width: 50%;
-    padding:2rem;
+    padding-left: 2rem;
   }
   
   /* Clear floats after the columns */
@@ -2061,42 +2058,41 @@ color:#CC684F;
     clear: both;
   }
 
+  .theme {
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+  }
 
   .theme-h2 {
     color: #CC684F;
     text-align: left;
+    font-size: 2rem;
   }
 
   .process-h2 {
     color: #CC684F;
     text-align: left;
     padding-left: 2rem;
+    font-size: 2rem;
   }
 
-.problem {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: left;
-}
 
 .challenge {
     font-size: 2rem;
     padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .text-challenge {
     line-height: 29px;
     text-align: left;
+    font-size: 1.25rem;
 }
 
 .lotus-img {
     width: 80%;
     padding-top: 2rem;
     padding-left: 2rem;
-}
-.problem-h3 {
-    margin-bottom: 1rem;
-    font-size: 3rem;
 }
 
 .solution-list li {
@@ -2111,10 +2107,10 @@ color:#CC684F;
 }
 
 .process-text {
-    margin-bottom: 1rem;
     text-align: left;
     padding-left: 2rem;
     padding-top: 1rem;
+    font-size: 1.25rem;
 }
 
 .li .responsabilities {
@@ -2150,51 +2146,86 @@ color:#CC684F;
     line-height: 29.3px;
     text-align: left;
     float: left;
-    padding-left: 10rem;
+    padding-left:2rem;
+    font-size: 1.25rem;
 }
 
 .diamond-img {
-    width: 80%;
-    margin-right: 2rem;
-    padding-top: 1rem;
+    width: 100%;
     align-content: center;
-    padding-left: 10rem;
+    text-align: center;
+    padding-left:9rem;
 }
 
 .diamond-div {
-    display: inline-block;
+    display: flex;
     width: 100%;
+    padding-left:15rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-content: center;
+    text-align: center;
 }
 
 
+
 .hypothesis-text {
-    color: #fff;
+    color: #3A3652;
     margin-bottom: 2rem;
-    padding: center;
-    padding-left: 2rem;
+    padding-left: 3rem;
     text-align: center;
     line-height: 29px;
+    font-size: 1.25rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
 }
 
 .discovery-h1 {
     background-color: #CCDACF;
     height: 150px;
     width: 100%;
+    font-size: 2rem;
     line-height: 38px;
-    padding-top: 3.5rem;
+    padding-top: 4rem;
     padding-bottom: 3rem;
     padding-left:4rem;
     color: #3A3652;
 }
 
+.discovery-text {
+    background-color: #CCDACF;
+    height: 150px;
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 29.3px;
+    padding-top: 2rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+    color: #3A3652;
+    font-family:'Montserrat', sans-serif;
+    text-align: left;
+    line-height: 29.3px;
 
+}
+
+.define-h1 {
+    background-color: #CCDACF;
+    height: 150px;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 38px;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    padding-left:4rem;
+    color: #3A3652;
+}
 
 .project-research {
-    color: #000;
-    margin-bottom: 1rem;
+    color: #CC684F;
     margin-top: 2rem;
-    font-size: 1.5rem;
-    padding-left: 4rem;
+    padding-left: 6rem;
+    text-align: left;
+    font-size: 2rem;
 }
 
 
@@ -2225,6 +2256,8 @@ color:#CC684F;
 .fact-2 {
     display: flex;
     float: left;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .fact-3 {
@@ -2244,6 +2277,7 @@ color:#CC684F;
     padding-left: 1rem;
     padding-top: 2rem;
     line-height: 29px;
+    font-size: 1.25rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -2254,6 +2288,7 @@ color:#CC684F;
     padding-left: 1rem;
     padding-top: 2rem;
     line-height: 29px;
+    font-size: 1.25rem;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -2265,6 +2300,7 @@ color:#CC684F;
     padding-left: 1rem;
     padding-top: 2rem;
     line-height: 29px;
+    font-size: 1.25rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -2280,21 +2316,25 @@ color:#CC684F;
 }
 
 .primary-h2 {
-    padding-left: 3rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-left: 5rem;
+    color: #CC684F;
+    font-size: 2rem;
 }
 
 .primary-text {
     line-height: 29.3px; 
     align-content: left;
-    padding-left:3rem;
+    padding-left:5rem;
     padding-top:1rem;
+    font-size: 1.25rem;
 }
 
 .primary-div {
-  padding-top:2rem;
+  padding-top:4rem;
+  padding-left: 2rem;
+  padding-bottom: 4rem;
 }
+
 
 .interviews {
     display: inline-block;
@@ -2317,9 +2357,6 @@ color:#CC684F;
     padding-right: 4rem;
 }
 
-.points {
-    padding:2rem;
-}
 
 .pain {
     display: inline;
@@ -2332,34 +2369,36 @@ color:#CC684F;
 }
 
 .hypothesis {
-    background-color: #848879;
+    background-color: #CCDACF;
     height: 250px;
     padding-bottom: 2rem;
+    padding-top:2rem;
+    text-align: center;
 }
 
-.hypothesis-div {
-    display: flex;
+
+.hypothesis-h2 {
     text-align: center;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
+    color: #3A3652;
+    padding-top: 1rem;
+    align-content: center;
     padding-left: 5rem;
     padding-right: 5rem;
 }
 
-.hypothesis-h2 {
-    text-align: center;
-    color: #ffff;
-    padding-top: 4rem;
-}
-
 .hyphotesis-text {
     color: #fff;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: center;
 }
 
 .interview-text {
     text-align: left;
     line-height: 29.3px;
     padding-bottom: 2rem;
+    font-size: 1.25rem; 
+    padding-left: 2rem;
 }
 
 .interviews {
@@ -2367,66 +2406,36 @@ color:#CC684F;
     padding-right: 3rem;
 }
 
-.interview1 {
-    padding:1rem;
-    display: inline-flex;
-    text-align: left;
-}
-
-.interview2 {
-    padding:2rem;
-    float: right;
-    display: inline-flex;
-}
-
-.interview3 {
-    padding:2rem;
-    float: left;
-    display: inline-flex;
-    padding-top: 10rem;
-}
-
-.interview1-text {
-    padding-left: 2rem;
-    line-height: 29.3px;
-    padding-top: 2rem;
-}
-
-.interview2-text {
-    padding-left: 2rem;
-    line-height: 29.3px;
-    padding-top: 4rem;
-}
-
-.interview3-text {
-    padding-left: 2rem;
-    line-height: 29.3px;
-    padding-top: 2rem;
-}
-
-.find1-text {
-    padding-left: 1rem;
-    padding-top: 2rem;
-    line-height: 29.3px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-.find2-text {
-    padding-left: 1rem;
-    padding-top: 2rem;
-    line-height: 29.3px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.find3-text {
-    padding-left: 1rem;
+.quotes-img {
+    width: 100%;
+    align-content: center;
+    display: flex;
+    padding-left: 4rem;
     padding-right: 3rem;
+     
+}
+
+.findings1-text {
+    text-align: left;
     line-height: 29.3px;
-    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 2rem;
+    font-size: 1.25rem; 
 }
 
 
+
+.findings-quotes {
+    padding-top: 3rem;
+}
+
+.info-img {
+    width: 100%;
+    align-content: center;
+    display: flex;
+    padding-left: 4rem;
+    padding-right: 3rem;
+     
+}
 
 .define-div {
         background-color: #848879;
@@ -2449,6 +2458,7 @@ color:#CC684F;
     padding-left: 3rem;
     padding-right: 3rem;
 }
+
 
 .pain {
 flex: 1 1 0px;
@@ -2488,8 +2498,10 @@ justify-items: center;
 .theme-text {
     line-height: 29.3px; 
     align-content: left;
-    padding-left:3rem;
+    padding-right:3rem;
+    padding-left: 3rem;
     padding-top: 2rem;
+    font-size: 1.25rem;
 }
 
 
@@ -2506,28 +2518,39 @@ justify-items: center;
         padding-left: 3rem;
     }
 
+    .stories-h2 {
+        padding-left: 5rem;
+        color: #CC684F;
+        font-size: 2rem;
+       
+    }
 
-.userstories-h2 {
-    padding-left: 4rem;
-    padding-bottom: 1rem;
-    padding-top: 2rem;
-}
 
-.userstories-text
+.stories-text
 
 {
     line-height: 29.3px; 
-    align-content: left;
-    padding-left:3rem;
-    padding-top: 1rem;
+    text-align: left;
+    padding-top: 2rem;
+    font-size: 1.25rem;
+    padding-left: 5rem;
+}
+
+.stories1-text
+
+{
+    line-height: 29.3px; 
+    text-align: left;
+    padding-top: 4rem;
+    padding-right: 4rem;
+    font-size: 1.25rem;  
 }
 
 
 .hmw-div {
-        background-color: #848879;
-        padding-top: 2rem;
-        height: 250px;
-        padding-bottom: 3rem;
+        padding-top: 4rem;
+        height: 350px;
+        padding-bottom: 2rem;
         align-content: center;
     }
 
@@ -2535,18 +2558,33 @@ justify-items: center;
        text-align: center;
        padding-top: 2rem;
        padding-bottom:1rem;
-       color: #fff;
+       color: #CC684F
 }
 
-.hmw-text {
+
+
+.hmw-img {
     text-align: center;
-    color: #fff;
+    color: #CC684F;
     padding-left: 2rem;
     padding-right: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    line-height: 29px;
+    align-content: center;
+    padding-left: 18rem;
+  
+}
 
+.persona-h2 {
+    color:#CC684F;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.experience-h2 {
+    color:#CC684F;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .img-persona {
@@ -2566,6 +2604,17 @@ justify-items: center;
     width: 100%;
 }
 
+
+.task-h2
+
+{
+    line-height: 29.3px; 
+    align-content: left;
+    font-size:2rem;
+    color: #CC684F;
+    padding-left: 3rem;
+    
+}
 .taskflow-img {
     align-content: center;
 }
@@ -2580,9 +2629,16 @@ justify-items: center;
 }
 
 .damn-img {
-    width:  600px;
+    width:  100%;
     display: flex;
     padding-top: 3rem;
+    padding-left: 10rem;
+    align-content: center;
+}
+
+.taskflow {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .taskflow-frames
 {
@@ -2600,7 +2656,7 @@ justify-items: center;
 }
 
 .flex-child:first-child {
-    margin-right: 20px;
+    margin-right: 0px;
 } 
 
 .research-findings {
