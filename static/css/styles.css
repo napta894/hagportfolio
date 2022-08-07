@@ -2791,7 +2791,12 @@ justify-items: center;
     color: #CC684F;
 }
 
-
+.appicon-img {
+    display: flex;
+    width: 60%;
+    padding:3rem;
+    padding-left: 10rem;
+}
 
 
 
