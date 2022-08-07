@@ -2746,11 +2746,54 @@ justify-items: center;
 
 .problem1-img {
     display: flex;
-    width: 80%;
+    width: 90%;
     align-content: center;
     text-align: center;
     padding-left: 7rem;
 }
+
+.problem2-img {
+    display: flex;
+    width: 90%;
+    align-content: center;
+    text-align: center;
+    padding-left: 8rem;
+    padding-top: 2rem;
+}
+
+.wordmark-h2 {
+    padding-left: 7rem;
+    font-size: 1.25rem;
+    color: #CC684F;
+}
+
+
+.wordmark-text {
+    line-height: 29.3px; 
+    align-content: left;
+    padding-left:7rem;
+    padding-top:1rem;
+    font-size: 1.25rem;
+    padding-right: 3rem;
+}
+
+.wordmark-img {
+    display: flex;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 7rem;
+}
+
+.wordmark2-h2 {
+    padding-left: 4rem;
+    font-size: 1.25rem;
+    color: #CC684F;
+}
+
+
+
+
 
 .find {
     margin-top: 2rem;
