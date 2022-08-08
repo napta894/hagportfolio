@@ -2375,7 +2375,7 @@ font-size: 1.25rem;
 }
 
 .primary-h2 {
-    padding-left: 5rem;
+    padding-left: 2rem;
     color: #CC684F;
     font-size: 2rem;
 }
@@ -2383,7 +2383,7 @@ font-size: 1.25rem;
 .primary-text {
     line-height: 29.3px; 
     align-content: left;
-    padding-left:5rem;
+    padding-left:2rem;
     padding-top:1rem;
     font-size: 1.25rem;
     padding-bottom: 2rem;
@@ -2391,7 +2391,6 @@ font-size: 1.25rem;
 
 .primary-div {
   padding-top:2rem;
-  padding-left: 2rem;
   padding-bottom: 1rem;
 }
 
@@ -2582,6 +2581,7 @@ justify-items: center;
     
         color: #CC684F;
         font-size: 2rem;
+        padding-left: 3rem;
        
     }
 
