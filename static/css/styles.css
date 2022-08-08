@@ -2282,7 +2282,7 @@ font-size: 1.25rem;
 .project-research {
     color: #CC684F;
     margin-top: 2rem;
-    padding-left: 6rem;
+    padding-left: 2rem;
     text-align: left;
     font-size: 2rem;
 }
@@ -2581,9 +2581,7 @@ justify-items: center;
     .stories-h2 {
     
         color: #CC684F;
-        font-size: 2rem;
-        padding-left: 2rem;
-       
+        font-size: 2rem; 
     }
 
 
