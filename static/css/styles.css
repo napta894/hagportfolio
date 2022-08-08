@@ -654,6 +654,9 @@ height: 63px;
 text-align: left;
 }
 
+.btn-view {
+    background-color: none;
+}
 .project-btn {
     height: 40px;
     text-transform: capitalize;
@@ -702,23 +705,30 @@ text-align: left;
 
 .about-section {
     width: 100%;
-    min-height: 80vh;
+    min-height: 100vh;
     padding: 30px 20px  0;
     transition: 1s;
     -webkit-transition: 1s;
+    padding-bottom: 2rem;
+}
+
+.about-img {
+    display: flex;
+    width: 100%;
 }
 
 .content-section{
     float: left;
     width: 50%;
     padding:5rem;
+    
 }
 
 .image-section {
     width: 450px;
     height: 50px;
     float: right;
-    padding: 1rem 2rem 1rem;
+    padding: 2rem 2rem 1rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
     display: block;
@@ -726,9 +736,10 @@ text-align: left;
 }
 
 .image-section img{
-    width: 50%;
+    width: 100%;
     justify-content: center;
     display: block;
+    padding-right: 2rem;
 }
 
 .aboutme_h1 {
@@ -742,11 +753,12 @@ text-align: left;
 
 .about-info {
 font-family: 'Montserrat', sans-serif;
-font-size: 16px;
-font-weight: 400;
+font-size: 1.25rem;
+font-weight: light;
 line-height: 20px;
-text-align: justify;
+text-align: left;
 justify-content: center;
+line-height: 29.3px;
 }
 
 .content-section .content {
@@ -760,7 +772,7 @@ justify-content: center;
     margin-bottom: 20px;
 }
 
-.btn10 {
+.btn15 {
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -778,7 +790,7 @@ justify-content: center;
     margin-bottom: 2rem;
 }
 
-.btn10:hover {
+.btn15:hover {
   background-color: #776571;
   cursor: pointer;
 }
@@ -819,14 +831,14 @@ justify-content: center;
 .portfolio .box-container{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     gap:1.25rem;
     align-items: flex-start;
 }
 
 .portfolio .box-container .box img {
     position:relative;
-    height: 20rem;
+    height: 30rem;
     width: 100%;
     object-fit: cover;
 }
