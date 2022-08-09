@@ -2120,6 +2120,7 @@ font-size: 1.25rem;
   .theme {
     padding-bottom: 2rem;
     padding-top: 3rem;
+    padding-left: 2rem;
   }
 
   .theme-h2 {
@@ -2381,11 +2382,26 @@ font-size: 1.25rem;
 
 .primary-text {
     line-height: 29.3px; 
-    align-content: left;
+    text-align: left;
+    padding-top:1rem;
+    font-size: 1.25rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+.thanks-text {
+    line-height: 29.3px; 
+    text-align: center;
     padding-top:1rem;
     font-size: 1.25rem;
     padding-bottom: 2rem;
 }
+
+.thanks-h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
 
 .primary-div {
   padding-top:2rem;
@@ -2565,10 +2581,6 @@ justify-items: center;
 }
 
 
-.theme-h3 {
-    padding-left: 3rem;
-}
-
 
 .stories-img {
         text-align: left;
@@ -2585,6 +2597,7 @@ justify-items: center;
     }
 
 
+
 .stories-text
 
 {
@@ -2592,6 +2605,7 @@ justify-items: center;
     text-align: left;
     padding-top: 2rem;
     font-size: 1.25rem;
+  
 }
 
 .stories1-text
