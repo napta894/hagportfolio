@@ -8,6 +8,9 @@
 <!--style css-->
 <link rel="stylesheet" type="text/css" href="./static/css/styles.css">
 <script src="https://kit.fontawesome.com/68108e5167.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+<script src="./static/scripts/main.js"></script>
+<!-- Load JQuery, as our little script depends on it -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
@@ -49,18 +52,15 @@
     </div>
 </header>
   <!--mainpage-->
-<main>
+<main class="main">
   <!--home section-->
   <section class="home" id="home">
-      <div class="section-heading">
-        <span></span>
-        <span></span>
-      </div>
       <div class="home-content">
         <div class="home-content-text">
           <h2 class="mainh2">hello, I am</h2>
           <h1 class="mainh1">NAPTA HAG</h1>
-          <p class="para">A dedicated and passionate UX/UI Designer <br> with background in Marketing and Web design. <br>Based in London, UK.</p>
+          <p class="para">A dedicated and passionate UX/UI Designer <br> with background in Marketing and Web design.
+             <br>Based in London, UK.</p>
         </div>
         <div class="about-btn">
           <a href="about.html">
@@ -81,56 +81,137 @@
         </button>
         </td>
        </div>
-        <a href="#work">
+        <a href="#projects">
           <div class="scroll-down"></div>
         </a>
       </div>
     </section>
-  </div>
-        
-    <!--Portfolio section-->
-    <section id="work" class="work">
-      <div class="section-heading">
-        <div class="work-title">
-          <span></span>
-        </div>
-      </div>
-      <div class="work-container">
-        <div class="box-wrapper">
-          <h1 class="work-h1">My works</h1>
-          <br><br><br>
-          <div class="scrolling-wrapper-flexbox">
 
-            <div class="project-card">
-              <div id="box1">
-                <img src="./static/images/Capstone/pagecover.svg" class="page-img" alt="UX/UI">
-                <div class="content">
-                    
-                      <span class="tags">Capstone Project</span>
-                        <div class="project-btn-grp">
-                          <button class="project-btn live" onclick="window.open('capstone.html', '_blank')">view</button>
-                        </div>  
-                </div>
-             </div>
-            </div>
-         
-            <div class="project-card">
-              <div id="box2">
-                <img src="./static/images/coming soon.png" class="img" alt="UX/UI">
-             </div>
-            </div>
+<!-- The portfolio section begins -->
+<section class="projects" id="projects">    
+  <div class="projects-collage">
+    <h1 class="work-h1">My works</h1>
+     <!-- Project One -->
+      <a class="project-item"  target="_blank">
+      <figure class="project-figure">
+     <div class="project-overlay"></div>
+      <img src="https://images.unsplash.com/photo-1491931648265-8f68c1dc731b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=717ea0ca5595686d6311578a5b010861&auto=format&fit=crop&w=1050&q=80">
+      <figcaption class="project-text">
+      <h2>Project One</h2>
+      <p>Awesome Development</p>
+      <!-- *********************** -->
+      <!-- START OF HIDDEN ELEMENTS -->
 
-            <div class="project-card">
-              <div id="box3">
-                <img src="./static/images/coming soon.png" class="img" alt="shots ">
-            </div>
-          </div>
-      </div>
-    </div>
-  </div>
-  </section>
-  </main>
+      <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+      HINTS: The P tag next
+      First Anchor tag is for the project's github REPO
+      Second Anchor is for the project's live preview  -->
 
+     <p class='hidden popUpdesc'> PROJECT ONE Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+      <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+      <span id="githubRepo" href="https://github.com/jabedford"></span>
+       <span id="livePreview" href="https://codiejay.github.io/dict/"></span>
+
+        <!-- END OF HIDDEN ELEMENTS -->
+      </figcaption>
+    </figure>
+  </a>
+    <!-- Project One Ends -->
+     <!-- Project Two -->
+       <a class="project-item" target="_blank">
+        <figure class="project-figure">
+         <div class="project-overlay"></div>
+          <img src="https://images.unsplash.com/photo-1481456384069-0effc539ab7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6e82bb43d4428126504304646c8c6ed4&auto=format&fit=crop&w=1050&q=80">
+          <figcaption class="project-text">
+          <h2>Project Two</h2>
+           <p>Awesome Development</p>
+           <!-- *********************** -->
+            <!-- START OF HIDDEN ELEMENTS -->
+
+        <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+        HINTS: The P tag next
+        First Anchor tag is for the project's github REPO
+        Second Anchor is for the project's live preview  -->
+
+       <p class='hidden popUpdesc'> PROJECT TWO Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+  <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+    <span id="githubRepo" href="https://github.com/jabedford"></span>
+    <span id="livePreview" href="https://codiejay.github.io/dict/"></span>
+
+  <!-- *********************** -->
+  <!-- END OF HIDDEN ELEMENTS -->
+
+   </figcaption>
+    </figure>
+    </a>
+   <!-- Project Two Ends -->
+
+    <!-- Project Three -->
+     <a class="project-item" target="_blank">
+     <figure class="project-figure">
+      <div class="project-overlay"></div>
+       <img src="https://images.unsplash.com/photo-1526498460520-4c246339dccb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5eb27a51db4fda32656d35b5e6b93574&auto=format&fit=crop&w=1050&q=80">
+       <figcaption class="project-text">
+      <h2>Project Three</h2>
+      <p>Awesome Development</p>
+     <!-- *********************** -->
+      <!-- START OF HIDDEN ELEMENTS -->
+
+      <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+      HINTS: The P tag next
+      First Anchor tag is for the project's github REPO
+      Second Anchor is for the project's live preview  -->
+
+     <p class='hidden popUpdesc'> PROJECT THREE Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    </p>
+    <!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+  <span id="githubRepo" href="https://github.com/jabedford"></span>
+  <span id="livePreview" href="https://codiejay.github.io/dict/"></span>
+
+<!-- *********************** -->
+<!-- END OF HIDDEN ELEMENTS -->
+</figcaption>
+</figure>
+</a>
+<!-- Project Three Ends -->
+
+<!-- Project Four -->
+<a class="project-item" target="_blank">
+<figure class="project-figure">
+  <div class="project-overlay"></div>
+  <img src="https://images.unsplash.com/photo-1494366222322-387658a1a976?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=24100980ab1a60783e1c847b7965bd11&auto=format&fit=crop&w=1051&q=80">
+  <figcaption class="project-text">
+    <h2>Project Four</h2>
+    <p>Awesome Development</p>
+   <!-- *********************** -->
+    <!-- START OF HIDDEN ELEMENTS -->
+
+    <!--  the next 3 element wouldnt display at first sight. they are for the project's popUp as you'll see 
+    HINTS: The P tag next
+    First Anchor tag is for the project's github REPO
+    Second Anchor is for the project's live preview  -->
+
+   <p class='hidden popUpdesc'> PROJECT FOUR Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+  </p>
+<!-- Please don't mind that we have a span with a weird attr. it not displaying so no worries.  -->
+<span id="githubRepo" href="https://github.com/jabedford"></span>
+<span id="livePreview" href="https://codiejay.github.io/dict/"></span>
+
+        <!-- *********************** -->
+<!-- END OF HIDDEN ELEMENTS -->
+  </figcaption>
+</figure>
+</a>
+</div>
+
+</section>
+ 
 <!--footer-->
   <footer class="footer" id="footer">
     <div>
@@ -160,12 +241,11 @@
               <span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"
                 style="position: relative; text-align:center ; font-size: 30px; color: #F3EFE9"></span>
             </button>
-
-
-      <hr>
       <p>&copy; 2022. All right Reserved</p>
     </div>
 </footer>
+
+</main>
 
 <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
