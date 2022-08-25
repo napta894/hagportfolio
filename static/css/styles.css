@@ -734,41 +734,31 @@ a:hover,a:focus {
 
 .about-section {
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 30px 20px  0;
     transition: 1s;
     -webkit-transition: 1s;
     padding-bottom: 2rem;
 }
 
-.about-img {
-    display: flex;
-    width: 100%;
-}
-
 .content-section{
     float: left;
-    width: 50%;
-    padding:5rem;
-    
+    width: 55%;
+    padding: 2rem;
 }
 
 .image-section {
-    width: 450px;
-    height: 50px;
+    width: 40%;
     float: right;
-    padding: 2rem 2rem 1rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
-    display: block;
-    justify-content: center;
+    display: flex;
 }
 
 .image-section img{
-    width: 100%;
-    justify-content: center;
+    height: auto;
+    align-content: center;
     display: block;
-    padding-right: 2rem;
+    padding:2rem;
+
 }
 
 .aboutme_h1 {
@@ -789,9 +779,6 @@ justify-content: center;
 line-height: 29.3px;
 }
 
-.content-section .content {
-    margin-top: 2rem;
-}
 
 .about-resume {
     font-family: 'Montserrat',sans-serif;
@@ -1520,8 +1507,7 @@ margin-top: 2rem;
 
 .present2-img {
     width: 100%;
-    display: flex;
-    padding-left: 10rem;
+    display: inline-block;
 }
 
 .prototype-div {
@@ -1530,20 +1516,13 @@ margin-top: 2rem;
 }
 
 .prototype-img {
-    width: 60%;
+    width: 80%;
     margin-bottom: 2rem;
     padding: 2rem;
     margin-left: 15rem;
 }
 
-.prototype-video {
-    width: 60%;
-    margin-bottom: 2rem;
-    padding: 2rem;
-    justify-content: center;
-    text-align: center;
-    margin-left: 15rem;
-}
+
 
 .link-proto {
     color: #637C7B;
@@ -2144,7 +2123,6 @@ font-size: 1.25rem;
 .diamond-div {
     display: flex;
     width: 100%;
-    padding-left:15rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
     align-content: center;
@@ -2156,7 +2134,6 @@ font-size: 1.25rem;
 .hypothesis-text {
     color: #3A3652;
     margin-bottom: 2rem;
-    padding-left: 3rem;
     text-align: center;
     line-height: 29px;
     font-size: 1.25rem;
@@ -2165,7 +2142,6 @@ font-size: 1.25rem;
 }
 
 .discovery-h1 {
-    background-color: #CCDACF;
     height: 150px;
     width: 100%;
     font-size: 2rem;
@@ -2177,7 +2153,6 @@ font-size: 1.25rem;
 }
 
 .discovery-text {
-    background-color: #CCDACF;
     height: 150px;
     width: 100%;
     font-size: 1.25rem;
@@ -2193,7 +2168,6 @@ font-size: 1.25rem;
 }
 
 .define-h1 {
-    background-color: #CCDACF;
     height: 150px;
     width: 100%;
     font-size: 2rem;
@@ -2429,15 +2403,11 @@ font-size: 1.25rem;
 
 .info-img {
     width: 100%;
-    align-content: center;
-    display: flex;
-    padding-left: 4rem;
-    padding-right: 3rem;
-     
+    display: block;
+   
 }
 
 .define-div {
-        background-color: #848879;
         padding-top: 2rem;
         height: 150px;
         padding-bottom: 3rem;
@@ -2514,7 +2484,6 @@ justify-items: center;
     }
 
     .stories-h2 {
-    
         color: #CC684F;
         font-size: 2rem; 
     }
@@ -2564,7 +2533,7 @@ justify-items: center;
     padding-left: 2rem;
     padding-right: 2rem;
     align-content: center;
-    padding-left: 18rem;
+    width: 100%;
   
 }
 
