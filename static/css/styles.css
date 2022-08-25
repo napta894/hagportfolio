@@ -2043,6 +2043,7 @@ font-size: 1.25rem;
     color: #CC684F;
     text-align: left;
     font-size: 2rem;
+    padding-left: 2rem;
   }
 
 
@@ -2074,6 +2075,7 @@ font-size: 1.25rem;
     text-align: left;
     padding-top: 1rem;
     font-size: 1.25rem;
+    padding-left: 2rem;
 }
 
 .li .responsabilities {
