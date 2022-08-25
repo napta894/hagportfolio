@@ -2072,7 +2072,6 @@ font-size: 1.25rem;
 
 .process-text {
     text-align: left;
-    padding-left: 2rem;
     padding-top: 1rem;
     font-size: 1.25rem;
 }
@@ -2101,7 +2100,7 @@ font-size: 1.25rem;
 }
 
 .img-background {
-    display: flex;
+    display: block;
     width: 50%;
     float: left;
     padding-top: 5rem;
@@ -2114,13 +2113,11 @@ font-size: 1.25rem;
     float: left;
     padding-left:2rem;
     font-size: 1.25rem;
+    padding-bottom: 3rem;
 }
 
 .diamond-img {
     width: 100%;
-    align-content: center;
-    text-align: center;
-    padding-left:9rem;
 }
 
 .diamond-div {
@@ -2131,6 +2128,13 @@ font-size: 1.25rem;
     align-content: center;
     text-align: center;
 }
+.project-overview {
+    display:block;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 
 
@@ -2181,8 +2185,6 @@ font-size: 1.25rem;
 .project-research {
     color: #CC684F;
     margin-top: 2rem;
-    padding-left: 2rem;
-    text-align: left;
     font-size: 2rem;
 }
 
@@ -2376,9 +2378,8 @@ font-size: 1.25rem;
 .quotes-img {
     width: 100%;
     align-content: center;
-    display: flex;
-    padding-left: 4rem;
-    padding-right: 3rem;
+    display: block;
+    padding: 2rem;
      
 }
 
@@ -3627,6 +3628,7 @@ justify-items: center;
         display:block;
         width: 100%;
         margin-top: 2rem;
+        margin-bottom: 2rem;
     }
 
 
