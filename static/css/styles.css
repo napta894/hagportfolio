@@ -2828,6 +2828,7 @@ margin-top: 2rem;
     .project {
         width: 100%;
         display: block;
+        padding: 2rem;
         }
     
     .grid-img {
