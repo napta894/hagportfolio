@@ -2827,6 +2827,7 @@ margin-top: 2rem;
     
     .project {
         width: 100%;
+        display: block;
         }
     
     .grid-img {
