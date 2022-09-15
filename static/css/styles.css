@@ -1635,6 +1635,7 @@ margin-top: 2rem;
 .main-cap {
     width: 100%;
     display: block;
+    background-color: #fff;
     }  
     
     .capstoneproject {
@@ -2746,17 +2747,6 @@ margin-top: 2rem;
 
 /*========== CAPSTONE CASE STUDY -2  css ==========*/
 
-body {
-    margin: 0;
-    font-size: var(--bs-body-font-size);
-    font-size: 1rem;
-    line-height: var(--bs-body-line-height);
-    color: var(--bs-body-color);
-    text-align: var(--bs-body-text-align);
-    background-color: var(--bs-body-bg);
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  } 
 
   hr {
     margin: 1rem 0;
