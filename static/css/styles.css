@@ -2814,6 +2814,8 @@ margin-top: 2rem;
   
   #scaled-frame {
     zoom: 0.75;
+    -webkit-transform: scale(0.55);
+    -webkit-transform-origin: 0 0;
   }
 
   
@@ -4599,7 +4601,3 @@ width: 100%;
         pointer-events: none;
     }
 }
-
-
-
-
