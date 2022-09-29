@@ -582,6 +582,12 @@ a {
     outline: none
 }
 
+.portfolio_container {
+    height: 200%;
+}
+
+.pro
+
 
 
 /* KEYFRAMES */
@@ -634,7 +640,7 @@ a {
     position: relative;
     transition: all 0.4s;
     width: 100%;
-    margin-bottom: 2rem;
+    height: 100%;
   }
   
   .project:nth-child(1) {
@@ -2888,7 +2894,6 @@ margin-top: 2rem;
     position:relative;
 }
 
-
 .carousel_slide {
     position:absolute;
     top:0;
@@ -2961,20 +2966,19 @@ margin-top: 2rem;
   width: 60%;
 }
 
-/* carousel-2 */
 
+/* taskflow zoom */
 
-  
+.taskflow {
+    height: 100%;
+    position:relative;
+}
 
-  
-
-
- 
-
-
-
-
- 
+.box {
+    height: 80%;
+    border: none;
+}
+      
 
 /*========== MEDIA QUERIES ==========*/
 
@@ -3603,6 +3607,7 @@ margin-top: 2rem;
     }
     .portfolio_container {
         padding-left: 0px;
+        height: 100%;
     }
 
     .portfolio_main {

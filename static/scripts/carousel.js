@@ -28,9 +28,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-
-
-
 // Activate Carousel
 $("#myCarousel").carousel();
 
@@ -71,18 +68,17 @@ $(document).ready(function(){
   });
 });
 
-//carousel-p2
+///caraousel 2 
 
-
-// Activate Carousel
+// Activate Carousel 2
 $("#myCarousel2").carousel();
 
-// Enable Carousel Indicators
+// Enable Carousel 2 Indicators
 $(".item").click(function(){
   $("#myCarousel2").carousel(1);
 });
 
-// Enable Carousel Controls
+// Enable Carousel  2 Controls
 $(".left").click(function(){
   $("#myCarousel2").carousel("prev");
 });
@@ -115,16 +111,8 @@ $(document).ready(function(){
 });
 
 
-// Activate Carousel
-$("#myCarousel2").carousel();
 
-// Enable Carousel Indicators
-$(".item").click(function(){
-  $("#myCarousel2").carousel(1);
-});
 
-// Enable Carousel Controls
-$(".left").click(function(){
-  $("#myCarousel2").carousel("prev");
-});
 
+
+ 
