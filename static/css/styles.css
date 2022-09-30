@@ -586,9 +586,6 @@ a {
     height: 200%;
 }
 
-.pro
-
-
 
 /* KEYFRAMES */
 @keyframes fade-up {
@@ -614,6 +611,7 @@ a {
       transform: translateY(0px) scale(1);
     }
   }
+
   
   @keyframes fade-left {
     0% {
@@ -4608,8 +4606,6 @@ width: 100%;
     height:50px;
     }
 
-
-
     
 }
 
@@ -4644,7 +4640,6 @@ width: 100%;
         padding:1rem;
     }
     
-
 
     .box-container{
     display: flex;
@@ -4705,7 +4700,6 @@ width: 100%;
         width: 100%;
     }
     
-  
 }
 
 /*========== KeyFrames  ==========*/
@@ -4744,3 +4738,4 @@ width: 100%;
         pointer-events: none;
     }
 }
+

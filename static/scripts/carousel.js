@@ -88,6 +88,7 @@ $(document).ready(function(){
   $("#myCarousel2").carousel({interval: 500, wrap: false});
     
   // Enable Carousel Indicators
+
   $(".item1").click(function(){
     $("#myCarousel2").carousel(0);
   });
@@ -108,7 +109,11 @@ $(document).ready(function(){
   $(".right").click(function(){
     $("#myCarousel2").carousel("next");
   });
+
 });
+
+
+
 
 
 
