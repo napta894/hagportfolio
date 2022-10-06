@@ -18,7 +18,7 @@
 <body>
 <!--header-->
     <header>
-        <div class="hero">
+        <div id="goback" class="hero">
             <div class="nav">
                 <nav>
                     <a href="index.html"><img src="static/images/NH3.svg" alt="logo" class="logo-style"
@@ -47,17 +47,14 @@
                 </div>
             </div>
     </header>
- <!--main section-->
-   
- <!-- opening section-->
 
- <main class="main-cap">
-    <div>
+<main class="main-cap">
+  <!--cover-->
+        <section id="cover">
         <img src="./static/images/Capstone/newcover2.svg" class="cover">
-    </div> 
-<!--project overview section-->
-
-    <section class="py-5" id="project-overview">
+        </section> 
+  <!--roles/tools-->                           
+        <section class="container pt-5" id="project-overview">
         <div class="row justify-content-center">
             <div class="col-sm-4">
                 <h1 class="prototype pb-3">Problem</h1>
@@ -83,17 +80,16 @@
                   <iconify-icon icon="logos:invision-icon" width="48" height="48"></iconify-icon></iconify-icon>
                </div>
         </div>
-      
-    </section>
-    
-    <section class="py-5">
-        <div class="container col-sm-auto clearfix">
-               <div class="row p-3 justify-content-center">
-                <div class="col-sm-4  embed-responsive" id="wrap">
-                    <iframe width="442" height="1000%"  id="scaled-frame" class="embed-responsive-item" src="//invis.io/BD130H21V5N3" frameborder="0" allowfullscreen></iframe>
-                </div>
-                <div class="col-sm-4">
-                    <div class="row">
+         </section>
+    <!--project overviews-->   
+        <section class="container">
+        <div class="container col-sm-auto p-3">
+               <div class="row p-4 justify-content-center">
+                   <div class="col-sm-4  embed-responsive" id="wrap">
+                    <iframe width="442" height="1000%"  id="scaled-frame" class="embed-responsive-item img-responsive" src="//invis.io/BD130H21V5N3" frameborder="0" allowfullscreen></iframe>
+                   </div>
+                   <div class="col-sm-4">
+                    <div class="row ">
                       <h1 class="prototype pb-3">Project overview</h1>
                       <p class="pb-3">
                         Lotus app is a digital solution for users 
@@ -105,30 +101,27 @@
                        and to view the project presentation click on this <a class="prototype" onclick="window.open('https://www.loom.com/share/26c3c3141a6e41ff8b3c4b608157b12c', '_blank')"> video. </a>
                       </p> 
                     </div>
+
                     <div class="row">
                       <h1 class="prototype pb-3">Project challenges</h1>
                       <p class="pb3">
                       During the project the time was limited, therefore it was challenging to find health and ingredients-conscious users for the interview process and usability testing.
                       </p>
                     </div>
-                </div>
+                   </div>
               </div>   
         </div>
-    </section>
-<!--problem section-->
-    <section class="py-5">
-            <div class="container">
-                       <div class="row justify-content-center">
+        </section>
+ <!--research/findings/theme/persona/task/wireframes/testing/everything-->  
+        <section class="container">
+                              <div class="row justify-content-center">
                          <div class="col-lg-6">
-                             <h2 class="prototype pb-3">Problem Statement </h2>
-                             <h1>How might we help health and ingredient-conscious people better understand
-                                organic cosmetic products labels? </h1>                   
+                             <h1 class="prototype title pt-3">Problem Statement </h1>
+                             <h2>How might we help health and ingredient-conscious people better understand
+                                organic cosmetic products labels? </h2>                   
                           </div>
-                        </div>
-            </div>
-<!--Research section-->
-                 <div class="container pt-4">
-
+                              </div>
+             
                                <div class="row pt-4 justify-content-center">
                                     <div class="row container-fluid">
                                         <h1 class="prototype title" >Design Process </h1>
@@ -142,7 +135,7 @@
                                      </div>
                                      <div class="col-md-8 img-fluid flex-column">
                                         <div class="img-fluid">
-                                        <img src="./static/images/Capstone/damn.svg" class="img-secondary">
+                                        <img src="./static/images/Capstone/damn.svg" class="img-secondary img-responsive">
                                         </div>
                                      </div>
                                     </div>
@@ -209,7 +202,7 @@
                                        </div>
                                       </section>
 
-                                    <div class=" row justify-content-center p-2">
+                                    <div class="row justify-content-center p-2">
                                          <div class="container col-lg-8 wrap">
                                             <h2 class="text-center prototype ">Key Findings</h2>
                                                 <img src="./static/images/Capstone/info.svg" style="width:100%">
@@ -217,17 +210,17 @@
                                     </div>    
                                 </div>
                   
-                                <div class="container p-5 wrap">
+                                <div class="container">
                                    <div class="justify-content-center row">
                                       <div class="col-md-4 py-3">
-                                         <h2 class="prototype text-size ">Choosen Theme</h2>
+                                         <h2 class="prototype">Choosen Theme</h2>
                                           <p> To focus on a specific solution from the above-collected data, I have chosen <b>Transparent and descriptive ingredient labels.</b>This is because it has major pain points, behaviour and motivations. <br>
                                             <br> When buying organic cosmetic products users want to see <b>clearly and upfront</b>  what they use.  Online shopping experiences and trusting brands are all connected with buying an organic cosmetic product that has
                                             a transparent and fully descriptive label.<br> <br> From my assumptions , its clear that users will benefit from a digital solution to understand better organic products. </p>
                                            </p>
                                         </div>
                                        <div class="col-md-6 py-3 align-content-center">
-                                        <img src="./static/images/Capstone/painpoint.png" alt="painpoint" class="img-center">
+                                        <img src="./static/images/Capstone/painpoint.png" alt="painpoint" class="img-center img-responsive">
                                        </div>
                                    </div>
                                 </div>
@@ -249,9 +242,8 @@
                                           </p>                  
                                         </div>
                                       </div>
-                                
-                                   <!-- Carousel 2 -->
-                                
+                                </div>
+
                                  <div class="row justify-content-center">
                                       <div class="carousel-inner carousel">
                                            <section class="slider-wrapper img-responsive">
@@ -276,14 +268,14 @@
                                     </div>
                                     <div class="row justify-content-center">
                                     <div class="col-md-9">
-                                        <img src="./static/images/Capstone/task flow.svg" class="img-responsive">
+                                        <img src="./static/images/Capstone/task flow.svg" class="img img-responsive">
                                         </div>
                                    </div>
                                </div>
-                            </div>
-                    <!--developing section-->
-                            <div class="container p-3">
-                             <div class="row justify-content-center">
+                                </div>
+                
+                          <div class="container p-3">
+                              <div class="row justify-content-center">
                                 <div class="col-lg-6">
                                     <h2 class="prototype"> Develop and Ideate: Sketches and Mid-Wireframes</h2>
                                     <p class="p-2">
@@ -296,26 +288,27 @@
                                        Of course, the initial <a href="https://www.figma.com/proto/45XvkXKtNfBl15a3Q5mQ91/CAPSTONE-Design--Lotus?page-id=0%3A1&node-id=147%3A5561&viewport=105442%2C20439%2C1.3&scaling=scale-down&starting-point-node-id=52%3A12" target="_blank" class="prototype"> prototype </a> (click to view) will be subject to multiple changes the <b>usability testing</b>.
                                     </p>                  
                                 </div>
-                            </div>
-                            <div class="row justify-content-center">
+                              </div>
+
+                              <div class="row justify-content-center">
                                 <div class="col-lg-8 p-2">
                                      <img src="./static/images/Capstone/sketches.svg" class="img-responsive">
                                 </div>
-                            </div>
+                              </div>
 
                               <div class="row justify-content-center">
                                  <div class="col-lg-8">
                                              <section class="slider-wrapper">
                                                <ul class="slides-container2" id="slides-container">
-                                                  <li class="slide"><img src="./static/images/Capstone/wireframes-1.svg"  class="image-1" style="width: 100%"> </li>
-                                                  <li class="slide"><img src="./static/images/Capstone/wireframes-2.svg" class="image-1"  style="width:100%"></li>
+                                                  <li class="slide"><img src="./static/images/Capstone/wireframes-1.svg"  class="image-1 img-responsive" style="width: 100%"> </li>
+                                                  <li class="slide"><img src="./static/images/Capstone/wireframes-2.svg" class="image-1 img-responsive"  style="width:100%"></li>
                                                 </ul>
                                               </section>
                                  </div>
                               </div>
-                            </div>
+                          </div>
 
-                <div class="container p-3">
+                         <div class="container">
                                 <div class="row  justify-content-center">
                                   <div class="col-md-4">
                                       <h2 class="prototype">Usability Testing</h2>
@@ -338,15 +331,12 @@
                                                 <li class="slide"><img src="./static/images/Capstone/analysis-2.svg" class="image-2 img-responsive"  style="width:100%"></li>
                                                 <li class="slide"><img src="./static/images/Capstone/matrix-2.svg " class="image-2 img-responsive"  style="width:100%"></li>
                                               </ul>
-                                        </section>
-                                    
+                                        </section> 
                                   </div>
-                                  </div>
-                                 </div>
-                                 </div>
-               
+                                </div>
+                         </div>     
 <!--testing section-->
-                        <div class="container p-3" >
+                        <div class="container p-3">
                             <div class="row justify-content-center">
                                 <div class="col-lg-6">
                                     <h2 class="prototype">Iterations</h2>
@@ -368,7 +358,7 @@
                                 </div>
                             </div>
                     
-                                <div class="row justify-content-center">
+                            <div class="row justify-content-center">
                                     <div class="col-lg-8">
                                         <section class="slider-wrapper">
                                                   <ul class="slides-container2" id="slides-container">
@@ -377,12 +367,10 @@
                                                    </ul>
                                         </section>
                                     </div>
-                                   </div>
-                                </div>
                             </div>
                         </div>
 
-                        <div class="container p-3 wrap">
+                        <div class="container p-3">
                             <div class="row  justify-content-center">
                               <div class="col-md-4 py-3">
                                   <h2 class="prototype">Visual Design and Branding </h2>
@@ -402,7 +390,7 @@
                         </div>
                   
  <!--design section-->                 
-                    <div class="container">
+                    <div class="container p-3">
                         <div class="row justify-content-center">
                             <div class="col-lg-6">
                                 <h2 class="prototype">High-fidelity, Marketing Website and Final Prototype</h2>
@@ -415,36 +403,41 @@
                              </div>
                         </div>
                         <div class="row justify-content-center">
-                            <div class="container col-10">
+                            <div class="container col-md-8 pt-3">
                                <img src="./static/images/Capstone/good.svg" class="img" style="width: 100%">
                              </div>
                         </div>
+                        <br><br>
                         <div class="row justify-content-center">
-                            <div class="col-lg-6 py-5">
-                                -------Marketing Website-----
+                            <div class="container col-md-8">
+                                <img src="./static/images/Capstone/marketing website.svg" class="img" style="width:100%, height=auto">
                              </div>
                         </div>
+
                         <div class="row justify-content-center">
-                            <div class="col-lg-6 py-5">
-                                --------mOckup and prototype-----
-                             </div>
+                          <div class="col-md-3 pt-5">
+                            <h2 class="prototype pt-5">Outcome</h2>
+                              <p class="justify-content pt-3">
+                                An app that allows users to find organic cosmetic products and check for ingredients details by scanning products.
+                              <br><br>
+                              <button class="btn10" onclick="window.open('https://www.figma.com/proto/45XvkXKtNfBl15a3Q5mQ91/CAPSTONE-Design--Lotus?page-id=821%3A11994&node-id=821%3A11994&viewport=2483%2C400%2C0.36&scaling=scale-down&starting-point-node-id=821%3A13570', '_blank')" >Prototype</button></p>
+                            </div>
+                           <div class="col-md-6" class="justify-content-center"> 
+                             <img src="./static/images/Capstone/lotus-mok.svg" class="img img-responsive" style="width:100%">    
+                           </div>
                         </div>
                     </div>
 
 <!--learning section-->  
-                    <div class="container">
+                    <div class="container  p-3">
                     <div class="row justify-content-center">
                         <div class="col-lg-6">
                              <h2 class="prototype justify-content-center">Key Learnings and Future Impact </h2>
                         </div>
                      </div>
-                    </div>
-
-                    <div class="container wrap">
-                        
-                        <div class="row  justify-content-center">
-                            
-                          <div class="col-md-4">
+                    </div>   
+                    <div class="row justify-content-center">
+                          <div class="col-md-5">
                              <p>
                                 This project thought me to empathise deeply with users and solve everyday challenges by thinking critically and communicate clearly ideas.
                                 Moreover, I learned to use the double diamond Model method and strategically design thinking in a short time such as 10 Weeks.
@@ -453,7 +446,7 @@
                                 If time allowed I would implement more usability testing to adapt and enhance the user's experience.
                              </p>
                           </div>
-                          <div class="col-md-4">
+                          <div class="col-md-5">
                             <p>
                                 Lotus app will increase <b>the user's trust when buying organic cosmetic products online,</b> especially when they are looking for new products.
                                 Moreover, it will be easier to read and understand organic cosmetic ingredients. It won't be able to eradicate false claimed brands for their own benefits but lotus
@@ -462,28 +455,20 @@
                                 However,  the development of digital solution such as Lotus could be a step forward to transform the life of people digitally.
                              </p>
                           </div>
-                         </div>
-                     </div>
-                </div>
-<!--closing section-->                 
-                <div class="container-fluid">
-
-                    <div class="row ">
-                        <div class="arrow"><a href="#project-overview"><span class="iconify" data-icon="eva:arrow-upward-outline" style="color: #e16639; font-size: 48px;"></span></a></div>
-                     </div>
+                    </div>  
+       <!--closing section-->                 
                     
-                    <div class="row justify-content-center">
+                     <div class="row justify-content-center">
                         <div class="col-lg-6 text-center">
                             <h1 class="prototype">Thank you!</h1>
-                              <h3 > Liked the project? <br> Contact me for a quick chat! </h3><br>
+                              <h3> Liked the project? <br> Contact me for a quick chat! </h3><br>
                               <h3><b>Email: </b> <a class="maillink" onclick=" location.href= 'mailto:naptahag@gmail.com';">naptahag@gmail.com</a><br>
                                 <b>Linkedin:</b><a class="linkedinlink" onclick="window.open('https://www.linkedin.com/in/naptahag', '_blank')"> Napta Hag </a></h3>
-                                <div class="arrow"><a href="#project-overview"><iconify-icon icon="eva:arrow-upward-outline" style="color: #e16639; font-size: 48px;"></iconify-icon></a></div>
-                            </p>
+                                <div class="arrow"><a href="#goback"><iconify-icon icon="eva:arrow-upward-outline" style="color: #e16639; font-size: 48px;"></iconify-icon></a></div>
                         </div>
-                    </div>
-                </div>            
- </section>               
+                     </div>
+                   
+        </section>               
 </main>
 <!-- Latest compiled JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

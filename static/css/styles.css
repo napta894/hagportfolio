@@ -10,6 +10,7 @@
 
 html
 {
+     display:block;
      scroll-behavior: smooth;
      -webkit-tap-highlight-color: transparent;
 }
@@ -93,11 +94,6 @@ img {
 }
 
 /*New grid Section Css */ 
-
-
-.popUpdesc {
-    display: none;
-}
 
 
 a {
@@ -376,6 +372,7 @@ a:hover,a:focus {
 
 
 /*Main page Css */
+
 .home {
     background-color: #fff;
 }
@@ -1638,7 +1635,6 @@ margin-top: 2rem;
 
 .main-cap {
     width: 100%;
-    display: block;
     background-color: #fff;
     }  
     
