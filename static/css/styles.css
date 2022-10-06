@@ -580,7 +580,9 @@ a {
 }
 
 .portfolio_container {
-    height: 200%;
+    height: 100%;
+    object-fit: cover;
+    padding: 2rem;
 }
 
 
@@ -3076,7 +3078,7 @@ margin-top: 2rem;
   }
   
   .image2 {
-    width: 100%;
+    width: 120%;
     height: 100%;
   }
 
@@ -3172,6 +3174,7 @@ margin-top: 2rem;
     
     .grid-img {
             width: 100%;
+            height: auto;
             display: block;
     }
 
