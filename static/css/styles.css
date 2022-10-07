@@ -2831,6 +2831,7 @@ margin-top: 2rem;
 
   .prototype {
     color: #CC684F;
+    font-weight: bold;
   }
 
   .container-fluid{
@@ -2874,7 +2875,7 @@ margin-top: 2rem;
     color: #9C8194;
     font-weight: bold;
   }
-  
+
  
   /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -3101,7 +3102,12 @@ margin-top: 2rem;
   }
 
   
- 
+ /* cycle-train */
+
+ .cycle-text {
+    color: #38ACAC;
+    font-weight: bold;
+ }
 
 /*========== MEDIA QUERIES ==========*/
 
