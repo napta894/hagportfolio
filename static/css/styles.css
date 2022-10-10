@@ -3181,6 +3181,19 @@ margin-top: 2rem;
         height: 100%;
     }
 
+    .img-mockup {
+        width: 60%;
+        height: auto;
+        display: flex;
+    }
+
+    .img-mockup2 {
+        width: 70%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        padding-left: 4rem;
+    }
 
 
 /*========== MEDIA QUERIES ==========*/
