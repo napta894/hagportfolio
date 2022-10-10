@@ -1704,7 +1704,7 @@ margin-top: 2rem;
     
             
                   
-            .btn1o a {
+            .btn10 a {
                 text-decoration: none;
                 }
                     
@@ -2876,6 +2876,10 @@ margin-top: 2rem;
     font-weight: bold;
   }
 
+  .text-subtitle {
+    color:#183636;
+    font-weight: bold;
+  }
  
   /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -3108,6 +3112,43 @@ margin-top: 2rem;
     color: #38ACAC;
     font-weight: bold;
  }
+
+ .btn11 {
+    height: 42.857139587402344px;
+    width: 172.57142639160156px;
+    left: 145px;
+    top: 800px;
+    border-radius: 22.857141494750977px;
+    padding: 20px, 23px, 20px, 23px;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border: 2.28571px solid  #38ACAC;
+    font-weight: bold;
+    color: #38ACAC;
+    font-size: 1.25rem;
+    }
+    
+    .btn11-div {
+        padding-left: 19rem;
+    }
+
+         
+    .btn11 a {
+        text-decoration: none;
+        }
+            
+    .btn11:hover {
+        background-color:  #38ACAC; ;
+        color: #F3EFE9 ;
+        cursor: pointer;
+        }
+
+    .img-secondary {
+        width: 80%;
+        height: 100%;
+        object-fit: cover;
+        padding: 2rem;
+    }
 
 /*========== MEDIA QUERIES ==========*/
 
