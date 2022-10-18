@@ -10,13 +10,12 @@
 
 html
 {
-     display:block;
+     
      scroll-behavior: smooth;
      -webkit-tap-highlight-color: transparent;
 }
 
 body {
-    margin: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #F3EFE9;
 }
@@ -3193,6 +3192,19 @@ margin-top: 2rem;
         justify-content: center;
         padding-left: 4rem;
     }
+
+
+/*========== HOMEWORK CASE STUDY -3  css ==========*/
+
+.homework-text {
+    color: #4EA4D4;
+    font-weight: bold;
+}
+
+
+
+
+
 
 
 /*========== MEDIA QUERIES ==========*/
