@@ -3214,7 +3214,14 @@ margin-top: 2rem;
     font-weight: bold;
     color: #4EA4D4;
     font-size: 1.25rem;
+    cursor: pointer;
     }
+
+    .btn12:hover {
+        background-color:  #4EA4D4;
+        color: #F3EFE9 ;
+        cursor: pointer;
+        }
 
 
 
