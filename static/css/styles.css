@@ -3201,6 +3201,21 @@ margin-top: 2rem;
     font-weight: bold;
 }
 
+.btn12 {
+    height: 42.857139587402344px;
+    width: 172.57142639160156px;
+    left: 145px;
+    top: 800px;
+    border-radius: 22.857141494750977px;
+    padding: 20px, 23px, 20px, 23px;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border: 2.28571px solid #4EA4D4;
+    font-weight: bold;
+    color: #4EA4D4;
+    font-size: 1.25rem;
+    }
+
 
 
 /*========== MEDIA QUERIES ==========*/
