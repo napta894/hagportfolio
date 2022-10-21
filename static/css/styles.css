@@ -3224,6 +3224,11 @@ margin-top: 2rem;
         }
 
 
+        .workspace-img {
+            width:80%;
+            height: 100%;
+        }
+
 
 /*========== MEDIA QUERIES ==========*/
 
