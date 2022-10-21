@@ -2,24 +2,24 @@
 <html lang="eng">
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Napta Hag</title>
 <!--style css-->
+<link href="./static/css/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="./static/css/styles.css">
-<script src="https://kit.fontawesome.com/68108e5167.js" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
   rel="stylesheet">
 
-<body>
 <!--header-->
 <header>
   <div>
     <div class="nav">
       <nav>
-        <a href="index.html"><img src="static/images/LOGO 1.svg" alt="logo" class="logo-style"
-            style="width:auto; height: auto;" ;></a>
+        <a href="index.html"><img src="static/images/NH3.svg" alt="logo" class="logo-style"
+          style="width:117px; height: auto;" ;></a>
         <ul id="nav-pc">
           <a href="about.html">About</a>
           <a href="works.html">Works</a>
@@ -44,40 +44,93 @@
       </div>
     </div>
 </header>
+
 <!--mainpage-->
 <main class="mainpage">
-  <h1 class="heading"><span>Design shots</span></h1>
+
+  <h1 class="heading">
+  Design shots</h1>
   <!--portfolio section-->
-<section class="portfolio portfolio_section" id="portfolio">
-<div class="box-container">
-   <div class="box project-card">
-     <img src="./static/images/shots/Sky lounge mockup.png.png" alt="img0" class="img-shots">
-   </div>
 
-   <div class="box project-card">
-    <img src="./static/images/shots/e-scooter.png" alt="img1" class="img-shots">
-   </div>
 
-   <div class="box project-card">
-    <img src="./static/images/shots/Front.jpg" alt="img1-1" class="img-shots">
-   </div>
+<section class="portfolio portfolio-section" id="portfolio">
 
-   <div class="box project-card">
-    <img src="./static/images/shots/landpage.jpg" alt="img2" class="img-shots">
-   </div>
+  <div class="container grid">
+   
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <div class="img-container">
+            <img src="./static/images/shots/sheride app.png" alt="img-1" class="img-shots">
+            <div class="overlay">
+              <p class="caption">caption</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-   <div class="box project-card">
-    <img src="./static/images/shots/brainstation.png" alt="img3" class="img-shots">
-   </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <div class="img-container">
+            <img src="./static/images/shots/landpage.jpg" alt="img-2" class="img-shots">
+            <div class="overlay">
+              <p class="caption">caption</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-   <div class="box project-card">
-    <img src="./static/images/shots/sheride app.png" alt="img4" class="img-shots">
-   </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <div class="img-container">
+            <img src="./static/images/shots/e-scooter.png" alt="img-3" class="img-shots">
+            <div class="overlay">
+              <p class="caption">caption</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-   <div class="box project-card">
-    <img src="./static/images/shots/desktophanapta.jpeg" alt="img5" class="img-shots">
-   </div>
-</div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <div class="img-container">
+            <img src="./static/images/shots/Sky lounge cover.svg" alt="img-4" class="img-shots">
+            <div class="overlay">
+              <p class="caption">caption</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <div class="img-container">
+            <img src="./static/images/shots/Sky lounge cover.svg" alt="img-4" class="img-shots">
+            <div class="overlay">
+              <p class="caption">caption</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail">
+          <div class="img-container">
+            <img src="./static/images/shots/Sky lounge cover.svg" alt="img-4" class="img-shots">
+            <div class="overlay">
+              <p class="caption">caption</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</section>
 
 
   <div class="letsworktogheter">
@@ -87,41 +140,42 @@
     </p>
   </div>
 
-</section>
+
 </main>
+
+
+
+
 <!--footer-->
 <footer class="footer" id="footer">
   <div>
-    <button class="behance button" onclick="window.open('https://www.behance.net/naptahagportfolios', '_blank')">
-      <span class="iconify" data-inline="false" data-icon="ant-design:behance-outlined"
-        style="position: relative; text-align:center; font-size: 30px; color: #F3EFE9"></span>
-    </button>
+          <button class="behance button" onclick="window.open('https://www.behance.net/naptahagportfolios', '_blank')">
+            <span class="iconify" data-inline="false" data-icon="ant-design:behance-outlined"
+              style="position: relative; text-align:center; font-size: 30px; color: #F3EFE9"></span>
+          </button>
 
 
-    <button class="gmail button" onclick=" location.href= 'mailto:naptahag@gmail.com';">
-      <span class="iconify" data-inline="false" data-icon="cib:gmail"
-        style="position: relative; text-align:center ; font-size: 30px; color: #F3EFE9"></span>
-    </button>
+          <button class="gmail button" onclick=" location.href= 'mailto:naptahag@gmail.com';">
+            <span class="iconify" data-inline="false" data-icon="cib:gmail"
+              style="position: relative; text-align:center ; font-size: 30px; color: #F3EFE9"></span>
+          </button>
 
 
-    <button class="linkedin button" onclick="window.open('https://www.linkedin.com/in/naptahag', '_blank')">
-      <span class="iconify" data-inline="false" data-icon="bx:bxl-linkedin"
-        style="position: relative; text-align:center ; font-size: 30px;  color: #F3EFE9"></span>
-    </button>
+          <button class="linkedin button" onclick="window.open('https://www.linkedin.com/in/naptahag', '_blank')">
+            <span class="iconify" data-inline="false" data-icon="bx:bxl-linkedin"
+              style="position: relative; text-align:center ; font-size: 30px;  color: #F3EFE9"></span>
+          </button>
 
-    <button class="instagram button" onclick="window.open('https://www.instagram.com/artisyblack/', '_blank')">
-      <span class="iconify" data-inline="false" data-icon="simple-icons:instagram"
-        style="position: relative; text-align:center ; font-size: 30px;  color: #F3EFE9"></span>
-    </button>
+          <button class="instagram button" onclick="window.open('https://www.instagram.com/artisyblack/', '_blank')">
+            <span class="iconify" data-inline="false" data-icon="simple-icons:instagram"
+              style="position: relative; text-align:center ; font-size: 30px;  color: #F3EFE9"></span>
+          </button>
 
-    <button class="github button" onclick="window.open('https://github.com/napta894', '_blank')">
-      <span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"
-        style="position: relative; text-align:center ; font-size: 30px; color: #F3EFE9"></span>
-    </button>
-
-
-    <hr>
-    <p>&copy; 2021. All right Reserved</p>
+          <button class="github button" onclick="window.open('https://github.com/napta894', '_blank')">
+            <span class="iconify" data-inline="false" data-icon="akar-icons:github-fill"
+              style="position: relative; text-align:center ; font-size: 30px; color: #F3EFE9"></span>
+          </button>
+    <p>&copy; 2022. All right Reserved</p>
   </div>
 </footer>
 
