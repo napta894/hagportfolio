@@ -2943,6 +2943,21 @@ margin-top: 2rem;
         background-color: #E49B89;
         }  
 
+
+
+    /*========== Marketing Page  css ==========*/
+
+    .linkedinlink1 {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    .maillink1 {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+
 /*========== MEDIA QUERIES ==========*/
 
 /*========== Index media queries  ==========*/
@@ -3482,7 +3497,6 @@ margin-top: 2rem;
     }
 
   
-    
 }
 
 @media screen and (max-width:768px) {
@@ -4500,6 +4514,16 @@ width: 100%;
         display: block;
     }
     
+
+    .linkedinlink1 {
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    .maillink1 {
+        font-size: 2rem;
+        color: #fff;
+    }
   
 }
 
