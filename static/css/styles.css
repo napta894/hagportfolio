@@ -729,13 +729,20 @@ a {
   
 /*Aboutme page Css */
 
+.about {
+    display: block;
+    min-height: 100vh;
+    width: 100%;
+}
+
 .about-section {
     width: 100%;
-    min-height: 90vh;
+    min-height: 100vh;
     padding: 30px 20px  0;
     transition: 1s;
     -webkit-transition: 1s;
     padding-bottom: 2rem;
+    display: block;
 }
 
 .content-section{
@@ -747,14 +754,15 @@ a {
 .image-section {
     width: 40%;
     float: right;
-    display: flex;
+    padding-bottom: 2rem;
 }
 
 .image-section img{
-    height: auto;
+    height: 500px;
+    width: 500px;
     align-content: center;
-    display: block;
-    padding:2rem;
+    display: flex;
+    padding:1rem;
 
 }
 
@@ -3186,7 +3194,9 @@ margin-top: 2rem;
     }
     
     .about {
-    height:auto;
+    display: block;
+    padding: 2rem;
+
     }
 
     .about_h1 {
@@ -3298,6 +3308,13 @@ margin-top: 2rem;
         width: 100%;
     }
 
+    .about {
+    display: block;
+    padding: 2rem;
+
+    }
+
+    
     .about-section {
         width: 100%;
         display: block;
