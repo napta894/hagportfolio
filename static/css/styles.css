@@ -3309,8 +3309,6 @@ margin-top: 2rem;
 
     .about {
     display: block;
-    padding: 2rem;
-
     }
 
     
@@ -3318,8 +3316,12 @@ margin-top: 2rem;
         width: 100%;
         display: block;
         min-height: 100vh;
-    
     }
+
+    .about-info {
+        display: block;
+    }
+
     .logo-style {
         float: right;
         display: flex;
@@ -3351,13 +3353,13 @@ margin-top: 2rem;
     
     }
     .container {
-        width: 100%;
-        padding:2rem;
+        padding:1rem;
     }
     
     .content-section {
     width: 100%;
     }
+
 
     .button-cv {
     font-size: 1.5rem;
@@ -3406,7 +3408,9 @@ margin-top: 2rem;
     }
 
     .about-section {
-        padding: 20px 20px;
+        width: 100%;
+        display: block;
+        min-height: 100vh;
     }
 
     .button-cv {
@@ -3420,12 +3424,10 @@ margin-top: 2rem;
 
     .content-section {
     width: 100%;
-    margin-bottom: 2rem;
     }
     
     .image-section {
         float: none;
-        width: 100%;
         display: block;
         margin-top: 10rem;
         align-items: center;
