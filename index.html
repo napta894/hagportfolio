@@ -16,116 +16,159 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
   rel="stylesheet">
 </head>
-
+     
 <body>
   <!--header-->
   <header>
-  <div class="hero">
-    <div class="nav">
-    <nav >
-    <a href="index.html"><img src="./static/images/NH3.svg" alt="logo" class="logo-style" style="width:117px; height: auto;";></a>
-        <ul id="nav-pc">
-          <a href="about.html">About</a>
-          <a href="works.html">Works</a>
-          <a href="contact.html">Contact</a>    
-      </ul>
-    </nav>
-    <!--humberger toggle nav-->
-    <div id="nav-toggle">
-      <div class="hamburger">
-        <input type="checkbox">
-        <div class="hamburgerlines">
-          <span class="lines line1"> </span>
-          <span class="lines line2"> </span>
-          <span class="lines line3"> </span>
+    <div class="hero">
+      <div class="nav">
+        <nav>
+          <a href="index.html"><img src="./static/images/NH3.svg" alt="logo" class="logo-style"
+              style="width:117px; height: auto;" ;></a>
+          <ul id="nav-pc">
+            <a href="about.html">About</a>
+            <a href="works.html">Works</a>
+            <a href="contact.html">Contact</a>
+            <btn class="btn14" onclick="window.open('./static/files/Napta Hag.pdf', '_blank')"
+              download="NaptaHagResume">Resume</btn>
+          </ul>
+        </nav>
+        <!--humberger toggle nav-->
+        <div id="nav-toggle">
+          <div class="hamburger">
+            <input type="checkbox">
+            <div class="hamburgerlines">
+              <span class="lines line1"> </span>
+              <span class="lines line2"> </span>
+              <span class="lines line3"> </span>
+            </div>
+            <ul class="navbar">
+              <a href="about.html">About</a>
+              <a href="works.html">Works</a>
+              <a href="contact.html">Contact</a>
+              <btn class="btn13" onclick="window.open('./static/files/Napta Hag.pdf', '_blank')"
+                download="NaptaHagResume">CV</btn>
+          </div>
+          </ul>
         </div>
-        <ul class="navbar">
-          <a href="about.html">About</a>
-          <a href="works.html">Works</a>
-          <a href="contact.html">Contact</a>
-          <btn class="btn13" onclick="window.open('./static/files/Napta Hag.pdf', '_blank')"
-          download="NaptaHagResume">CV</btn>
       </div>
-        </ul>
-      </div>
-     </div>
     </div>
-</header>
+  </header>
+
   <!--mainpage-->
-<main class="main">
-  <!--home section-->
-  <section class="home" id="home">
+  <main class="main">
+    <!--home section-->
+    <section class="home" id="home">
       <div class="home-content">
         <div class="home-content-text">
           <h2 class="mainh2">hello, I am</h2>
           <h1 class="mainh1">NAPTA HAG</h1>
-          <p class="para">A dedicated and passionate UI Designer <br> with background in Marketing and Web design.
-             <br>Based in London, UK.</p>
+          <h3 class="para">A dedicated and passionate UX/UI Designer <br> with background in Marketing and Web design.
+            <br>Based in London, UK.
+          </h3>
         </div>
-        <div class="about-btn">
-          <btn class="btn13" onclick="window.open('./static/files/Napta Hag.pdf', '_blank')"
-          download="NaptaHagResume">Resume</btn>
+
+        <div class="icons">
+          <td>
+            <button class="instagram button2" onclick="window.open('https://www.instagram.com/artisyblack/', '_blank')">
+              <span class="iconify" data-icon="ant-design:instagram-filled"
+                style="color: #9C8194; height:2rem; width: 2rem;"></span>
+              </a></button>
+            <button class="behance button2"
+              onclick="window.open('https://www.behance.net/naptahagportfolios', '_blank')">
+              <span class="iconify" data-icon="akar-icons:behance-fill"
+                style="color: #9c8194; height:2rem; width: 2em;"></span>
+              </a> </button>
+            <button class="button2" onclick="window.open('https://www.linkedin.com/in/naptahag', '_blank')">
+              <span class="iconify" data-icon="akar-icons:linkedin-fill"
+                style="color: #9c8194; height:2rem; width: 2rem;"></span>
+              </a>
+            </button>
+          </td>
         </div>
-       <div class="icons">
-        <td>
-        <button class="instagram button2" onclick="window.open('https://www.instagram.com/artisyblack/', '_blank')">
-        <span class="iconify" data-icon="ant-design:instagram-filled" style="color: #9C8194; height:2rem; width: 2rem;"></span>
-        </a></button>
-         <button class="behance button2"  onclick="window.open('https://www.behance.net/naptahagportfolios', '_blank')">
-        <span class="iconify" data-icon="akar-icons:behance-fill" style="color: #9c8194; height:2rem; width: 2em;"></span>
-        </a> </button>
-        <button class="button2" onclick="window.open('https://www.linkedin.com/in/naptahag', '_blank')">
-        <span class="iconify" data-icon="akar-icons:linkedin-fill" style="color: #9c8194; height:2rem; width: 2rem;"></span>
+        <div class="scroll-me">
+          <a href="#projects">
+            <div class="scroll-down"></div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- The portfolio section begins -->
+    <section id="projects">
+      <div class="portfolio-container">
+
+
+        <a class="card" href="./capstone.html" target="_blank" style="display:inline-block">
+          <div class="card-header">
+      <img src="./static/images/cover1.png" alt="rover"/>
+          </div>
+          <div class="card-body">
+            <span class="tag tag-teal">UX/UI</span>
+            <h4 class="third-heading">
+              Lotus App
+            </h4>
+            <p class="description">
+              An app to help <br>
+              ingredient-conscious users <br> to shop ethically
+            </p>
+            <btn class="btn btn-primary" href="./capstone.html">View case study</btn>
+          </div>
         </a>
-        </button>
-        </td>
-       </div>
-       <div class="scroll-me">
-        <a href="#projects">
-          <div class="scroll-down"></div>
+
+        <a class="card" href="./cycletrain.html" target="_blank" style="display:inline-block">
+          <div class="card-header">
+            <img src="./static/images/cover2.png" alt="ballons" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-purple">UX/UI</span>
+            <h4 class="third-heading">
+              Cycle Train App
+            </h4>
+            <p class="description">
+              An app to help cyclists<br> overcoming the fear of roads <br> and lower O2 emissions
+            </p>
+            <btn class="btn btn-primary" href="./cycletrain.html">View case study</btn>
+          </div>
+        </a>
+
+        <a class="card" href="./homework.html" target="_blank" style="display:inline-block">
+          <div class="card-header">
+            <img src="./static/images/cover-3.png" alt="city" />
+          </div>
+          <div class="card-body">
+            <span class="tag tag-pink">UI</span>
+            <h4 class="third-heading">
+              Homework Website
+            </h4>
+            <p class="description">
+              Hardware donations website <br> for
+              IT companies<br> with limited time to donate
+            </p>
+            <btn class="btn text-linked" href="./homework.html">View case study</btn>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+
+        <div class="row">
+          <h3 class="worktogheter2">Let's work together</h3>
+          <div class="col col-12 .col-sm">
+            <a class="project-text-block" onclick="location.href= 'mailto:naptahag@gmail.com';" class="mail-link">
+              <h2 class="project-heading">
+                naptahag@gmail.com
+              </h2>
+            </a>
+          </div>
+        </div>
         </a>
       </div>
-    </div>
+      </div>
     </section>
 
-<!-- The portfolio section begins -->
-
-<section id="projects">    
-  <h1 class="work-h1">My works</h1>
-
-<div class="portfolio_container">
-  <section class="grid">
-    <a class="project" href='capstone.html', target="_blank" >
-       <section class="project-info">
-      <h3 class="third-heading">Lotus App</h3>
-      <p class="description"> An app to help<br>
-        ingredient-conscious users <br>  to shop ethically</p>
-      </section>
-      <img src="./static/images/cover1.png" alt="Project" class="grid-img">
-    </a>
-  
-
-  <a class="project" class="project" href='cycletrain.html', target="_blank" >
-    <div class="project-info">
-      <h3 class="third-heading">Cycle Train</h3>
-      <p class="description">An app to help cyclists overcoming <br>the fear of roads and lower O2 emissions</p>
-    </div>
-    <img src="./static/images/cover2.png" alt="Project" class="grid-img">
-  </a>
-
-  
-  <a class="project"  href='homework.html', target="_blank" >
-    <section class="project-info">
-      <h3 class="third-heading">Homework</h3>
-      <p class="description">Hardware donations charity website</p>
-    </section>
-    <img src="static/images/cover-3.png" alt="Project" class="grid-img">
-    </a>
-
-  </div>  
-</div>
- </div>
-</section>
  
 <!--footer-->
   <footer class="footer" id="footer">
