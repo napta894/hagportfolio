@@ -322,6 +322,35 @@ a:hover,a:focus {
     cursor: pointer;
     }
 
+    
+        .btn14 {
+        width: 120px;
+        height: 40px;
+        color: #ffff;
+        align-items: center;
+        text-align: center;
+        background-color:#9C8194;
+        font-size: 1rem;
+        font-family:'monteserrat', sans-serif;
+        border: none;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        font-weight: lighter;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        }
+    
+        .btn14 a {
+            text-decoration: none;
+            }
+                
+            .btn14:hover {
+            background-color: #776571;
+            color: #F3EFE9 ;
+            cursor: pointer;
+            }
+
 /*Footer Css */
 
 .footer {
