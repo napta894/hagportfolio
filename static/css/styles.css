@@ -3184,6 +3184,83 @@ margin-top: 2rem;
         color: #232323;
     }
 
+
+
+/*==========check out page ==========*/
+
+.check {
+    background-color: #F3EFE9;
+    padding:1rem;
+}
+
+.nav-buttons-container .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .nav-buttons-container {
+    display:flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .nav-buttons-container .previous-button,
+  .nav-buttons-container .next-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: "Roboto", sans-serif;
+    border-color: #9C8194;
+    text-decoration: none;
+    color: black;
+    padding:20px 20px;
+    font-size: 2rem;
+    min-width: 200px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .icons {
+    padding-bottom: 2rem;
+    align-content: center;
+  }
+  .nav-buttons-container .next-button {
+    position: relative;
+    right: 0;
+    cursor:pointer;
+  }
+  
+  .nav-buttons-container .previous-button:hover .icon {
+    animation: nav-prev-anim 300ms alternate infinite;
+  }
+  
+  .nav-buttons-container .next-button:hover .icon {
+    animation: nav-next-anim 300ms alternate infinite;
+  }
+
+  .label {
+    cursor:pointer;
+  }
+
+  .label:hover {
+    color: #3A3652;
+    text-decoration: solid;
+  }
+  
+  @keyframes nav-prev-anim {
+    to {
+      transform: translateX(4px);
+    }
+  }
+  
+  @keyframes nav-next-anim {
+    to {
+      transform: translateX(-4px);
+    }
+  }
+
+
 /*========== MEDIA QUERIES ==========*/
 
 /*========== Index media queries  ==========*/
