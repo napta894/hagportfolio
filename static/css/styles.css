@@ -392,7 +392,7 @@ a:hover,a:focus {
 .button2 {
     background-color: #fff;
     border: none;
-    padding: 1rem;
+    align-items: baseline;
 }
 
 .button2:hover {
@@ -415,9 +415,9 @@ a:hover,a:focus {
 }
 
 .home-content {
-    height:100vh;
+    height:110vh;
     width: 100%;
-    padding-top: 8rem;
+    padding-top: 5rem;
     text-align: center;
     align-items: center;
 }
@@ -475,7 +475,7 @@ a:hover,a:focus {
 }
 
 .scroll-me {
-    margin-top: 10rem;
+    margin-top: 8rem;
     text-align: center;
 }
 
@@ -517,6 +517,8 @@ a:hover,a:focus {
     -webkit-animation-delay: 0.3s;
     /* animation: scroll-down 1s ease-in-out infinite; */
 }
+
+
 
 @keyframes scroll-down {
     0% {
@@ -651,6 +653,19 @@ a {
       transform: translateX(0px) translateY(-50%) scale(1);
     }
   }
+
+  .user-img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .user-image {
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+  }
+
   
   .grid {
     display: grid;
@@ -895,7 +910,8 @@ a {
 
 
 .project-heading {
-    color: #232323;
+    color: #3333;
+    display: flex;
 }
 
 
@@ -2700,6 +2716,7 @@ margin-top: 2rem;
     zoom: 0.75;
     -webkit-transform: scale(0.55);
     -webkit-transform-origin: 0 0;
+    display: flex;
   }
 
   .title {
@@ -3145,9 +3162,6 @@ margin-top: 2rem;
        opacity: 1;
     }
 
-
-
-
     .main-cap1 {
         width: 100%;
         background-color: #E49B89;
@@ -3221,7 +3235,7 @@ margin-top: 2rem;
     width: 100%;
   }
   
-  .icons {
+  .icon1 {
     padding-bottom: 2rem;
     align-content: center;
   }
@@ -3402,7 +3416,23 @@ margin-top: 2rem;
         fill: currentColor;
       }
 
+      .project-heading {
+        color: #3333;
+        display: block;
+        font-size: 1rem;
+        padding: 0;
+       }
 
+       .card-body p {
+        position: relative;
+        display: none;
+       }
+
+
+       .worktogheter2 {
+        padding-left: 1rem;
+        justify-content: center;
+       }
 }
 
 
@@ -3555,6 +3585,13 @@ margin-top: 2rem;
     .grid-img {
         width: 100%;
     }
+
+    .project-heading {
+        color: #3333;
+        display: block;
+        font-size: 1rem;
+       }
+
 }
 
 
@@ -3721,6 +3758,8 @@ margin-top: 2rem;
     .download-resume {
     text-align: center;
     }
+
+   
 
     .content-section .aboume_p {
     font-size: 2rem;
