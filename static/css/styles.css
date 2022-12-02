@@ -896,7 +896,6 @@ a {
   font-size: 68px;
   line-height: 100%;
   font-weight: 600;
-  padding: 2rem;
   text-align: left;
   cursor: pointer;
   padding-left: 4rem;
@@ -4107,6 +4106,46 @@ margin-top: 2rem;
     }
 
 }
+
+/*========== marketing queries  ==========*/
+
+@media screen and (max-width: 480px) {
+
+
+
+  html {
+    font-size: 100%;
+    }
+
+  .main-cap1 {
+    padding-top: 2rem;
+    width: 100%;
+    display: block;
+  }
+
+  .thankyou {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .maillink1 {
+    font-size: small;
+  }
+
+  .check {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 680px) {
+    .maillink1 {
+     font-size: small;
+    }
+}
+
+
+
+
 
 /*========== wedvenue page queries  ==========*/
 
