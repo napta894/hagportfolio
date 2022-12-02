@@ -3205,15 +3205,17 @@ margin-top: 2rem;
 .check {
     background-color: #F3EFE9;
     padding:2rem;
+    width: 100%;
 }
 
   .previous-next-buttons {
     align-items: center;
     width: 100%;
     padding: 8px 16px;
+    display: flex;
+    gap:8px;
 }
   
-
   
   a:hover {
     background-color: none;
@@ -3225,12 +3227,14 @@ margin-top: 2rem;
     background-color: none;
     color: #232323;
     font-size: 2rem;
+    padding-right: 5rem;
   }
   
   .next1 {
     background-color: none;
     color: #232323;
     font-size:2rem;
+    padding-left: 45rem;
   }
 
 
