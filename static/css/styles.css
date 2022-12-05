@@ -1374,9 +1374,7 @@ border-style: solid;
     list-style: none;
 }
 
-#background{
-    padding: 2rem 2rem;
-}
+
 .projectbackground {
     color: #183636;
 }
@@ -1387,17 +1385,18 @@ border-style: solid;
 }
 
 .image-background {
-    width: 100%;
+    width: 60%;
     float: left;
+    padding-top: 0;
 }
 
 
-
 .text-background {
-    width: 40%;
+    width: 50%;
     overflow: hidden;
-    margin-top: 5rem;
     line-height: 2rem;
+    float: right;
+    padding-top: 2rem;
 }
 
 .text-challenge {
@@ -1405,10 +1404,10 @@ border-style: solid;
         line-height: 2rem;
     }
 
-.research {
-    margin-bottom: 2rem;
+.painpoint-h2 {
+    padding-left: 3rem;
+    color: #637C7B;
 }
-
 
 .research-h1 {
     font-size: 3rem;
@@ -1452,11 +1451,10 @@ margin-top:1rem;
 text-align: center;
 align-items: center;
 justify-items: center;
+color: #637C7B;
 }
 
-.painpoints-h2 {
-    color: #637C7B;
-}
+
 
 .persona-container {
     display: inline-block;
@@ -1515,8 +1513,8 @@ padding: 2rem;
 
 .problem {
     padding: 2rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
     justify-content: center;
 }
@@ -1527,11 +1525,6 @@ padding: 2rem;
     color: #637C7B;
 }
 
-.competitive {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding: 2rem;
-}
 
 .flex-container {
     display: flex;
@@ -1560,13 +1553,14 @@ padding: 2rem;
 }
 
 .competition2-image {
-    width: 50%;
+    width: 60%;
     padding: 2rem;
 }
 
 .competition1-image {
-    width: 70%;
+    width: 80%;
     padding: 2rem;
+    padding-top: 2rem;
 }
 
 .competition-info {
@@ -1576,33 +1570,23 @@ padding: 2rem;
 }
 
 .research-findings {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    padding: 2rem;
 }
 
 .findings-h2 {
     color: #637C7B;
 }
 
-.findings {
-    margin-top: 3rem;
-}
 .findings-h3 {
     color: #637C7B;
-    line-height: 1.25rem;
-    margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .finding-text {
     text-align: justify;
-    text-align: justify;
+    font-size: 2rem;
 }
 
-.ideation {
-    margin-top: 2rem;
-    margin-bottom:2rem;
-}
 
 .ideation-h1 {
     margin-top: 1rem;
@@ -1653,22 +1637,25 @@ padding: 2rem;
     margin-top: 2rem;
 }
 
+
+
 .affinity-text {
     margin-top:2rem;
 }
 
 .affinity-h3 {
-    margin-top:2rem;
-    color: #183636;
+    color: #637C7B;
+    padding-top: 2rem;
 }
 
 .usability-text {
     line-height: 1.25rem;
 }
 
+.insights {
+    padding: 2rem;
+}
 .insights-h3 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     color: #637C7B;
 }
 
@@ -2093,7 +2080,7 @@ padding: 2rem;
     }
     
     #background{
-        padding: 2rem 2rem;
+        padding: 1rem 1rem;
     }
     
     .wrapper {
@@ -2101,14 +2088,12 @@ padding: 2rem;
         display: inline-block;
         padding-left: 5rem;
         padding-right: 5rem;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
     }
     
     .image-background {
         width: 40%;
         float: right;
-        display: flex;
+        display: block;
     }
     
     .img-background {
@@ -2319,6 +2304,7 @@ padding: 2rem;
     .interviews {
         display: inline-block;
         padding-top: 2rem;
+        padding-bottom: 2rem;
     }
     
     .interviews-img {
@@ -2337,10 +2323,6 @@ padding: 2rem;
     }
     
     
-    .pain {
-        display: inline;
-        width: 100%;
-    }
     
     .column {
         padding-bottom:2rem;
@@ -2632,6 +2614,9 @@ padding: 2rem;
     
       }
     
+      .goal {
+        padding: 3rem;
+      }
      
       .reference li {
         list-style: none;
@@ -2921,6 +2906,7 @@ padding: 2rem;
   margin-right: auto;
   width: 60%;
 }
+
 
 
 /* carousel 2 */
@@ -4339,7 +4325,6 @@ padding: 2rem;
     .painpoints .points {
         display:block;
         width: 100%;
-        padding-left:4rem;
         padding-right: 4rem;
     }
 
@@ -4348,31 +4333,26 @@ padding: 2rem;
         color: #637C7B;
     }
 
-    .pain {
-        display: inline;
-        width: 100%;
-        color: #183636;
-    }
 
     .booking-h3 {
         justify-content: center;
         text-align: center;
         margin-bottom: 1rem;
-        color: #183636;
+        color: #637C7B;
     }
 
     .description-h3 {
         justify-content: center;
         text-align: center;
         margin-bottom: 1rem;
-        color: #183636;
+        color: #637C7B;
     }
 
     .options-h3 {
         justify-content: center;
         text-align: center;
         margin-bottom: 1rem;
-        color: #183636;
+        color: #637C7B;
     }
 
     .persona1 {
@@ -4463,12 +4443,15 @@ padding: 2rem;
     .usability-text {
         text-align: justify;
         width: 100%;
+        padding-bottom: 2rem;
     }
 
 
     .affinity {
         width: 100%;
         display: block;
+        padding: 2rem;
+        padding-top: 3rem;
     }
 
     .affinity-text {
