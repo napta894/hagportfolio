@@ -1321,6 +1321,7 @@ border-style: solid;
     min-height: 100vh;
     padding: 20px 10vw;
     width: 100%;
+
 }
 
 
@@ -1410,10 +1411,10 @@ border-style: solid;
 
 .research-h1 {
     font-size: 3rem;
-    color:#183636;
+    color: #637C7B;
 }
 
-.project-research {
+.project-research1 {
     color: #637C7B;
     margin-bottom: 1rem;
     margin-top: 1rem;
@@ -1452,8 +1453,13 @@ align-items: center;
 justify-items: center;
 }
 
+.painpoints-h2 {
+    color: #637C7B;
+}
+
 .persona-container {
     display: inline-block;
+    padding: 2rem;
 }
 
 .persona1 {
@@ -1467,6 +1473,7 @@ justify-items: center;
 }
 .personas {
 margin-top: 2rem;
+padding: 2rem;
 }
 
 .persona-h3 {
@@ -1475,9 +1482,21 @@ margin-top: 2rem;
     font-weight: lighter;
 }
 
+
+.linkedinlink2 {
+    font-size: 2rem;
+    color: #637C7B;
+}
+
+.maillink2 {
+    font-size: 2rem;
+    color: #637C7B;
+}
+
 .project-persona {
     margin-top: 1rem;
     margin-bottom: 1rem;
+    color: #637C7B;
 }
 
 .jessica-img {
@@ -1494,6 +1513,7 @@ margin-top: 2rem;
     margin-top: 2rem; }
 
 .problem {
+    padding: 2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -1501,13 +1521,15 @@ margin-top: 2rem;
 }
 
 .problem-h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     font-size: 3rem;
+    color: #637C7B;
 }
 
 .competitive {
     margin-top: 3rem;
     margin-bottom: 3rem;
+    padding: 2rem;
 }
 
 .flex-container {
@@ -1555,6 +1577,10 @@ margin-top: 2rem;
 .research-findings {
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.findings-h2 {
+    color: #637C7B;
 }
 
 .findings {
@@ -1632,6 +1658,7 @@ margin-top: 2rem;
 
 .affinity-h3 {
     margin-top:2rem;
+    color: #183636;
 }
 
 .usability-text {
@@ -1641,6 +1668,7 @@ margin-top: 2rem;
 .insights-h3 {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    color: #637C7B;
 }
 
 .round1 {
@@ -1670,6 +1698,7 @@ margin-top: 2rem;
 .logo-h3 {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    color: #183636;
 }
 
 .logo-big {
@@ -1698,6 +1727,7 @@ margin-top: 2rem;
 .color-h3 {
     margin-top: 2rem;
     margin-bottom: 2rem;
+    color: #183636;
 }
 
 .colors-img {
@@ -1707,10 +1737,12 @@ margin-top: 2rem;
 .icons {
     justify-content: center;
     padding: 2rem;
+    color: #183636;
 }
 
 .icons-h3 {
     margin-bottom: 2rem;
+    color: #183636;
 }
 
 .icons-img {
@@ -1718,6 +1750,13 @@ margin-top: 2rem;
     width: 100%;
 }
 
+.typography-h3 {
+    color: #183636;
+}
+
+.typography {
+    padding:2rem ;
+}
 
 .tranform {
     margin-top: 2rem;
@@ -1742,10 +1781,9 @@ margin-top: 2rem;
 
 
 .prototype-img {
-    width: 80%;
-    margin-bottom: 2rem;
+    width: 100%;
+    height: 100%;
     padding: 2rem;
-    margin-left: 15rem;
 }
 
 
@@ -2460,6 +2498,15 @@ margin-top: 2rem;
     }
     
 
+    .thankyou1 {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+
+    .thanks-text {
+        color: #637C7B;
+        font-size: 2rem;
+    }
 
     
     .tranform {
@@ -2522,21 +2569,13 @@ margin-top: 2rem;
         padding: 2rem;
         padding-top: 2rem;
     }
-    
-    .prototype-img {
-        width: 60%;
-        margin-bottom: 2rem;
-        padding: 2rem;
-        margin-left: 15rem;
-    }
+
     
     .prototype-video {
-        width: 60%;
+        width: 100%;
         margin-bottom: 2rem;
         padding: 2rem;
         justify-content: center;
-        text-align: center;
-        margin-left: 15rem;
     }
     
     .link-proto {
@@ -3201,6 +3240,12 @@ margin-top: 2rem;
 
 .check {
     background-color: #F3EFE9;
+    padding:2rem;
+    width: 100%;
+}
+
+.check1 {
+    background-color: #fff;
     padding:2rem;
     width: 100%;
 }
@@ -4299,29 +4344,34 @@ margin-top: 2rem;
 
     .points {
         padding:2rem;
+        color: #637C7B;
     }
 
     .pain {
         display: inline;
         width: 100%;
+        color: #183636;
     }
 
     .booking-h3 {
         justify-content: center;
         text-align: center;
         margin-bottom: 1rem;
+        color: #183636;
     }
 
     .description-h3 {
         justify-content: center;
         text-align: center;
         margin-bottom: 1rem;
+        color: #183636;
     }
 
     .options-h3 {
         justify-content: center;
         text-align: center;
         margin-bottom: 1rem;
+        color: #183636;
     }
 
     .persona1 {
@@ -4508,6 +4558,7 @@ margin-top: 2rem;
 
     .prototypes {
         display:block;
+        padding-top: 2rem;
     }
 
     .prototypes-text {
@@ -4516,6 +4567,7 @@ margin-top: 2rem;
 
     .prototype-div {
         display: block;
+        padding-top: 2rem;
     }
 
     .prototype-img {
@@ -4526,6 +4578,14 @@ margin-top: 2rem;
     .prototype-video {
         width: 100%;
         margin-left: 0;
+    }
+
+    .uilibrary-img {
+        width: 100%;
+        height: 500px;
+        padding: 3rem;
+        align-content: center;
+        display: block;
     }
 
 
