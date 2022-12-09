@@ -336,13 +336,14 @@ a:hover,a:focus {
         padding-bottom: 2rem;
         padding-top: 1rem;
         font-weight: lighter;
-        position: relative;
         margin-top: 20px;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
+        cursor: pointer;
         }
     
         .btn14 a {
             text-decoration: none;
+            cursor: pointer;
             }
                 
             .btn14:hover {
