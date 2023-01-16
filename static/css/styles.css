@@ -3237,9 +3237,9 @@ padding: 2rem;
   .previous-next-buttons {
     align-items: center;
     width: 100%;
-    padding: 8px 14px;
+    padding: 8px 16px;
     display: flex;
-    gap:8px;
+    gap:26rem;
 }
   
   
@@ -3260,7 +3260,7 @@ padding: 2rem;
     background-color: none;
     color: #232323;
     font-size:2rem;
-    padding-left: 45rem;
+    padding-left: 12rem;
   }
 
 
