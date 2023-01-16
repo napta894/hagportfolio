@@ -3237,7 +3237,7 @@ padding: 2rem;
   .previous-next-buttons {
     align-items: center;
     width: 100%;
-    padding: 8px 16px;
+    padding: 8px 14px;
     display: flex;
     gap:8px;
 }
@@ -3253,14 +3253,14 @@ padding: 2rem;
     background-color: none;
     color: #232323;
     font-size: 2rem;
-    padding-right: 5rem;
+    padding-right: 12rem;
   }
   
   .next1 {
     background-color: none;
     color: #232323;
     font-size:2rem;
-    padding-left: 30rem;
+    padding-left: 35rem;
   }
 
 
