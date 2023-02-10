@@ -3292,6 +3292,13 @@ padding: 2rem;
 
 }
 
+.link-to-proto {
+    color: #5f5072;
+    padding-left: 0.5rem;
+    font-size: 2rem;
+    font-style: oblique;
+}
+
 
 /*========== MEDIA QUERIES ==========*/
 
