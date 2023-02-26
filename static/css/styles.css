@@ -418,7 +418,7 @@ a:hover,a:focus {
 .home-content {
     height: 75vh;
     width: 100%;
-    padding-top: 5rem;
+    padding-top: 8rem;
     text-align: center;
     align-items: center;
 }
@@ -2665,7 +2665,6 @@ padding: 2rem;
 
 
 /*========== CAPSTONE CASE STUDY -2  css ==========*/
-
 
   hr {
     margin: 1rem 0;
