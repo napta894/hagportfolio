@@ -498,9 +498,6 @@ a:hover,a:focus {
 }
 
 
-
-
-
 .btn7 {
     width: 120px;
     height: 40px;
@@ -528,7 +525,7 @@ a:hover,a:focus {
 
 .icons .container a {
     display:inline-block;
-    align-items: center;
+    align-items: left;
 }
 
 
