@@ -244,6 +244,11 @@ a:hover,a:focus {
     overflow: scroll;
  }
 
+.hero2
+{
+    background-color: #D9D9D9;
+}
+
 .logo-style {
     display:inline-block;
     position: relative;
@@ -3189,6 +3194,12 @@ padding: 2rem;
     width: 100%;
 }
 
+.check2 {
+    background-color: #D9D9D9;
+    width: 100%;
+    padding:2rem;
+}
+
   .previous-next-buttons {
     align-items: center;
     width: 100%;
@@ -3218,6 +3229,13 @@ padding: 2rem;
     padding-left: 12rem;
   }
 
+  .next2 {
+    background-color: none;
+    color: #fff;
+    font-size:2rem;
+    align-content: right;
+    padding-left: 5rem;
+  }
 
   
   .previous-next-buttons .previous-next-buttons:hover{
@@ -3254,6 +3272,13 @@ padding: 2rem;
     font-size: 2rem;
     font-style: oblique;
 }
+
+/*========== Morrisons page  ==========*/
+
+.main-cap2 {
+    width: 100%;
+    background-color: #D9D9D9;
+    } 
 
 
 /*========== MEDIA QUERIES ==========*/
