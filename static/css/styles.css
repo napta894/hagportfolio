@@ -760,6 +760,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     padding: 2rem;
+    padding-top: 0;
   }
 
 
