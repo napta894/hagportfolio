@@ -1097,7 +1097,7 @@ line-height: 29.3px;
 .contact {
     align-items: center;
     width: 100%;
-    min-height: 80vh;
+    min-height: 60vh;
 }
 
 .contact .content {
@@ -1108,10 +1108,10 @@ line-height: 29.3px;
 .content-contact {
     font-family:'Montserrat' sans-serif; 
     font-size: 1.5rem ; 
+    padding-top: 2rem;
     align-content:center; 
     line-height: 30px;
     color:#9C8194;   
-    position: relative; 
 }
 
 .container1 {
