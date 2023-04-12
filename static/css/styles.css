@@ -339,11 +339,12 @@ a:hover,a:focus {
         font-family:'monteserrat', sans-serif;
         border: none;
         padding-bottom: 2rem;
-        padding-top: 1rem;
+        padding-top: 2rem;
         font-weight: lighter;
         margin-top: 20px;
         margin-bottom: 50px;
         cursor: pointer;
+        width: 100%;
         }
     
         .btn14 a {
