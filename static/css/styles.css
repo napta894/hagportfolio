@@ -697,9 +697,6 @@ a {
    transform: scale(1.01);
   }
 
-
-
-
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -3297,6 +3294,21 @@ padding: 2rem;
     } 
 
 
+/*========== Craiglist Page  ==========*/
+
+.container-fluid {
+    width: 100%;
+    position: center;
+    }
+
+    video {
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+    position: center;
+    align-items: center;
+    }
+
 /*========== MEDIA QUERIES ==========*/
 
 /*========== Index media queries  ==========*/
@@ -4864,6 +4876,8 @@ padding: 2rem;
     }
 
 
+
+
 /*========== Shots page queries  ==========*/
 
 @media screen and (max-width: 760px) {
@@ -5155,6 +5169,9 @@ width: 100%;
     }
     
 }
+
+
+
 
 /*========== KeyFrames  ==========*/
 
