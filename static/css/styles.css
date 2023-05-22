@@ -421,6 +421,10 @@ a:hover,a:focus {
     background-color: #fff;
 }
 
+.hero2 {
+    background-color: #fff;
+}
+
 .home-content {
     height: 60vh;
     width: 100%;
@@ -3329,6 +3333,7 @@ padding: 2rem;
 
     .prototype-me {
    
+    color: #1E1E1E;
     width: 733px;
     position: center;
     }
@@ -3336,7 +3341,7 @@ padding: 2rem;
     .text-proto {
     font-family: 'Nunito', sans-serif;
     font-style: bold;
-    font-weight: 400;
+    font-weight: bolder;
     font-size: 2rem;
     color:  #1E1E1E;
     }
