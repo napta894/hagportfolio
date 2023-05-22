@@ -3213,6 +3213,12 @@ padding: 2rem;
     padding:2rem;
 }
 
+.check3 {
+    background-color: #800080;
+    width: 100%;
+    padding:2rem;
+}
+
   .previous-next-buttons {
     align-items: center;
     width: 100%;
@@ -3245,6 +3251,14 @@ padding: 2rem;
   .next2 {
     background-color: none;
     color: #fff;
+    font-size:2rem;
+    align-content: right;
+    padding-left: 5rem;
+  }
+
+  .next3 {
+    background-color: none;
+    color: #ffff;
     font-size:2rem;
     align-content: right;
     padding-left: 5rem;
@@ -3309,7 +3323,22 @@ padding: 2rem;
     position: center;
     justify-content: center;
     align-items: center;
-    margin-left: 10rem;
+    margin-left: 5rem;
+    padding: 1rem;
+    }
+
+    .prototype-me {
+   
+    width: 733px;
+    position: center;
+    }
+    
+    .text-proto {
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 2rem;
+    color:  #1E1E1E;
     }
 
 /*========== MEDIA QUERIES ==========*/
