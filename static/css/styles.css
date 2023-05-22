@@ -3299,6 +3299,7 @@ padding: 2rem;
 .container-fluid {
     width: 100%;
     position: center;
+    align-items: center;
     }
 
     video {
@@ -3306,7 +3307,9 @@ padding: 2rem;
     width: 100%;
     max-width: 800px;
     position: center;
+    justify-content: center;
     align-items: center;
+    margin-left: 10rem;
     }
 
 /*========== MEDIA QUERIES ==========*/
