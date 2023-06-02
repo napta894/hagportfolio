@@ -3230,6 +3230,8 @@ padding: 2rem;
     padding:2rem;
 }
 
+
+
   .previous-next-buttons {
     align-items: center;
     width: 100%;
@@ -3325,7 +3327,12 @@ padding: 2rem;
     width: 100%;
     position: center;
     align-items: center;
+    transition: 0s;
     }
+
+.main-cap {
+    transition:0s;
+}
 
     video {
     height: auto;
