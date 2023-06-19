@@ -3385,6 +3385,19 @@ padding: 2rem;
     align-items: center;
  }
 
+ .transform {
+    transition: 0s;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    
+ }
+
+ .video-foodhaven {
+    width: 800px;
+    height: 500px;
+    align-items: center;
+    position: relative;
+ }
+
 
 /*========== MEDIA QUERIES ==========*/
 
