@@ -494,7 +494,7 @@ a:hover,a:focus {
     font-style: normal;
     font-weight: 400;
     text-align: center; 
-    padding-bottom: 2rem;
+    padding-top: 1rem;
 }
 
 .home-content span:first-child ::before,
@@ -3230,6 +3230,13 @@ padding: 2rem;
     padding:2rem;
 }
 
+.check4 {
+    background-color: none;
+    width: 100%;
+    padding:2rem;
+    padding-top: 3rem;
+}
+
 
 
   .previous-next-buttons {
@@ -3272,6 +3279,14 @@ padding: 2rem;
   .next3 {
     background-color: none;
     color: #ffff;
+    font-size:2rem;
+    align-content: right;
+    padding-left: 5rem;
+  }
+
+  .next4 {
+    background-color: none;
+    color: #3B525D;
     font-size:2rem;
     align-content: right;
     padding-left: 5rem;
@@ -3348,8 +3363,8 @@ padding: 2rem;
     .prototype-me {
    
     color: #1E1E1E;
-    width: 733px;
-    position: center;
+    width: 100%;
+    position: left;
     }
     
     .text-proto {
@@ -3359,6 +3374,17 @@ padding: 2rem;
     font-size: 2rem;
     color:  #1E1E1E;
     }
+
+/*========== Petinsurance page  ==========*/
+
+ .video-petinsurance {
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    margin: 2rem;
+    align-items: center;
+ }
+
 
 /*========== MEDIA QUERIES ==========*/
 
@@ -5233,6 +5259,23 @@ width: 100%;
         padding: 0;
     }
 
+    .text-proto {
+        font-size: 0.75rem;
+        position: left;
+        margin-left: 0;
+    }
+
+    .prototype-me {
+        align-items: left;
+        display: block;
+    }
+
+    .container-fluid {
+        padding:0rem;
+        margin: 0rem;
+        display: block;
+    }
+
 }
 
 
@@ -5262,6 +5305,31 @@ iframe, .video
 
 }
 
+/*========== petinsurance media queries  ==========*/
+
+@media screen and (max-width:480px) {
+
+    html {
+    font-size: 100%;
+    }
+
+    body {
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    scroll-behavior: none;
+    }
+
+    .video-petinsurance {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        padding: 0;
+    }
+
+}
 
 /*========== KeyFrames  ==========*/
 
