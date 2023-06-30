@@ -213,17 +213,39 @@
     </section>
 
   
-    <section>
-      <div class="container">
+    <section class="form-section">
+      <div class="container form-homepage">
         <div class="row">
           <h3 class="worktogheter2">Let's work together</h3>
-          <div class="col col-12 .col-sm">
-            <a class="project-text-block" onclick="location.href= 'mailto:naptahag@gmail.com';" class="mail-link">
-              <h2 class="project-heading">
-                naptahag@gmail.com
-              </h2>
-            </a>
-          </div>
+        
+          <div class="contactForm2 col-sm-5">
+            <form action="https://formspree.io/f/xqknggny" method="POST" id="my-form">
+      
+                <div class="inputBox required">
+                       <label for="name"   class="required">Full Name</label>
+                       <input type="text" name="yourname" id=name  placeholder="Full Name" pattern="[A-Za-z]{5-12}" required/> 
+                 </div>
+      
+                 <div class="inputBox required">
+                       <label for="email">Email address</label>
+                       <input type="email" name="yourname" id=email class="input_email" placeholder="name@example.com" required/>    
+                 </div>  
+      
+                <div class="inputBox">
+                     <label for="project" class="content_label">Project</label>
+                     <input type="text" name=yourproject/>    
+                 </div>
+                 <div class="inputBox">
+                       <label for="message" class="content_label">Message</label>
+                       <br>
+                       <textarea name="textarea" name="yourtext" class="textarea" id="textme" cols="0" rows="4"></textarea>
+                 </div>        
+                 <div class="inputBox">
+                     <input type="submit" name="submit"  value="send" class="btn5">
+                 </div>
+            </form>
+             <div id="status"></div>
+           </div>
         </div>
         </a>
       </div>

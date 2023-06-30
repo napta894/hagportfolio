@@ -906,12 +906,22 @@ a {
 }
 
 
+.form-homepage {
+    position: relative;
+    align-items: center;
+}
+
 
 .worktogheter2 {
     font-family: 'monteserrat', sans-serif;
     font-size: 2rem;
-    padding-left: 2rem;
     color: #9C8194;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.form-section {
+    background-color: #F3EFE9;
 }
 
 
@@ -923,6 +933,118 @@ a {
     color: #9C8194;
 }
 
+
+.contactForm2 {
+    box-sizing: border-box;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+ .contactForm2 h2 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat' sans-serif;
+    color: #9C8194;
+    font-weight: 300;
+}
+
+.contactForm2 .inputBox {
+    margin-top:10px;
+    border-color: #9C8194;
+}
+
+.contactForm2 .inputBox input {
+   width:100%;
+   font-size: 1rem;
+   border-color: #9C8194;
+}
+
+.inputBox {
+font-size:1.5rem;
+border-color: #1E1E1E;
+}
+
+input[type=text]
+
+ {
+    padding:10px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.input_email  {
+    padding:10px; 
+    margin-top: 10px;
+    margin: 10px 0;
+    width: 50%;
+      
+}
+
+.textarea {
+    padding:5px; 
+    margin: 5px 0;
+    border: 1px;
+    width: 100%;
+    font-family: 'Montserrat' sans-serif;
+}
+
+input {
+    border: none;
+}
+
+
+.required label:after {
+ 
+content:"*"; 
+color: #9C8194;    
+}
+
+input:invalid {
+  border: 2px #9C8194;
+}
+
+.contactForm .inputBox input [type="submit"] {
+    cursor:pointer;
+    padding:10px;
+    font-size: 2rem;
+
+}
+
+.btn5 {
+border-style: solid;
+ background-color: #9C8194;
+  color: #F3EFE9;
+  font-weight: 700 bold;
+  border: none;
+  font-size: 3rem;
+  font-family: 'Montserrat' sans-serif;
+  width:250px;
+  height:50px;
+  text-align: center;
+}
+.btn5:hover {
+    background-color: #776571;
+    cursor:pointer;
+}
+
+#status {
+    font-family: 'Montserrat' sans-serif;
+    font-size: 1rem;
+    margin-top: 1rem;
+    width: 90%;
+    text-align: center;
+}
+
+#status.success {
+    color: #9C8194;
+    animation: status 4s ease forwards;
+}
+
+#status.error {
+    color: #776571;
+    animation: status 4s ease forwards;
+}
   
   
 /*Aboutme page Css */
@@ -1289,10 +1411,6 @@ border-style: solid;
     color: #776571;
     animation: status 4s ease forwards;
 }
-
-
-
-
 
 
 
