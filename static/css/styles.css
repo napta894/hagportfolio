@@ -3503,6 +3503,7 @@ padding: 2rem;
     align-items: center;
  }
 
+
  .transform {
     transition: 0s;
     animation: 1s ease-out 0s 1 slideInFromLeft;
