@@ -437,7 +437,7 @@ a:hover,a:focus {
     align-items: center;
     padding-left: 8rem;
     padding-right: 2rem;
-    display: flex;
+    position: center;
 }
 
 .container-1 {
