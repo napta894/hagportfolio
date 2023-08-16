@@ -435,9 +435,11 @@ a:hover,a:focus {
     width: 100%;
     text-align: center;
     align-items: center;
-    padding-left: 8rem;
-    padding-right: 2rem;
-    position: center;
+    display: block;
+    padding-top: 3rem;
+    align-content: center;
+    padding-left: 20rem;
+    padding-right: 8rem;
 }
 
 .container-1 {
@@ -460,6 +462,8 @@ a:hover,a:focus {
     -webkit-animation-name: MoveinLeft;
     -webkit-animation-duration: 1s;
     -webkit-animation-timing-function: ease-out;
+    position: relative;
+    align-items: center;
 
 }
 .mainh1 {
