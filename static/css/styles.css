@@ -1061,7 +1061,7 @@ border-style: solid;
 
 .about-section {
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     transition: 1s;
     -webkit-transition: 1s;
     background-color: #ffff;
