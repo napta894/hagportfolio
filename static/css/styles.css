@@ -3553,6 +3553,12 @@ padding: 2rem;
                 0 32px 64px -48px rgba(0,0,0,0.5);
 }
 
+.pass2 {
+    color:#9C8194;
+    font-size:3rem;
+    padding-bottom:2rem;
+}
+
 /*========== MEDIA QUERIES ==========*/
 
 /*========== Index media queries  ==========*/
