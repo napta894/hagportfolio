@@ -431,15 +431,13 @@ a:hover,a:focus {
 }
 
 .home-content {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     text-align: center;
     align-items: center;
     display: block;
-    padding-top: 3rem;
+    padding-top: 10rem;
     align-content: center;
-    padding-left: 20rem;
-    padding-right: 8rem;
 }
 
 .container-1 {
@@ -1061,16 +1059,18 @@ border-style: solid;
 
 .about-section {
     width: 100%;
-    min-height: 80vh;
+    min-height: 75vh;
     transition: 1s;
     -webkit-transition: 1s;
-    background-color: #ffff;
+    padding-top:2rem;
+    background-color: #F3EFE9;
 }
 
 .content-section{
     float: left;
     width: 55%;
-    padding: 2rem;
+    padding: 4rem;
+    padding-top: 3rem;
 }
 
 .image-section {
@@ -1232,7 +1232,7 @@ line-height: 29.3px;
 .contact {
     align-items: center;
     width: 100%;
-    min-height: 60vh;
+    min-height: 80vh;
 }
 
 .contact .content {
